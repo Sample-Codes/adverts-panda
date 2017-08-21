@@ -1,0 +1,29 @@
+.main-container .add-wallet-wrapper,
+.main-container .wallet-transactions-wrapper{
+	border:2px solid #555;
+	border-radius: 4px;
+	padding: 3px;
+}
+.main-container .wallet-transactions-wrapper{
+	margin-top: 30px;
+}
+.main-container .add-wallet-wrapper h4,
+.main-container .wallet-transactions-wrapper h4{
+	background-color: #555;
+	color:#fff;
+	padding: 10px;
+}
+.main-container .add-wallet-wrapper form{
+	text-align: center;
+}
+.main-container .add-wallet-wrapper form label{
+    background: #a8a8a8;
+    margin-left: -4px;
+	padding: 11px 20px 14px;
+}
+.main-container .add-wallet-wrapper form .product{
+	border: 0px !important;
+}
+.main-container .add-wallet-wrapper form .product span{
+	display: none;
+}
