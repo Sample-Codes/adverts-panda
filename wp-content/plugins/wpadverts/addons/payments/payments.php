@@ -339,11 +339,11 @@ function adext_payments_form_load( $form ) {
 function adverts_payments_field_payment($field) {
     
     ob_start();
-    
+
     echo '<div class="adverts-pricings-list">';
-    
+
     foreach( $field["options"] as $option ) {
-    
+
         $post_id = $option["value"];
         $post = get_post( $post_id );
         $visible = get_post_meta( $post_id, 'adverts_visible', true );
@@ -398,7 +398,7 @@ function adverts_payments_field_payment($field) {
 
         <?php
     }
-    
+
     echo '</div>';
     echo ob_get_clean();
 }
@@ -537,7 +537,7 @@ function adext_payments_action_renew( $post_id ) {
         'post_status' => 'any',
         'posts_per_page' => 1, 
     ) );
-    
+
     $renewals = apply_filters( "wpadverts_filter_renewals", $renewals, $post_id );
     
     if( empty( $renewals ) ) {
@@ -551,7 +551,7 @@ function adext_payments_action_renew( $post_id ) {
         "href" => add_query_arg( "advert_renew", $post_id ),
         "class" => "adverts-manage-action",
     ), $span . " " . __("Renew Ad", "adverts") );
-    
+
     echo $a->render();
 }
 
@@ -643,7 +643,7 @@ function adext_payments_manage_action_renew( $content, $atts = array() ) {
             )
         )
     );
-    
+
     include_once ADVERTS_PATH . 'includes/class-html.php';
     include_once ADVERTS_PATH . 'includes/class-form.php';
     
@@ -663,24 +663,24 @@ function adext_payments_manage_action_renew( $content, $atts = array() ) {
     if( isset( $_POST ) && ! empty( $_POST ) ) {
         $form->bind( stripslashes_deep( $_POST ) );
         $valid = $form->validate();
-        
+
         if( $valid ) {
-            
-            
+
+
             wp_enqueue_script( 'adext-payments' );
             wp_enqueue_script( 'adverts-frontend' );
-            
+
             $listing = get_post( $form->get_value( "payments_listing_type" ) );
             $price = get_post_meta( $listing->ID, 'adverts_price', true );
-            
+
             $renewal_diff = current_time( 'timestamp' ) - strtotime( $post->post_date );
             $renewal_diff_min_days = apply_filters( "adverts_renewal_time_min", 7 );
             $renewal_diff_min = 3600 * 24 * $renewal_diff_min_days;
-            
+
             if( $price > 0 ) {
                 $m = __( 'Renew <strong>%s</strong> or <a href="%s">cancel and go back</a>.', 'adverts');
                 $adverts_flash["info"][] = sprintf( $m, $post->post_title, $baseurl );
-                
+
                 ob_start();
                 // wpadverts/addons/payments/templates/add-payment.php
                 include ADVERTS_PATH . 'addons/payments/templates/add-payment.php';
@@ -691,10 +691,10 @@ function adext_payments_manage_action_renew( $content, $atts = array() ) {
             } else {
                 $m = __( 'Ad <strong>%s</strong> renewed. <a href="%s">Go back to Ads list</a>.', 'adverts');
                 $adverts_flash["info"][] = sprintf( $m, $post->post_title, $baseurl );
-                
+
                 $post_id = $post->ID;
                 $moderate = apply_filters( "adverts_manage_moderate", false );
-                
+
                 $post_id = wp_update_post( array(
                     "ID" => $post_id,
                     "post_status" => $moderate == "1" ? 'pending' : 'publish',
@@ -705,14 +705,14 @@ function adext_payments_manage_action_renew( $content, $atts = array() ) {
                 $v = get_post_meta( $listing->ID, "adverts_visible", true );
                 $time = strtotime( current_time('mysql') . " +" . $v . " DAYS" );
                 update_post_meta( $post_id, "_expiration_date", $time );
-                
+
                 ob_start();
                 // wpadverts/templates/add-payment.php
                 include ADVERTS_PATH . '/templates/add-save.php';
                 return ob_get_clean();
             }
         }
-    } 
+    }
     
     $m1 = __( 'Renew <strong>%s</strong> or <a href="%s">cancel and go back</a>.', 'adverts');
     $m2 = __( 'Select renewal option and click "Renew" button.', 'adverts');

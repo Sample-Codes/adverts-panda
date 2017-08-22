@@ -64,7 +64,7 @@
                     <a href="#" class="adverts-manage-action-delete-yes"><?php _e( "Yes", "adverts" ) ?></a>
                     <a href="#" class="adverts-manage-action-delete-no"><?php _e( "Cancel", "adverts" ) ?></a>
                 </div>
-                
+
                 <?php do_action( "adverts_sh_manage_actions_left", $post->ID ) ?>
             </span>
             <span class="adverts-manage-actions-right">
@@ -72,7 +72,7 @@
                 
                 <a href="#" class="adverts-manage-action adverts-manage-action-more"><span class="adverts-icon-menu"></span><?php _e("More", "adverts") ?></a>
             </span>
-            
+
             <div class="adverts-manage-actions-more">
                 <?php do_action( "adverts_sh_manage_actions_more", $post->ID ) ?>
             </div>
