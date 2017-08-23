@@ -163,7 +163,7 @@ function adext_payments_init_frontend() {
 
     add_filter("adverts_action_payment", "adext_payments_action_payment", 10, 2);
     
-    add_action( "adverts_sh_manage_actions_more", "adext_payments_action_renew" );
+    add_action( "adverts_sh_manage_actions_more", "adext_payments_action_renew" ); /*SimplyWorld*/
     
     add_filter( "adverts_manage_action", "adext_payments_manage_action" );
     add_filter( "adverts_manage_action_renew", "adext_payments_manage_action_renew" );
@@ -498,17 +498,17 @@ function adext_payments_manage_action( $action ) {
     if( ! adverts_request( "advert_renew" ) ) {
         return $action;
     }
-    
+
     $advert = get_post( adverts_request( "advert_renew" ) );
     
     if( ! $advert instanceof WP_Post ) {
         return $action;
     }
-    
+
     if( $advert->post_type != "advert" ) {
         return $action;
     }
-    
+
     if( $advert->post_author != get_current_user_id() ) {
         return $action;
     }
@@ -529,27 +529,28 @@ function adext_payments_manage_action( $action ) {
  * @since 1.1.0
  * @param   int     $post_id    Post ID
  * @return  void
- */
+ */ //SimplyWorld
 function adext_payments_action_renew( $post_id ) {
-    
-    $renewals = get_posts( array( 
-        'post_type' => 'adverts-renewal', 
+
+    $renewals = get_posts( array(
+        'post_type' => 'adverts-renewal',
         'post_status' => 'any',
-        'posts_per_page' => 1, 
+        'posts_per_page' => 1,
     ) );
 
     $renewals = apply_filters( "wpadverts_filter_renewals", $renewals, $post_id );
-    
+
     if( empty( $renewals ) ) {
         return;
     }
-    
+
     include_once ADVERTS_PATH . "/includes/class-html.php";
-    
+
     $span = '<span class="adverts-icon-arrows-cw"></span>';
     $a = new Adverts_Html("a", array(
         "href" => add_query_arg( "advert_renew", $post_id ),
         "class" => "adverts-manage-action",
+        "id" => "adverts",
     ), $span . " " . __("Renew Ad", "adverts") );
 
     echo $a->render();
@@ -659,14 +660,14 @@ function adext_payments_manage_action_renew( $content, $atts = array() ) {
             "style" => "font-size:1.2em"
         )
     );
-    
+
     if( isset( $_POST ) && ! empty( $_POST ) ) {
+
         $form->bind( stripslashes_deep( $_POST ) );
         $valid = $form->validate();
-
+//        var_dump($valid); die;
         if( $valid ) {
-
-
+//echo '1'; die;
             wp_enqueue_script( 'adext-payments' );
             wp_enqueue_script( 'adverts-frontend' );
 
@@ -772,7 +773,7 @@ function adext_payments_add_history_link() {
  * 
  * Payments module init functions, this function is executed when Adverts 
  * core is initiated.
- * 
+ *
  * @see adverts_core_init
  * @since 1.0
  */

@@ -209,6 +209,7 @@ function sgwindow_get_font_url() {
 
 	return $font_url;
 }
+
 /**
  * Enqueue scripts and styles for front-end.
  *
@@ -277,7 +278,7 @@ function sgwindow_body_class( $classes ) {
 	$background_image = get_background_image();
 	
 	$defaults = sgwindow_get_defaults();
-	
+
 	if(sgwindow_get_theme_mod('image_style') == 'boxed'){
 		$classes[] = 'boxed-image';
 	}	
@@ -312,7 +313,7 @@ function sgwindow_body_class( $classes ) {
 
 	// Enable custom class only if the logotype is active.
 	if ( get_theme_mod( 'logotype_url', $defaults['logotype_url'] ) != '' ) 
-		$classes[] = 'logo-is-on';	
+		$classes[] = 'logo-is-on';
 
 	return $classes;
 }
@@ -590,7 +591,6 @@ function sgwindow_posted_on() {
 }
 endif;
 
-
 if ( ! function_exists( 'sgwindow_content_width' ) ) :
 /**
  * Adjust content width in certain contexts.
@@ -672,12 +672,12 @@ function sgwindow_calc_content_width( $curr_layout ) {
 	return $content_width;
 }
 endif;
+
  /**
  * Return array default theme options
  *
  * @since SG Window 1.0.0
  */
- 
 function sgwindow_get_defaults() {
 
 	global $sgwindow_defaults;
@@ -1188,7 +1188,6 @@ function sgwindow_get_curr_tax_names( $tax ) {
  *
  * @since SG Window 1.0.0
  */
-
 remove_action( 'woocommerce_before_main_content', 'woocommerce_output_content_wrapper', 10);
 remove_action( 'woocommerce_after_main_content', 'woocommerce_output_content_wrapper_end', 10);
 
@@ -1314,6 +1313,7 @@ function sgwindow_the_footer_sidebar_widgets() {
 	
 }
 add_action('sgwindow_empty_sidebar_before_footer-home', 'sgwindow_the_footer_sidebar_widgets', 20);
+
 /**
  * Add widgets to top sidebar on all pages
  *

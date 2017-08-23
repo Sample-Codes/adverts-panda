@@ -184,8 +184,8 @@ function adext_wc_payments_init_frontend() {
     
     add_action( "template_redirect", "adext_wc_payments_cart_redirect" );
     add_action( "template_redirect", "adext_wc_payments_cart_redirect_renew" );
-    
-    add_action( "adverts_sh_manage_actions_more", "adext_wc_payments_action_renew" );
+
+    add_action( "adverts_sh_manage_actions_more", "adext_wc_payments_action_renew" );  //SimplyWorld
     add_filter( "adverts_manage_action", "adext_wc_payments_manage_action" );
     add_filter( "adverts_manage_action_renew", "adext_wc_payments_manage_action_renew" );
     
@@ -773,26 +773,27 @@ function adext_wc_payments_admin_head() {
  * @since 1.2.0
  * @param   int     $post_id    Post ID
  * @return  void
- */
+ */ // SimplyWorld
 function adext_wc_payments_action_renew( $post_id ) {
-    
+
     $pricings = adext_wc_payments_products();
     $renewals = $pricings["advert_renew"];
-    
+
     $renewals = apply_filters( "wpadverts_filter_renewals", $renewals, $post_id );
-    
+
     if( empty( $renewals ) ) {
         return;
     }
-    
+
     include_once ADVERTS_PATH . "/includes/class-html.php";
-    
+
     $span = '<span class="adverts-icon-arrows-cw"></span>';
     $a = new Adverts_Html("a", array(
         "href" => add_query_arg( "advert_renew", $post_id ),
         "class" => "adverts-manage-action",
+        "id" => "wpadverts-wc",
     ), $span . " " . __("Renew Ad", "wpadverts-wc") );
-    
+
     echo $a->render();
 }
 
@@ -953,35 +954,35 @@ function adext_wc_payments_manage_action_renew( $content, $atts = array() ) {
         $valid = $form->validate();
         
         if( $valid ) {
-            
-            
+
             wp_enqueue_script( 'adext-payments' );
             wp_enqueue_script( 'adverts-frontend' );
             
             $product = get_product( $form->get_value( "payments_listing_type" ) );
-            
-            if( $product->get_price() == 0 ) {
-                $m = __( 'Ad <strong>%s</strong> renewed. <a href="%s">Go back to Ads list</a>.', 'wpadverts-wc');
-                $adverts_flash["info"][] = sprintf( $m, $post->post_title, $baseurl );
-                $moderate = apply_filters( "adverts_manage_moderate", false );
-                
-                $post_id = wp_update_post( array(
-                    "ID" => $post->ID,
-                    "post_status" => $moderate == "1" ? 'pending' : 'publish',
-                ));
 
-                $duration = absint( get_post_meta( $product->id, '_advert_listing_duration', true ) );
-                $time = strtotime( current_time('mysql') . " +" . $duration . " DAYS" );
-                update_post_meta( $post_id, "_expiration_date", $time );
-                
-                ob_start();
-                // wpadverts/templates/add-payment.php
-                include ADVERTS_PATH . '/templates/add-save.php';
-                return ob_get_clean();
-            }
+//            if( $product->get_price() == 0 ) {
+//                $m = __( 'Ad <strong>%s</strong> renewed. <a href="%s">Go back to Ads list</a>.', 'wpadverts-wc');
+//                $adverts_flash["info"][] = sprintf( $m, $post->post_title, $baseurl );
+//                $moderate = apply_filters( "adverts_manage_moderate", false );
+//
+//                $post_id = wp_update_post( array(
+//                    "ID" => $post->ID,
+//                    "post_status" => $moderate == "1" ? 'pending' : 'publish',
+//                ));
+//
+//                $duration = absint( get_post_meta( $product->id, '_advert_listing_duration', true ) );
+//                $time = strtotime( current_time('mysql') . " +" . $duration . " DAYS" );
+//                update_post_meta( $post_id, "_expiration_date", $time );
+//
+//                ob_start();
+//                // wpadverts/templates/add-payment.php
+//                include ADVERTS_PATH . '/templates/add-save.php';
+//                return ob_get_clean();
+//            }
         }
+
     } 
-    
+
     $m1 = __( 'Renew <strong>%s</strong> or <a href="%s">cancel and go back</a>.', 'wpadverts-wc');
     $m2 = __( 'Select renewal option and click "Renew" button.', 'wpadverts-wc');
     $adverts_flash["info"][] = sprintf( $m1, $post->post_title, $baseurl ) . "<br/>" . sprintf( $m2, $baseurl );
