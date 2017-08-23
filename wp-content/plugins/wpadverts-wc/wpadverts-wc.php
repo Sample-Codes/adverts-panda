@@ -739,7 +739,7 @@ function adext_wc_payments_admin_head() {
     global $post_type, $post;
 
     // Make sure this is Adverts post type
-    if ( $post_type == 'advert' && $post && $post->post_status == 'wc_pending' ):  
+    if ( $post_type == 'advert' && $post && $post->post_status == 'wc_pending' ):
     ?>
 
     <script type="text/javascript">
@@ -961,23 +961,23 @@ function adext_wc_payments_manage_action_renew( $content, $atts = array() ) {
             $product = get_product( $form->get_value( "payments_listing_type" ) );
 
 //            if( $product->get_price() == 0 ) {
-//                $m = __( 'Ad <strong>%s</strong> renewed. <a href="%s">Go back to Ads list</a>.', 'wpadverts-wc');
-//                $adverts_flash["info"][] = sprintf( $m, $post->post_title, $baseurl );
-//                $moderate = apply_filters( "adverts_manage_moderate", false );
-//
-//                $post_id = wp_update_post( array(
-//                    "ID" => $post->ID,
-//                    "post_status" => $moderate == "1" ? 'pending' : 'publish',
-//                ));
-//
-//                $duration = absint( get_post_meta( $product->id, '_advert_listing_duration', true ) );
-//                $time = strtotime( current_time('mysql') . " +" . $duration . " DAYS" );
-//                update_post_meta( $post_id, "_expiration_date", $time );
-//
-//                ob_start();
-//                // wpadverts/templates/add-payment.php
-//                include ADVERTS_PATH . '/templates/add-save.php';
-//                return ob_get_clean();
+                $m = __( 'Ad <strong>%s</strong> renewed. <a href="%s">Go back to Ads list</a>.', 'wpadverts-wc');
+                $adverts_flash["info"][] = sprintf( $m, $post->post_title, $baseurl );
+                $moderate = apply_filters( "adverts_manage_moderate", false );
+
+                $post_id = wp_update_post( array(
+                    "ID" => $post->ID,
+                    "post_status" => $moderate == "1" ? 'pending' : 'publish',
+                ));
+
+                $duration = absint( get_post_meta( $product->id, '_advert_listing_duration', true ) );
+                $time = strtotime( current_time('mysql') . " +" . $duration . " DAYS" );
+                update_post_meta( $post_id, "_expiration_date", $time );
+
+                ob_start();
+                // wpadverts/templates/add-payment.php
+                include ADVERTS_PATH . '/templates/add-save.php';
+                return ob_get_clean();
 //            }
         }
 

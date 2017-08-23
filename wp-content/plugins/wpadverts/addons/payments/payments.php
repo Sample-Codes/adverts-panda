@@ -665,9 +665,9 @@ function adext_payments_manage_action_renew( $content, $atts = array() ) {
 
         $form->bind( stripslashes_deep( $_POST ) );
         $valid = $form->validate();
-//        var_dump($valid); die;
+
         if( $valid ) {
-//echo '1'; die;
+
             wp_enqueue_script( 'adext-payments' );
             wp_enqueue_script( 'adverts-frontend' );
 

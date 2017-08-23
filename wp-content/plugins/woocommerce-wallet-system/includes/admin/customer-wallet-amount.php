@@ -110,7 +110,8 @@ class WC_Report_Customer_List extends WP_List_Table {
 				return '<a href="mailto:' . $user->user_email . '">' . $user->user_email . '</a>';
 
 			case 'wallet' :
-				// return wc_price( wc_get_customer_total_spent( $user->ID ) );
+
+//				 return wc_price( wc_get_customer_total_spent( $user->ID ) );
 				return wc_price(get_user_meta($user->ID, 'wallet-amount', true));
 
 			case 'orders' :

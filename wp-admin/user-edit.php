@@ -548,6 +548,15 @@ if ( $show_password_fields = apply_filters( 'show_password_fields', true, $profi
 
 <h2><?php _e( 'Account Management' ); ?></h2>
 <table class="form-table">
+    <!--SimplyWorld-->
+    <tr id="money" class="user-purse">
+        <th><label for="purse">Кошелёк</label></th>
+
+        <td>
+            <input class="text" name="purse" id="purse" value="<?php _e(get_user_meta($_GET['user_id'], 'wallet-amount', true)); ?>" />
+        </td>
+    </tr>
+    <!--SimplyWorld-->
 <tr id="password" class="user-pass1-wrap">
 	<th><label for="pass1"><?php _e( 'New Password' ); ?></label></th>
 	<td>
