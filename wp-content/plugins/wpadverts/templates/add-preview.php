@@ -1,7 +1,7 @@
 <?php include apply_filters( "adverts_template_load", ADVERTS_PATH . 'templates/single.php' ); ?>
 
 <hr/>
-
+<?php //var_dump($_POST); die;?>
 <form action="" method="post" style="display:inline">
     <input type="hidden" name="_adverts_action" value="" />
     <input type="hidden" name="_post_id" id="_post_id" value="<?php esc_attr_e($post_id) ?>" />

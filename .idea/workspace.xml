@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f8967dec-7335-4daa-aa19-08b38a8d1ebf" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-admin/includes/user.php" afterPath="$PROJECT_DIR$/wp-admin/includes/user.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpadverts/includes/gallery.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wpadverts/includes/gallery.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpadverts/templates/manage.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wpadverts/templates/manage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpadverts/templates/add-preview.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wpadverts/templates/add-preview.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,40 +21,31 @@
       <file leaf-file-name="gallery.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/plugins/wpadverts/includes/gallery.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="485">
+            <state relative-caret-position="2275">
               <caret line="146" column="14" lean-forward="true" selection-start-line="146" selection-start-column="14" selection-end-line="146" selection-end-column="14" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="manage.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/plugins/wpadverts/templates/manage.php">
+      <file leaf-file-name="add.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/plugins/wpadverts/templates/add.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="57" lean-forward="false" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="57" />
-              <folding>
-                <marker date="1503573443332" expanded="true" signature="156:229" ph="..." />
-                <marker date="1503573443332" expanded="true" signature="377:546" ph="..." />
-                <marker date="1503573443332" expanded="true" signature="592:2189" ph="..." />
-                <marker date="1503573443332" expanded="true" signature="639:1060" ph="..." />
-                <marker date="1503573443332" expanded="true" signature="1513:2189" ph="..." />
-                <marker date="1503573443332" expanded="true" signature="2520:3266" ph="..." />
-                <marker date="1503573443332" expanded="true" signature="2576:3266" ph="..." />
-                <marker date="1503573443332" expanded="true" signature="3701:4196" ph="..." />
-                <marker date="1503573443332" expanded="true" signature="4355:4634" ph="..." />
-                <marker date="1503573443332" expanded="true" signature="4689:4790" ph="..." />
-              </folding>
+            <state relative-caret-position="277">
+              <caret line="18" column="46" lean-forward="true" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="add.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/wp-content/plugins/wpadverts/templates/add.php">
+      <file leaf-file-name="add-preview.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wp-content/plugins/wpadverts/templates/add-preview.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="51">
+              <caret line="3" column="32" lean-forward="true" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
+              <folding>
+                <element signature="n#style#0;n#form#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -65,7 +54,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>adverts-form adverts-form-stacked</find>
       <find>adverts-form</find>
       <find>$form_label_placement</find>
       <find>Sim</find>
@@ -95,6 +83,7 @@
       <find>adverts-gallery-uploads</find>
       <find>multipart_params</find>
       <find>multipart</find>
+      <find>adverts-content</find>
     </findStrings>
     <dirStrings>
       <dir>C:\OpenServer\domains\www.secondtz.com\www.adverts-test.tk</dir>
@@ -121,6 +110,7 @@
         <option value="$PROJECT_DIR$/wp-content/plugins/wpadverts/includes/gallery.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/wpadverts/templates/manage.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/wpadverts/templates/add.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/wpadverts/templates/add-preview.php" />
       </list>
     </option>
   </component>
@@ -247,32 +237,6 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www.adverts-test.tk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www.adverts-test.tk" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wp-content" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="plugins" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wpadverts" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="includes" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -362,7 +326,7 @@
       <workItem from="1503319496369" duration="5871000" />
       <workItem from="1503382287240" duration="26042000" />
       <workItem from="1503469483189" duration="26141000" />
-      <workItem from="1503555364513" duration="16679000" />
+      <workItem from="1503555364513" duration="19078000" />
     </task>
     <task id="LOCAL-00001" summary="first action....">
       <created>1503408625035</created>
@@ -399,11 +363,18 @@
       <option name="project" value="LOCAL" />
       <updated>1503562235047</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="make 40% from 100% Добавлено Ограничение размера изображений ( не более 200 kb )">
+      <created>1503575362023</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1503575362023</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75384000" />
+    <option name="totallyTimeSpent" value="77783000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -443,7 +414,8 @@
     <MESSAGE value="inserted input for money on admin panel, edit User(add User). But not inserted on bd." />
     <MESSAGE value="make 30% from 100% Добавлена возможность редактирвоание виртуальных денег через админку, Осталять объявления могут только залогененые юзеры." />
     <MESSAGE value="make 40% from 100% Добавлено Ограничение размера изображений ( не более 200 kb )" />
-    <option name="LAST_COMMIT_MESSAGE" value="make 40% from 100% Добавлено Ограничение размера изображений ( не более 200 kb )" />
+    <MESSAGE value="make 45% from 100% Установлен плагин, для стоп-слов... работает не корректно" />
+    <option name="LAST_COMMIT_MESSAGE" value="make 45% from 100% Установлен плагин, для стоп-слов... работает не корректно" />
   </component>
   <component name="WordPressConfiguration" enabled="true">
     <wordpressPath>C:\OpenServer\domains\www.secondtz.com\www.adverts-test.tk</wordpressPath>
@@ -455,13 +427,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/sg-double/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="201" column="24" lean-forward="true" selection-start-line="201" selection-start-column="24" selection-end-line="201" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/sg-window/inc/customize-layout.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-629">
@@ -1233,14 +1198,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wpadverts/includes/gallery.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="485">
-          <caret line="146" column="14" lean-forward="true" selection-start-line="146" selection-start-column="14" selection-end-line="146" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/wpadverts/templates/manage.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -1260,11 +1217,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wpadverts/includes/gallery.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2275">
+          <caret line="146" column="14" lean-forward="true" selection-start-line="146" selection-start-column="14" selection-end-line="146" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/wpadverts/templates/add.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state relative-caret-position="277">
+          <caret line="18" column="46" lean-forward="true" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wpadverts/templates/add-preview.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="32" lean-forward="true" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
+          <folding>
+            <element signature="n#style#0;n#form#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
