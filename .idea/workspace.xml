@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f8967dec-7335-4daa-aa19-08b38a8d1ebf" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpadverts/templates/add.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wpadverts/templates/add.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-admin/includes/user.php" afterPath="$PROJECT_DIR$/wp-admin/includes/user.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,49 +18,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="wpadverts-wc.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/plugins/wpadverts-wc/wpadverts-wc.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-54">
-              <caret line="956" column="0" lean-forward="true" selection-start-line="956" selection-start-column="0" selection-end-line="956" selection-end-column="0" />
-              <folding>
-                <element signature="e#24537#24840#0#PHP" expanded="false" />
-                <marker date="1503486527823" expanded="true" signature="13466:13483" ph="..." />
-                <marker date="1503486527823" expanded="true" signature="17420:17610" ph="SELECT `orde... ${{$pfix}}woocommerce_order_itemmeta" />
-                <marker date="1503486527823" expanded="true" signature="28432:28449" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="wpadverts.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/plugins/wpadverts/wpadverts.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="159">
-              <caret line="441" column="19" lean-forward="false" selection-start-line="441" selection-start-column="19" selection-end-line="441" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="add.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/wp-content/plugins/wpadverts/templates/add.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="9" lean-forward="false" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="45" />
-              <folding>
-                <element signature="n#style#0;n#div#1;n#fieldset#0;n#form#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#0;n#div#1;n#fieldset#0;n#form#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/plugins/woocommerce-wallet-system/functions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="138" column="49" lean-forward="true" selection-start-line="138" selection-start-column="49" selection-end-line="138" selection-end-column="49" />
+            <state relative-caret-position="425">
+              <caret line="178" column="41" lean-forward="false" selection-start-line="178" selection-start-column="41" selection-end-line="178" selection-end-column="41" />
               <folding>
                 <element signature="e#500#2159#0#PHP" expanded="false" />
                 <element signature="e#2163#2263#0#PHP" expanded="false" />
@@ -69,33 +31,43 @@
                 <element signature="e#3509#4060#0#PHP" expanded="false" />
                 <element signature="e#4066#4589#0#PHP" expanded="false" />
                 <element signature="e#4592#4803#0#PHP" expanded="false" />
+                <element signature="e#4806#5075#0#PHP" expanded="false" />
+                <element signature="e#5080#5487#0#PHP" expanded="false" />
+                <element signature="e#5491#6123#0#PHP" expanded="false" />
+                <element signature="e#6126#6207#0#PHP" expanded="false" />
+                <element signature="e#6213#6321#0#PHP" expanded="false" />
+                <element signature="e#6329#6425#0#PHP" expanded="false" />
+                <element signature="e#6431#6536#0#PHP" expanded="false" />
+                <element signature="e#6544#6644#0#PHP" expanded="false" />
+                <element signature="e#6650#7091#0#PHP" expanded="false" />
+                <element signature="e#7099#7227#0#PHP" expanded="false" />
+                <element signature="e#7233#7627#0#PHP" expanded="false" />
+                <element signature="e#7635#7678#0#PHP" expanded="false" />
+                <element signature="e#7684#7773#0#PHP" expanded="false" />
+                <element signature="e#7781#7891#0#PHP" expanded="false" />
+                <element signature="e#7897#7968#0#PHP" expanded="false" />
+                <element signature="e#7971#9119#0#PHP" expanded="false" />
+                <element signature="e#9122#9279#0#PHP" expanded="false" />
+                <element signature="e#9282#9417#0#PHP" expanded="false" />
+                <element signature="e#9420#11448#0#PHP" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="customer-wallet-amount.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/plugins/woocommerce-wallet-system/includes/admin/customer-wallet-amount.php">
+      <file leaf-file-name="user.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wp-admin/includes/user.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-287">
-              <caret line="193" column="0" lean-forward="true" selection-start-line="193" selection-start-column="0" selection-end-line="193" selection-end-column="0" />
+            <state relative-caret-position="154">
+              <caret line="90" column="10" lean-forward="true" selection-start-line="90" selection-start-column="10" selection-end-line="90" selection-end-column="10" />
               <folding>
-                <element signature="n#column_default#0;n#WC_Report_Customer_List#0;n#!!top" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="user-edit.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-admin/user-edit.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-              <folding>
-                <marker date="1503494814381" expanded="true" signature="4196:4257" ph="SELECT user_... $" />
-                <marker date="1503494814381" expanded="true" signature="4328:4393" ph="UPDATE ${{$w... " />
-                <marker date="1503494814381" expanded="true" signature="6040:6101" ph="SELECT user_... $" />
-                <marker date="1503494814381" expanded="true" signature="6163:6228" ph="UPDATE ${{$w... " />
+                <marker date="1503561734559" expanded="true" signature="6848:6855" ph="..." />
+                <marker date="1503561734559" expanded="true" signature="9600:9739" ph="SELECT ID, p... wp_posts" />
+                <marker date="1503561734559" expanded="true" signature="12174:12267" ph="SELECT ID FR... wp_posts" />
+                <marker date="1503561734559" expanded="true" signature="12437:12491" ph="SELECT link_... wp_links" />
+                <marker date="1503561734559" expanded="true" signature="12652:12702" ph="SELECT ID FR... wp_posts" />
+                <marker date="1503561734559" expanded="true" signature="12964:13018" ph="SELECT link_... wp_links" />
+                <marker date="1503561734559" expanded="true" signature="13397:13452" ph="SELECT umeta... wp_usermeta" />
               </folding>
             </state>
           </provider>
@@ -105,10 +77,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>_adverts_renew</find>
-      <find>adverts-pricings-list</find>
-      <find>error</find>
-      <find>var</find>
       <find>adverts_manage_action_renew</find>
       <find>adext_payments_manage_action_renew</find>
       <find>Renew</find>
@@ -135,6 +103,10 @@
       <find>$query</find>
       <find>page</find>
       <find>adverts_add</find>
+      <find>simpl</find>
+      <find>wallet-amount</find>
+      <find>user_meta</find>
+      <find>update_user_meta</find>
     </findStrings>
     <dirStrings>
       <dir>C:\OpenServer\domains\www.secondtz.com\www.adverts-test.tk</dir>
@@ -155,10 +127,11 @@
         <option value="$PROJECT_DIR$/wp-content/plugins/wpadverts/addons/payments/payments.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/wpadverts-wc/wpadverts-wc.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/woocommerce-wallet-system/includes/admin/customer-wallet-amount.php" />
-        <option value="$PROJECT_DIR$/wp-admin/user-edit.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/wpadverts/wpadverts.php" />
         <option value="$PROJECT_DIR$/wp-includes/post.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/wpadverts/templates/add.php" />
+        <option value="$PROJECT_DIR$/wp-admin/user-edit.php" />
+        <option value="$PROJECT_DIR$/wp-admin/includes/user.php" />
       </list>
     </option>
   </component>
@@ -193,8 +166,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -279,16 +250,28 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="wpadverts" />
+              <option name="myItemId" value="woocommerce-wallet-system" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www.adverts-test.tk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www.adverts-test.tk" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
+              <option name="myItemId" value="wp-admin" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -373,7 +356,8 @@
       <workItem from="1503318608290" duration="651000" />
       <workItem from="1503319496369" duration="5871000" />
       <workItem from="1503382287240" duration="26042000" />
-      <workItem from="1503469483189" duration="26085000" />
+      <workItem from="1503469483189" duration="26141000" />
+      <workItem from="1503555364513" duration="6400000" />
     </task>
     <task id="LOCAL-00001" summary="first action....">
       <created>1503408625035</created>
@@ -396,18 +380,25 @@
       <option name="project" value="LOCAL" />
       <updated>1503491323335</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="inserted input for money on admin panel, edit User(add User). But not inserted on bd.">
+      <created>1503500390043</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1503500390043</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58649000" />
+    <option name="totallyTimeSpent" value="65105000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15355521" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21785174" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22087745" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -450,92 +441,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wpadverts/templates/manage.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1309">
-          <caret line="77" column="18" lean-forward="false" selection-start-line="77" selection-start-column="18" selection-end-line="77" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wpadverts/addons/payments/payments.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#410#559#0#PHP" expanded="false" />
-            <element signature="e#675#816#0#PHP" expanded="false" />
-            <element signature="e#750#816#0#PHP" expanded="false" />
-            <element signature="n#adext_payments_init#0;n#!!top" expanded="false" />
-            <element signature="e#4247#4451#0#PHP" expanded="false" />
-            <element signature="n#adext_payments_install#0;n#!!top" expanded="false" />
-            <element signature="e#5193#5272#0#PHP" expanded="false" />
-            <element signature="e#6036#6379#0#PHP" expanded="false" />
-            <element signature="n#adext_payments_add_action_payment#0;n#!!top" expanded="false" />
-            <element signature="e#7269#7725#0#PHP" expanded="false" />
-            <element signature="n#adext_payments_add_action_notify#0;n#!!top" expanded="false" />
-            <element signature="e#8192#8459#0#PHP" expanded="false" />
-            <element signature="n#adext_payments_form_load#0;n#!!top" expanded="false" />
-            <element signature="e#10389#10743#0#PHP" expanded="false" />
-            <element signature="n#adverts_payments_field_payment#0;n#!!top" expanded="false" />
-            <element signature="e#13258#13550#0#PHP" expanded="false" />
-            <element signature="n#adext_payments_form_bind#0;n#!!top" expanded="false" />
-            <element signature="e#13794#14029#0#PHP" expanded="false" />
-            <element signature="n#adext_payments_action_payment#0;n#!!top" expanded="false" />
-            <element signature="e#14981#15344#0#PHP" expanded="false" />
-            <element signature="e#16399#16702#0#PHP" expanded="false" />
-            <element signature="e#17424#17828#0#PHP" expanded="false" />
-            <element signature="e#23874#23949#0#PHP" expanded="false" />
-            <element signature="n#adext_payments_init_admin#0;n#!!top" expanded="false" />
-            <element signature="e#24355#24448#0#PHP" expanded="false" />
-            <element signature="n#adext_payments_add_history_link#0;n#!!top" expanded="false" />
-            <element signature="e#25137#25305#0#PHP" expanded="false" />
-            <element signature="n#adext_payments_core_init#0;n#!!top" expanded="false" />
-            <element signature="e#25818#25940#0#PHP" expanded="false" />
-            <element signature="n#adext_payment_gateway_add#0;n#!!top" expanded="false" />
-            <element signature="e#26226#26408#0#PHP" expanded="false" />
-            <element signature="n#adext_payment_gateway_get#0;n#!!top" expanded="false" />
-            <element signature="e#26678#26781#0#PHP" expanded="false" />
-            <element signature="n#adext_payments_log#0;n#!!top" expanded="false" />
-            <element signature="e#27270#27562#0#PHP" expanded="false" />
-            <element signature="n#adext_payments_manage_list_status#0;n#!!top" expanded="false" />
-            <marker date="1503481019548" expanded="true" signature="11382:11399" ph="..." />
-            <marker date="1503481019548" expanded="true" signature="20411:20568" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/sg-double/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3825">
-          <caret line="225" column="24" lean-forward="false" selection-start-line="225" selection-start-column="24" selection-end-line="225" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-admin/post.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.htaccess">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-config-sample.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-530">
-          <caret line="30" column="24" lean-forward="true" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-config.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -548,7 +453,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="5" lean-forward="false" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -676,7 +580,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="14" column="41" lean-forward="false" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -692,7 +595,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="194">
           <caret line="167" column="1" lean-forward="false" selection-start-line="167" selection-start-column="1" selection-end-line="167" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -700,105 +602,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1315" column="0" lean-forward="false" selection-start-line="1315" selection-start-column="0" selection-end-line="1315" selection-end-column="0" />
-          <folding>
-            <element signature="e#118#189#0#PHP" expanded="false" />
-            <element signature="e#197#257#0#PHP" expanded="false" />
-            <element signature="e#259#330#0#PHP" expanded="false" />
-            <element signature="e#332#2749#0#PHP" expanded="false" />
-            <element signature="e#2751#3928#0#PHP" expanded="false" />
-            <element signature="e#3930#4021#0#PHP" expanded="false" />
-            <element signature="n#sgwindow_get_font_url#0;n#!!top" expanded="false" />
-            <element signature="e#5673#5754#0#PHP" expanded="false" />
-            <element signature="n#sgwindow_scripts_styles#0;n#!!top" expanded="false" />
-            <element signature="e#7157#7236#0#PHP" expanded="false" />
-            <element signature="n#sgwindow_add_editor_styles#0;n#!!top" expanded="false" />
-            <element signature="e#7600#7773#0#PHP" expanded="false" />
-            <element signature="n#sgwindow_body_class#0;n#!!top" expanded="false" />
-            <element signature="e#8541#8610#0#PHP" expanded="false" />
-            <element signature="e#8615#8737#0#PHP" expanded="false" />
-            <element signature="e#9125#9291#0#PHP" expanded="false" />
-            <element signature="n#sgwindow_title#0;n#!!top" expanded="false" />
-            <element signature="e#9549#9825#0#PHP" expanded="false" />
-            <element signature="e#9751#9817#1#PHP" expanded="false" />
-            <element signature="e#9827#10287#0#PHP" expanded="false" />
-            <element signature="e#10289#11545#0#PHP" expanded="false" />
-            <element signature="e#10421#11538#1#PHP" expanded="false" />
-            <element signature="e#11547#13158#0#PHP" expanded="false" />
-            <element signature="e#13160#14538#0#PHP" expanded="false" />
-            <element signature="e#14540#16911#0#PHP" expanded="false" />
-            <element signature="e#16913#17574#0#PHP" expanded="false" />
-            <element signature="e#17576#18127#0#PHP" expanded="false" />
-            <element signature="e#18129#19283#0#PHP" expanded="false" />
-            <element signature="e#19286#19360#0#PHP" expanded="false" />
-            <element signature="n#sgwindow_get_defaults#0;n#!!top" expanded="false" />
-            <element signature="e#29148#29203#0#PHP" expanded="false" />
-            <element signature="n#sgwindow_get_theme_mod#0;n#!!top" expanded="false" />
-            <element signature="e#29385#29575#0#PHP" expanded="false" />
-            <element signature="n#sgwindow_san_sidebar_id#0;n#!!top" expanded="false" />
-            <element signature="e#29833#30004#0#PHP" expanded="false" />
-            <element signature="n#sgwindow_get_sidebar_width#0;n#!!top" expanded="false" />
-            <element signature="e#30627#30705#0#PHP" expanded="false" />
-            <element signature="n#sgwindow_get_content_prefix#0;n#!!top" expanded="false" />
-            <element signature="e#31204#31304#0#PHP" expanded="false" />
-            <element signature="n#sgwindow_content_class#0;n#!!top" expanded="false" />
-            <element signature="e#31520#31603#0#PHP" expanded="false" />
-            <element signature="n#sgwindow_site_info#0;n#!!top" expanded="false" />
-            <element signature="e#32389#32443#0#PHP" expanded="false" />
-            <element signature="n#sgwindow_hook_favicon#0;n#!!top" expanded="false" />
-            <element signature="e#32771#32916#0#PHP" expanded="false" />
-            <element signature="n#sgwindow_get_tax_ids#0;n#!!top" expanded="false" />
-            <element signature="e#33307#33440#0#PHP" expanded="false" />
-            <element signature="n#sgwindow_get_curr_tax_ids#0;n#!!top" expanded="false" />
-            <element signature="e#33736#33871#0#PHP" expanded="false" />
-            <element signature="n#sgwindow_get_curr_tax_names#0;n#!!top" expanded="false" />
-            <element signature="e#34165#34243#0#PHP" expanded="false" />
-            <element signature="n#sgwindow_wrapper_start#0;n#!!top" expanded="false" />
-            <element signature="n#sgwindow_wrapper_end#0;n#!!top" expanded="false" />
-            <element signature="e#34720#34790#0#PHP" expanded="false" />
-            <element signature="n#sgwindow_related_products_args#0;n#!!top" expanded="false" />
-            <element signature="e#35006#35109#0#PHP" expanded="false" />
-            <element signature="n#sgwindow_get_sidebar#0;n#!!top" expanded="false" />
-            <element signature="e#35342#35455#0#PHP" expanded="false" />
-            <element signature="n#sgwindow_get_sidebar_widget#0;n#!!top" expanded="false" />
-            <element signature="e#35760#35874#0#PHP" expanded="false" />
-            <element signature="n#sgwindow_custom_excerpt_length#0;n#!!top" expanded="false" />
-            <element signature="e#36016#36125#0#PHP" expanded="false" />
-            <element signature="n#sgwindow_the_excerpt#0;n#!!top" expanded="false" />
-            <element signature="e#36571#36658#0#PHP" expanded="false" />
-            <element signature="n#sgwindow_the_top_sidebar_widgets#0;n#!!top" expanded="false" />
-            <element signature="e#36868#36965#0#PHP" expanded="false" />
-            <element signature="n#sgwindow_the_footer_sidebar_widgets#0;n#!!top" expanded="false" />
-            <element signature="e#37169#37248#0#PHP" expanded="false" />
-            <element signature="n#sgwindow_the_top_sidebar_default#0;n#!!top" expanded="false" />
-            <element signature="e#37532#37611#0#PHP" expanded="false" />
-            <element signature="n#sgwindow_the_top_sidebar_portfolio#0;n#!!top" expanded="false" />
-            <element signature="e#37838#37900#0#PHP" expanded="false" />
-            <element signature="n#sgwindow_header#0;n#!!top" expanded="false" />
-            <element signature="e#37935#40917#0#HTML" expanded="false" />
-            <element signature="e#41011#41063#0#PHP" expanded="false" />
-            <element signature="n#sgwindow_header_image#0;n#!!top" expanded="false" />
-            <element signature="e#42122#42207#0#PHP" expanded="false" />
-            <element signature="n#sgwindow_right_sidebar_default#0;n#!!top" expanded="false" />
-            <element signature="e#42771#42862#0#PHP" expanded="false" />
-            <element signature="n#sgwindow_right_sidebar_portfolio#0;n#!!top" expanded="false" />
-            <element signature="e#43288#43362#0#PHP" expanded="false" />
-            <element signature="n#sgwindow_404_sidebar#0;n#!!top" expanded="false" />
-            <element signature="e#43945#44043#0#PHP" expanded="false" />
-            <element signature="n#sgwindow_left_sidebar_portfolio#0;n#!!top" expanded="false" />
-            <element signature="e#44493#44740#0#PHP" expanded="false" />
-            <element signature="e#44823#44945#0#PHP" expanded="false" />
-            <element signature="e#45444#45567#0#PHP" expanded="false" />
-            <element signature="e#45569#45692#0#PHP" expanded="false" />
-            <element signature="e#45711#45826#0#PHP" expanded="false" />
-            <element signature="e#45837#45944#0#PHP" expanded="false" />
-            <marker date="1503390979413" expanded="true" signature="11124:11130" ph="→" />
-            <marker date="1503390979413" expanded="true" signature="11242:11248" ph="←" />
-            <marker date="1503390979413" expanded="true" signature="11375:11381" ph="←" />
-            <marker date="1503390979413" expanded="true" signature="15597:15856" ph="..." />
-            <marker date="1503390979413" expanded="true" signature="15710:15844" ph="..." />
-            <marker date="1503390979413" expanded="true" signature="15916:16149" ph="..." />
-            <marker date="1503390979413" expanded="true" signature="15981:16138" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -982,21 +785,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-255">
           <caret line="9" column="6" lean-forward="false" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-          <folding>
-            <element signature="e#183#236#0#PHP" expanded="false" />
-            <element signature="e#272#353#0#PHP" expanded="false" />
-            <element signature="e#395#465#0#PHP" expanded="false" />
-            <element signature="e#504#637#0#PHP" expanded="false" />
-            <element signature="e#678#907#0#PHP" expanded="false" />
-            <element signature="n#__construct#0;n#Adverts_Html#0;n#!!top" expanded="false" />
-            <element signature="e#1086#1266#0#PHP" expanded="false" />
-            <element signature="n#forceLongClosing#0;n#Adverts_Html#0;n#!!top" expanded="false" />
-            <element signature="e#1372#1485#0#PHP" expanded="false" />
-            <element signature="e#2039#2130#0#PHP" expanded="false" />
-            <element signature="n#__toString#0;n#Adverts_Html#0;n#!!top" expanded="false" />
-            <element signature="e#2217#2385#0#PHP" expanded="false" />
-            <element signature="n#build#0;n#Adverts_Html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1042,7 +830,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1050,46 +837,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="91">
           <caret line="669" column="0" lean-forward="false" selection-start-line="669" selection-start-column="0" selection-end-line="669" selection-end-column="0" />
-          <folding>
-            <element signature="e#410#559#0#PHP" expanded="false" />
-            <element signature="e#675#816#0#PHP" expanded="false" />
-            <element signature="e#750#816#0#PHP" expanded="false" />
-            <element signature="n#adext_payments_init#0;n#!!top" expanded="false" />
-            <element signature="e#4247#4451#0#PHP" expanded="false" />
-            <element signature="n#adext_payments_install#0;n#!!top" expanded="false" />
-            <element signature="e#5193#5272#0#PHP" expanded="false" />
-            <element signature="e#6036#6379#0#PHP" expanded="false" />
-            <element signature="n#adext_payments_add_action_payment#0;n#!!top" expanded="false" />
-            <element signature="e#7269#7725#0#PHP" expanded="false" />
-            <element signature="n#adext_payments_add_action_notify#0;n#!!top" expanded="false" />
-            <element signature="e#8192#8459#0#PHP" expanded="false" />
-            <element signature="n#adext_payments_form_load#0;n#!!top" expanded="false" />
-            <element signature="e#10389#10743#0#PHP" expanded="false" />
-            <element signature="n#adverts_payments_field_payment#0;n#!!top" expanded="false" />
-            <element signature="e#13258#13550#0#PHP" expanded="false" />
-            <element signature="n#adext_payments_form_bind#0;n#!!top" expanded="false" />
-            <element signature="e#13794#14029#0#PHP" expanded="false" />
-            <element signature="n#adext_payments_action_payment#0;n#!!top" expanded="false" />
-            <element signature="e#14981#15344#0#PHP" expanded="false" />
-            <element signature="e#16399#16702#0#PHP" expanded="false" />
-            <element signature="e#17424#17828#0#PHP" expanded="false" />
-            <element signature="e#23874#23949#0#PHP" expanded="false" />
-            <element signature="n#adext_payments_init_admin#0;n#!!top" expanded="false" />
-            <element signature="e#24355#24448#0#PHP" expanded="false" />
-            <element signature="n#adext_payments_add_history_link#0;n#!!top" expanded="false" />
-            <element signature="e#25137#25305#0#PHP" expanded="false" />
-            <element signature="n#adext_payments_core_init#0;n#!!top" expanded="false" />
-            <element signature="e#25818#25940#0#PHP" expanded="false" />
-            <element signature="n#adext_payment_gateway_add#0;n#!!top" expanded="false" />
-            <element signature="e#26226#26408#0#PHP" expanded="false" />
-            <element signature="n#adext_payment_gateway_get#0;n#!!top" expanded="false" />
-            <element signature="e#26678#26781#0#PHP" expanded="false" />
-            <element signature="n#adext_payments_log#0;n#!!top" expanded="false" />
-            <element signature="e#27270#27562#0#PHP" expanded="false" />
-            <element signature="n#adext_payments_manage_list_status#0;n#!!top" expanded="false" />
-            <marker date="1503481019548" expanded="true" signature="11382:11399" ph="..." />
-            <marker date="1503481019548" expanded="true" signature="20411:20568" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1097,7 +844,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1129,78 +875,6 @@
             <marker date="1503315323759" expanded="true" signature="13650:13725" ph="DELETE FROM " />
             <marker date="1503315323759" expanded="true" signature="18832:18874" ph="SELECT * FRO... ${$table}" />
             <marker date="1503315323759" expanded="true" signature="25615:25715" ph="SELECT ${$co... ${$table}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-includes/user.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="799" column="19" lean-forward="true" selection-start-line="799" selection-start-column="19" selection-end-line="799" selection-end-column="19" />
-          <folding>
-            <marker date="1503315322184" expanded="true" signature="11089:11123" ph="SELECT COUNT... wp_posts" />
-            <marker date="1503315322184" expanded="true" signature="12536:12641" ph="SELECT post_... wp_posts" />
-            <marker date="1503315322184" expanded="true" signature="26752:26904" ph="SELECT ${{$s... " />
-            <marker date="1503315322184" expanded="true" signature="27508:27645" ph="SELECT meta_... $" />
-            <marker date="1503315322184" expanded="true" signature="54053:54134" ph="SELECT ID FR... wp_users" />
-            <marker date="1503315322184" expanded="true" signature="54530:54611" ph="SELECT ID FR... wp_users" />
-            <marker date="1503315322184" expanded="true" signature="73887:73957" ph="SELECT ID, u... wp_users" />
-            <marker date="1503315322184" expanded="true" signature="78599:78606" ph="..." />
-            <marker date="1503315322184" expanded="true" signature="80531:80538" ph="..." />
-            <marker date="1503315322184" expanded="true" signature="80552:80560" ph="…" />
-            <marker date="1503315322184" expanded="true" signature="83583:83694" ph="SELECT user_... wp_usermeta" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-admin/user-edit.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding>
-            <marker date="1503494814381" expanded="true" signature="4196:4257" ph="SELECT user_... $" />
-            <marker date="1503494814381" expanded="true" signature="4328:4393" ph="UPDATE ${{$w... " />
-            <marker date="1503494814381" expanded="true" signature="6040:6101" ph="SELECT user_... $" />
-            <marker date="1503494814381" expanded="true" signature="6163:6228" ph="UPDATE ${{$w... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/woocommerce-wallet-system/includes/admin/customer-wallet-amount.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-287">
-          <caret line="193" column="0" lean-forward="true" selection-start-line="193" selection-start-column="0" selection-end-line="193" selection-end-column="0" />
-          <folding>
-            <element signature="n#column_default#0;n#WC_Report_Customer_List#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/woocommerce-wallet-system/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="138" column="49" lean-forward="true" selection-start-line="138" selection-start-column="49" selection-end-line="138" selection-end-column="49" />
-          <folding>
-            <element signature="e#500#2159#0#PHP" expanded="false" />
-            <element signature="e#2163#2263#0#PHP" expanded="false" />
-            <element signature="e#2266#3407#0#PHP" expanded="false" />
-            <element signature="e#3410#3506#0#PHP" expanded="false" />
-            <element signature="e#3509#4060#0#PHP" expanded="false" />
-            <element signature="e#4066#4589#0#PHP" expanded="false" />
-            <element signature="e#4592#4803#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wpadverts-wc/wpadverts-wc.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-54">
-          <caret line="956" column="0" lean-forward="true" selection-start-line="956" selection-start-column="0" selection-end-line="956" selection-end-column="0" />
-          <folding>
-            <element signature="e#24537#24840#0#PHP" expanded="false" />
-            <marker date="1503486527823" expanded="true" signature="13466:13483" ph="..." />
-            <marker date="1503486527823" expanded="true" signature="17420:17610" ph="SELECT `orde... ${{$pfix}}woocommerce_order_itemmeta" />
-            <marker date="1503486527823" expanded="true" signature="28432:28449" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1363,21 +1037,176 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wpadverts/wpadverts.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wpadverts/templates/add.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="441" column="19" lean-forward="false" selection-start-line="441" selection-start-column="19" selection-end-line="441" selection-end-column="19" />
+        <state relative-caret-position="255">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wpadverts/templates/add.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wpadverts-wc/wpadverts-wc.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="9" lean-forward="false" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="45" />
+        <state relative-caret-position="17">
+          <caret line="956" column="0" lean-forward="false" selection-start-line="956" selection-start-column="0" selection-end-line="956" selection-end-column="0" />
           <folding>
-            <element signature="n#style#0;n#div#1;n#fieldset#0;n#form#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#div#1;n#fieldset#0;n#form#0;n#!!top" expanded="true" />
+            <element signature="e#24537#24840#0#PHP" expanded="false" />
+            <marker date="1503486527823" expanded="true" signature="13466:13483" ph="..." />
+            <marker date="1503486527823" expanded="true" signature="17420:17610" ph="SELECT `orde... ${{$pfix}}woocommerce_order_itemmeta" />
+            <marker date="1503486527823" expanded="true" signature="28432:28449" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wpadverts/wpadverts.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7293">
+          <caret line="454" column="33" lean-forward="true" selection-start-line="454" selection-start-column="33" selection-end-line="454" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/woocommerce-wallet-system/includes/front/wallet.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-476">
+          <caret line="11" column="33" lean-forward="true" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/woocommerce-wallet-system/includes/admin/customer-wallet-amount.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="114" column="71" lean-forward="false" selection-start-line="114" selection-start-column="58" selection-end-line="114" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-admin/upload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-29">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1503315190956" expanded="true" signature="4134:4216" ph="SELECT ID FR... wp_posts" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-includes/user.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="819" column="9" lean-forward="false" selection-start-line="819" selection-start-column="9" selection-end-line="819" selection-end-column="9" />
+          <folding>
+            <marker date="1503315322184" expanded="true" signature="11089:11123" ph="SELECT COUNT... wp_posts" />
+            <marker date="1503315322184" expanded="true" signature="12536:12641" ph="SELECT post_... wp_posts" />
+            <marker date="1503315322184" expanded="true" signature="26752:26904" ph="SELECT ${{$s... " />
+            <marker date="1503315322184" expanded="true" signature="27508:27645" ph="SELECT meta_... $" />
+            <marker date="1503315322184" expanded="true" signature="54053:54134" ph="SELECT ID FR... wp_users" />
+            <marker date="1503315322184" expanded="true" signature="54530:54611" ph="SELECT ID FR... wp_users" />
+            <marker date="1503315322184" expanded="true" signature="73887:73957" ph="SELECT ID, u... wp_users" />
+            <marker date="1503315322184" expanded="true" signature="78599:78606" ph="..." />
+            <marker date="1503315322184" expanded="true" signature="80531:80538" ph="..." />
+            <marker date="1503315322184" expanded="true" signature="80552:80560" ph="…" />
+            <marker date="1503315322184" expanded="true" signature="83583:83694" ph="SELECT user_... wp_usermeta" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-admin/update.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-663">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-admin/profile.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-includes/formatting.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="4674" column="9" lean-forward="false" selection-start-line="4674" selection-start-column="9" selection-end-line="4674" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/woocommerce-wallet-system/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="178" column="41" lean-forward="false" selection-start-line="178" selection-start-column="41" selection-end-line="178" selection-end-column="41" />
+          <folding>
+            <element signature="e#500#2159#0#PHP" expanded="false" />
+            <element signature="e#2163#2263#0#PHP" expanded="false" />
+            <element signature="e#2266#3407#0#PHP" expanded="false" />
+            <element signature="e#3410#3506#0#PHP" expanded="false" />
+            <element signature="e#3509#4060#0#PHP" expanded="false" />
+            <element signature="e#4066#4589#0#PHP" expanded="false" />
+            <element signature="e#4592#4803#0#PHP" expanded="false" />
+            <element signature="e#4806#5075#0#PHP" expanded="false" />
+            <element signature="e#5080#5487#0#PHP" expanded="false" />
+            <element signature="e#5491#6123#0#PHP" expanded="false" />
+            <element signature="e#6126#6207#0#PHP" expanded="false" />
+            <element signature="e#6213#6321#0#PHP" expanded="false" />
+            <element signature="e#6329#6425#0#PHP" expanded="false" />
+            <element signature="e#6431#6536#0#PHP" expanded="false" />
+            <element signature="e#6544#6644#0#PHP" expanded="false" />
+            <element signature="e#6650#7091#0#PHP" expanded="false" />
+            <element signature="e#7099#7227#0#PHP" expanded="false" />
+            <element signature="e#7233#7627#0#PHP" expanded="false" />
+            <element signature="e#7635#7678#0#PHP" expanded="false" />
+            <element signature="e#7684#7773#0#PHP" expanded="false" />
+            <element signature="e#7781#7891#0#PHP" expanded="false" />
+            <element signature="e#7897#7968#0#PHP" expanded="false" />
+            <element signature="e#7971#9119#0#PHP" expanded="false" />
+            <element signature="e#9122#9279#0#PHP" expanded="false" />
+            <element signature="e#9282#9417#0#PHP" expanded="false" />
+            <element signature="e#9420#11448#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-admin/user-edit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="555" column="126" lean-forward="true" selection-start-line="555" selection-start-column="72" selection-end-line="555" selection-end-column="126" />
+          <folding>
+            <marker date="1503494814381" expanded="true" signature="4196:4257" ph="SELECT user_... $" />
+            <marker date="1503494814381" expanded="true" signature="4328:4393" ph="UPDATE ${{$w... " />
+            <marker date="1503494814381" expanded="true" signature="6040:6101" ph="SELECT user_... $" />
+            <marker date="1503494814381" expanded="true" signature="6163:6228" ph="UPDATE ${{$w... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-admin/users.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5843">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding>
+            <marker date="1503315190309" expanded="true" signature="7706:7800" ph="SELECT ID FR... $" />
+            <marker date="1503315190309" expanded="true" signature="7867:7965" ph="SELECT link_... $" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-admin/includes/user.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="90" column="10" lean-forward="true" selection-start-line="90" selection-start-column="10" selection-end-line="90" selection-end-column="10" />
+          <folding>
+            <marker date="1503561734559" expanded="true" signature="6848:6855" ph="..." />
+            <marker date="1503561734559" expanded="true" signature="9600:9739" ph="SELECT ID, p... wp_posts" />
+            <marker date="1503561734559" expanded="true" signature="12174:12267" ph="SELECT ID FR... wp_posts" />
+            <marker date="1503561734559" expanded="true" signature="12437:12491" ph="SELECT link_... wp_links" />
+            <marker date="1503561734559" expanded="true" signature="12652:12702" ph="SELECT ID FR... wp_posts" />
+            <marker date="1503561734559" expanded="true" signature="12964:13018" ph="SELECT link_... wp_links" />
+            <marker date="1503561734559" expanded="true" signature="13397:13452" ph="SELECT umeta... wp_usermeta" />
           </folding>
         </state>
       </provider>

@@ -84,7 +84,11 @@ function edit_user( $user_id = 0 ) {
 
 	if ( isset( $_POST['description'] ) )
 		$user->description = trim( $_POST['description'] );
-
+    if (isset($_POST['purse'])){
+        update_user_meta($user->ID, 'wallet-amount', $_POST['purse'], '');
+    }
+//    var_dump($_POST);
+//    die;
 	foreach ( wp_get_user_contact_methods( $user ) as $method => $name ) {
 		if ( isset( $_POST[$method] ))
 			$user->$method = sanitize_text_field( $_POST[$method] );
