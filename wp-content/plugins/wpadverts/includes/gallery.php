@@ -37,7 +37,7 @@ function adverts_gallery_content( $post = null, $conf = array() ) {
         'drop_element'        => 'adverts-drag-drop-area',
         'file_data_name'      => 'async-upload',            
         'multiple_queues'     => true,
-        'max_file_size'       => wp_max_upload_size().'b',
+        'max_file_size'       => 250000,
         'url'                 => admin_url('admin-ajax.php'),
         'flash_swf_url'       => includes_url('js/plupload/plupload.flash.swf'),
         'silverlight_xap_url' => includes_url('js/plupload/plupload.silverlight.xap'),
@@ -49,11 +49,11 @@ function adverts_gallery_content( $post = null, $conf = array() ) {
         'multipart_params'    => array(
           '_ajax_nonce' => wp_create_nonce('adverts-gallery'),
           'action'      => 'adverts_gallery_upload',            // the ajax action name
-          
+
         ),
     );
-    
-    
+
+//    var_dump(wp_max_upload_size()); die;
     ?>
 
     <?php if( is_admin() ): ?>

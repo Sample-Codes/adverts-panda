@@ -2,7 +2,7 @@
     <?php if( $loop->have_posts()): ?>
     <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
     <?php global $post ?>
-    
+
     <?php $columns = 1; ?>
     <div class="advert-manage-item <?php echo 'advert-item advert-item-col-'.(int)$columns ?>">
 
