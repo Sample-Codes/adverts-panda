@@ -1920,19 +1920,19 @@ function adverts_single_rslides( $post_id ) {
     $children = get_children( array( 'post_parent' => $post_id ) );
     $thumb_id = get_post_thumbnail_id( $post_id );
     $images = array();
-    
+
     if( empty( $children ) ) {
         return;
     }
-    
+
     if( isset( $children[$thumb_id] ) ) {
         $images[$thumb_id] = $children[$thumb_id];
         unset($children[$thumb_id]);
     }
-    
+
     $images += $children;
     $images = adverts_sort_images($images, $post_id);
-
+//    echo '<pre>'; var_dump(count($images)); die;
     wp_enqueue_script( 'responsive-slides' );
     
     ?>

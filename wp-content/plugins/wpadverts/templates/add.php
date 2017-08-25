@@ -48,6 +48,7 @@
 
         </div>
         <?php endforeach; ?>
+        <?php do_action('adverts_single_rslides');?>
 
         <div  style="border-top:2px solid silver; padding: 1em 0 1em 0">
 

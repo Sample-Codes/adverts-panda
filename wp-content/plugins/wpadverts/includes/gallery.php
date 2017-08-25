@@ -53,7 +53,7 @@ function adverts_gallery_content( $post = null, $conf = array() ) {
         ),
     );
 
-//    var_dump(wp_max_upload_size()); die;
+
     ?>
 
     <?php if( is_admin() ): ?>
@@ -163,6 +163,7 @@ function adverts_gallery_content( $post = null, $conf = array() ) {
     <?php
         // Get data for uploaded items and format it as JSON.
         $data = array();
+
         if($post) {
         
             $children = get_children( array(
@@ -173,11 +174,30 @@ function adverts_gallery_content( $post = null, $conf = array() ) {
             ) );
 
             // adverts_sort_images() is defined in functions.php
-            require_once ADVERTS_PATH . "/includes/functions.php"; 
+            require_once ADVERTS_PATH . "/includes/functions.php";
             $children = adverts_sort_images($children, $post->ID);
+//SimplyWorld
+            $img = get_children( array( 'post_parent' => $post->ID ) );
+            $thumb_id = get_post_thumbnail_id( $post->ID );
+            $images = array();
 
+            if( empty( $img ) ) {
+                return;
+            }
+
+            if( isset( $img[$thumb_id] ) ) {
+                $images[$thumb_id] = $img[$thumb_id];
+                unset($img[$thumb_id]);
+            }
+
+            $images += $img;
+            $images = adverts_sort_images($images, $post->ID);
+//    echo '<pre>'; var_dump(count($images)); die;
+//SimplyWorld
             foreach($children as $child) {
+
                 $data[] = adverts_upload_item_data( $child->ID );
+
             }
         }
 
@@ -261,7 +281,7 @@ function adverts_upload_item_data( $attach_id, $is_new = false ) {
     $featured = 0;
     $caption = "";
     $content = "";
-    
+
     if( !$is_new ) {
         $post = get_post( $attach_id );
         $parent_id = wp_get_post_parent_id( $post->ID );
@@ -275,7 +295,7 @@ function adverts_upload_item_data( $attach_id, $is_new = false ) {
             $featured = 0;
         }
     }
-    
+
     $data = array(
         "post_id" => $post->post_parent,
         "attach_id" => $attach_id,
@@ -291,6 +311,6 @@ function adverts_upload_item_data( $attach_id, $is_new = false ) {
             )
         )
     );
-    
+
     return $data;
 }
