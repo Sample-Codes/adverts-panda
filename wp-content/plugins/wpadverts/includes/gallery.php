@@ -161,6 +161,7 @@ function adverts_gallery_content( $post = null, $conf = array() ) {
     
     
     <?php
+
         // Get data for uploaded items and format it as JSON.
         $data = array();
 
@@ -176,30 +177,21 @@ function adverts_gallery_content( $post = null, $conf = array() ) {
             // adverts_sort_images() is defined in functions.php
             require_once ADVERTS_PATH . "/includes/functions.php";
             $children = adverts_sort_images($children, $post->ID);
-//SimplyWorld
-            $img = get_children( array( 'post_parent' => $post->ID ) );
-            $thumb_id = get_post_thumbnail_id( $post->ID );
-            $images = array();
 
-            if( empty( $img ) ) {
-                return;
-            }
+            //SimplyWorld
 
-            if( isset( $img[$thumb_id] ) ) {
-                $images[$thumb_id] = $img[$thumb_id];
-                unset($img[$thumb_id]);
-            }
+//                $img = adverts_single_rslides($post->ID );
+//                    echo '<pre>'; var_dump($img); die;
+            //SimplyWorld
 
-            $images += $img;
-            $images = adverts_sort_images($images, $post->ID);
-//    echo '<pre>'; var_dump(count($images)); die;
-//SimplyWorld
             foreach($children as $child) {
 
                 $data[] = adverts_upload_item_data( $child->ID );
 
             }
         }
+
+
 
     ?>
     
@@ -261,6 +253,7 @@ function adverts_gallery_modal() {
     </div>
     <?php
 }
+
 
 /**
  * Formats information about specific attachment

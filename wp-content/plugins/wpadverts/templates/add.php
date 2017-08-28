@@ -1,5 +1,5 @@
 <?php adverts_flash( $adverts_flash ) ?>
-
+<?php global $post; ?>
 <form action="" method="post" class="adverts-form adverts-form-aligned">
     <fieldset>
 
@@ -7,7 +7,9 @@
         <?php call_user_func( adverts_field_get_renderer($field), $field) ?>
         <?php endforeach; ?>
 
-        <!--SimplyWorld -->
+
+
+        <!-- SimplyWorld -->
 
         <?php if ( is_user_logged_in() ) : ?>
         <?php foreach($form->get_fields() as $field): ?>
@@ -48,20 +50,23 @@
 
         </div>
         <?php endforeach; ?>
-        <?php do_action('adverts_single_rslides');?>
 
-        <div  style="border-top:2px solid silver; padding: 1em 0 1em 0">
+            <div  style="border-top:2px solid silver; padding: 1em 0 1em 0">
+                <input type="submit" name="submit" value="<?php _e("Preview", "adverts") ?>" style="font-size:1.2em" class="adverts-cancel-unload" />
+            </div>
 
-            <input type="submit" name="submit" value="<?php _e("Preview", "adverts") ?>" style="font-size:1.2em" class="adverts-cancel-unload" />
-        </div>
             <!--SimplyWorld -->
         <?php else:?>
 
-            <div class="adverts-control-group adverts-field-account adverts-field-name-_adverts_account ">
-
-                <div class="adverts-form-input-group adverts-form-input-group-checkbox adverts-field-rows-1"><div><label for="_adverts_account_1"><a href="http://ds2.systemethic.it/wp-login.php?action=register">Registration</a> or <a href="http://ds2.systemethic.it/wp-login.php?redirect_to=http%3A%2F%2Fds2.systemethic.it%2Fadverts%2Fadd%2F">Sign In</a></label></div></div>
-
-            </div>
+                <div class="adverts-flash-messages adverts-flash-error">
+                    <div class="adverts-flash-single">
+                        <span class="adverts-flash-message-icon adverts-icon-lock"></span>
+                        <span class="adverts-flash-message-text adverts-flash-padding">Только зарегистрированные пользователи могут открыть эту страницу.
+                            <a href="http://ds2.systemethic.it/wp-login.php?redirect_to=http%3A%2F%2Fds2.systemethic.it%2Fadverts%2Fmanage%2F">Войдите в сайт</a> или
+                            <a href="http://ds2.systemethic.it/wp-login.php?action=register">Зарегистрируйтесь</a>.
+                        </span>
+                    </div>
+                </div>
 
         <?php endif; ?>
         <!--SimplyWorld -->

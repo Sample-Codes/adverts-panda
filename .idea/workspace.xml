@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f8967dec-7335-4daa-aa19-08b38a8d1ebf" name="Default" comment="">
+    <list default="true" id="f8967dec-7335-4daa-aa19-08b38a8d1ebf" name="Default" comment="make 45% from 100% Установлен плагин, для стоп-слов... работает не корректно. Есть функция для подсчётов кол-ва изображений после загрузки....">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpadverts/includes/functions.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wpadverts/includes/functions.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpadverts/includes/gallery.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wpadverts/includes/gallery.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpadverts/templates/add-preview.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wpadverts/templates/add-preview.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpadverts/templates/add.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wpadverts/templates/add.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpadverts/templates/manage.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wpadverts/templates/manage.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,189 +21,55 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="gallery.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="gallery.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/plugins/wpadverts/includes/gallery.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="195" column="13" lean-forward="false" selection-start-line="195" selection-start-column="13" selection-end-line="195" selection-end-column="13" />
-              <folding>
-                <marker date="1503655334222" expanded="true" signature="8324:8536" ph="..." />
-                <marker date="1503655334222" expanded="true" signature="8927:10753" ph="..." />
-                <marker date="1503655334222" expanded="true" signature="8969:10733" ph="..." />
-                <marker date="1503655334222" expanded="true" signature="9220:10357" ph="..." />
-                <marker date="1503655334222" expanded="true" signature="9247:10337" ph="..." />
-                <marker date="1503655334222" expanded="true" signature="9324:9562" ph="..." />
-                <marker date="1503655334222" expanded="true" signature="9639:9976" ph="..." />
-                <marker date="1503655334222" expanded="true" signature="10053:10288" ph="..." />
-                <marker date="1503655334222" expanded="true" signature="10388:10717" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="add.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/wp-content/plugins/wpadverts/templates/add.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+            <state relative-caret-position="87">
+              <caret line="169" column="44" lean-forward="true" selection-start-line="169" selection-start-column="44" selection-end-line="169" selection-end-column="44" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/plugins/wpadverts/includes/functions.php">
+      <file leaf-file-name="add.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/plugins/wpadverts/templates/add.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
-              <caret line="1933" column="11" lean-forward="false" selection-start-line="1933" selection-start-column="4" selection-end-line="1933" selection-end-column="11" />
+            <state relative-caret-position="153">
+              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding>
-                <element signature="e#296#474#0#PHP" expanded="false" />
-                <element signature="n#adverts_config#0;n#!!top" expanded="false" />
-                <element signature="e#1862#1996#0#PHP" expanded="false" />
-                <element signature="n#adverts_config_default#0;n#!!top" expanded="false" />
-                <element signature="e#2527#2759#0#PHP" expanded="false" />
-                <element signature="n#adverts_config_set#0;n#!!top" expanded="false" />
-                <element signature="e#3314#3501#0#PHP" expanded="false" />
-                <element signature="n#adverts_config_save#0;n#!!top" expanded="false" />
-                <element signature="e#3994#4439#0#PHP" expanded="false" />
-                <element signature="n#adverts_taxonomy_get#0;n#!!top" expanded="false" />
-                <element signature="e#4767#5145#0#PHP" expanded="false" />
-                <element signature="n#adverts_taxonomy_update#0;n#!!top" expanded="false" />
-                <element signature="e#5509#5727#0#PHP" expanded="false" />
-                <element signature="n#adverts_tmp_post_status#0;n#!!top" expanded="false" />
-                <element signature="e#5835#6094#0#PHP" expanded="false" />
-                <element signature="n#adverts_request#0;n#!!top" expanded="false" />
-                <element signature="e#6352#6543#0#PHP" expanded="false" />
-                <element signature="n#adverts_file_is_image#0;n#!!top" expanded="false" />
-                <element signature="e#7089#7267#0#PHP" expanded="false" />
-                <element signature="n#adverts_price#0;n#!!top" expanded="false" />
-                <element signature="e#7753#7867#0#PHP" expanded="false" />
-                <element signature="n#adverts_get_the_price#0;n#!!top" expanded="false" />
-                <element signature="e#8218#8473#0#PHP" expanded="false" />
-                <element signature="n#adverts_get_main_image#0;n#!!top" expanded="false" />
-                <element signature="e#8976#9188#0#PHP" expanded="false" />
-                <element signature="n#adverts_the_content#0;n#!!top" expanded="false" />
-                <element signature="e#10122#10555#0#PHP" expanded="false" />
-                <element signature="n#adverts_posts_results#0;n#!!top" expanded="false" />
-                <element signature="e#11125#11584#0#PHP" expanded="false" />
-                <element signature="n#adverts_template_include#0;n#!!top" expanded="false" />
-                <element signature="e#11748#12072#0#PHP" expanded="false" />
-                <element signature="n#adverts_list_show_term_description#0;n#!!top" expanded="false" />
-                <element signature="e#12328#12456#0#PHP" expanded="false" />
-                <element signature="n#adverts_post_thumbnail_html#0;n#!!top" expanded="false" />
-                <element signature="e#12638#12812#0#PHP" expanded="false" />
-                <element signature="n#adverts_field_has_errors#0;n#!!top" expanded="false" />
-                <element signature="e#12988#13208#0#PHP" expanded="false" />
-                <element signature="n#adverts_field_has_validator#0;n#!!top" expanded="false" />
-                <element signature="e#13524#13709#0#PHP" expanded="false" />
-                <element signature="n#adverts_field_get_renderer#0;n#!!top" expanded="false" />
-                <element signature="e#13867#14057#0#PHP" expanded="false" />
-                <element signature="n#adverts_form_add_field#0;n#!!top" expanded="false" />
-                <element signature="e#14261#14374#0#PHP" expanded="false" />
-                <element signature="n#adverts_form_add_filter#0;n#!!top" expanded="false" />
-                <element signature="e#14604#14720#0#PHP" expanded="false" />
-                <element signature="n#adverts_form_add_validator#0;n#!!top" expanded="false" />
-                <element signature="e#14968#15097#0#PHP" expanded="false" />
-                <element signature="n#adverts_is_required#0;n#!!top" expanded="false" />
-                <element signature="e#15253#15403#0#PHP" expanded="false" />
-                <element signature="n#adverts_is_email#0;n#!!top" expanded="false" />
-                <element signature="e#15542#15831#0#PHP" expanded="false" />
-                <element signature="n#adverts_is_email_registered#0;n#!!top" expanded="false" />
-                <element signature="e#16213#16364#0#PHP" expanded="false" />
-                <element signature="n#adverts_is_url#0;n#!!top" expanded="false" />
-                <element signature="e#16554#16702#0#PHP" expanded="false" />
-                <element signature="n#adverts_is_integer#0;n#!!top" expanded="false" />
-                <element signature="e#16881#17019#0#PHP" expanded="false" />
-                <element signature="n#adverts_is_number#0;n#!!top" expanded="false" />
-                <element signature="e#17227#17401#0#PHP" expanded="false" />
-                <element signature="n#adverts_string_length#0;n#!!top" expanded="false" />
-                <element signature="e#17702#17950#0#PHP" expanded="false" />
-                <element signature="n#adverts_max_choices#0;n#!!top" expanded="false" />
-                <element signature="e#18128#18265#0#PHP" expanded="false" />
-                <element signature="n#adverts_filter_money#0;n#!!top" expanded="false" />
-                <element signature="e#18803#18952#0#PHP" expanded="false" />
-                <element signature="n#adverts_filter_url#0;n#!!top" expanded="false" />
-                <element signature="e#19028#19176#0#PHP" expanded="false" />
-                <element signature="n#adverts_filter_int#0;n#!!top" expanded="false" />
-                <element signature="e#19247#19396#0#PHP" expanded="false" />
-                <element signature="n#adverts_filter_float#0;n#!!top" expanded="false" />
-                <element signature="e#19531#19697#0#PHP" expanded="false" />
-                <element signature="n#adverts_filter_number#0;n#!!top" expanded="false" />
-                <element signature="e#19785#20021#0#PHP" expanded="false" />
-                <element signature="n#adverts_field_hidden#0;n#!!top" expanded="false" />
-                <element signature="e#20379#20592#0#PHP" expanded="false" />
-                <element signature="n#adverts_field_label#0;n#!!top" expanded="false" />
-                <element signature="e#20793#21092#0#PHP" expanded="false" />
-                <element signature="n#adverts_field_text#0;n#!!top" expanded="false" />
-                <element signature="e#21814#22384#0#PHP" expanded="false" />
-                <element signature="n#adverts_field_select#0;n#!!top" expanded="false" />
-                <element signature="e#24845#25157#0#PHP" expanded="false" />
-                <element signature="n#adverts_field_textarea#0;n#!!top" expanded="false" />
-                <element signature="e#26894#27213#0#PHP" expanded="false" />
-                <element signature="n#adverts_field_checkbox#0;n#!!top" expanded="false" />
-                <element signature="e#29282#29596#0#PHP" expanded="false" />
-                <element signature="n#adverts_field_radio#0;n#!!top" expanded="false" />
-                <element signature="e#30484#30761#0#PHP" expanded="false" />
-                <element signature="n#adverts_field_account#0;n#!!top" expanded="false" />
-                <element signature="e#31595#31770#0#PHP" expanded="false" />
-                <element signature="n#adverts_field_gallery#0;n#!!top" expanded="false" />
-                <element signature="e#32192#32626#0#PHP" expanded="false" />
-                <element signature="n#adverts_save_single#0;n#!!top" expanded="false" />
-                <element signature="e#32827#33240#0#PHP" expanded="false" />
-                <element signature="n#adverts_save_multi#0;n#!!top" expanded="false" />
-                <element signature="e#33739#34176#0#PHP" expanded="false" />
-                <element signature="n#adverts_bind_single#0;n#!!top" expanded="false" />
-                <element signature="e#34661#35163#0#PHP" expanded="false" />
-                <element signature="n#adverts_bind_multi#0;n#!!top" expanded="false" />
-                <element signature="e#35830#35986#0#PHP" expanded="false" />
-                <element signature="n#adverts_admin_flash#0;n#!!top" expanded="false" />
-                <element signature="e#36442#36690#0#PHP" expanded="false" />
-                <element signature="n#adverts_admin_js_redirect#0;n#!!top" expanded="false" />
-                <element signature="e#37063#37218#0#PHP" expanded="false" />
-                <element signature="n#adverts_form_layout_config#0;n#!!top" expanded="false" />
-                <element signature="e#39798#40027#0#PHP" expanded="false" />
-                <element signature="n#adverts_walk_category_dropdown_tree#0;n#!!top" expanded="false" />
-                <element signature="e#40502#40736#0#PHP" expanded="false" />
-                <element signature="n#adverts_taxonomies#0;n#!!top" expanded="false" />
-                <element signature="e#41399#41533#0#PHP" expanded="false" />
-                <element signature="n#adverts_get_ip#0;n#!!top" expanded="false" />
-                <element signature="e#41958#42242#0#PHP" expanded="false" />
-                <element signature="n#adverts_currency_list#0;n#!!top" expanded="false" />
-                <element signature="e#45259#45495#0#PHP" expanded="false" />
-                <element signature="n#advert_term_path#0;n#!!top" expanded="false" />
-                <element signature="e#45855#46092#0#PHP" expanded="false" />
-                <element signature="n#advert_category_path#0;n#!!top" expanded="false" />
-                <element signature="e#46194#46392#0#PHP" expanded="false" />
-                <element signature="n#adverts_category_post_count#0;n#!!top" expanded="false" />
-                <element signature="e#46736#47147#0#PHP" expanded="false" />
-                <element signature="n#adverts_css_rem_fix#0;n#!!top" expanded="false" />
-                <element signature="e#47312#47575#0#PHP" expanded="false" />
-                <element signature="n#adverts_disable_default_archive#0;n#!!top" expanded="false" />
-                <element signature="e#47760#48084#0#PHP" expanded="false" />
-                <element signature="n#adverts_plugin_uploaded#0;n#!!top" expanded="false" />
-                <element signature="e#48302#48812#0#PHP" expanded="false" />
-                <element signature="n#adverts_create_user_from_post_id#0;n#!!top" expanded="false" />
-                <element signature="e#49423#49886#0#PHP" expanded="false" />
-                <element signature="n#_adverts_create_user_from_post_id#0;n#!!top" expanded="false" />
-                <element signature="e#50855#51117#0#PHP" expanded="false" />
-                <element signature="n#adverts_css_classes#0;n#!!top" expanded="false" />
-                <element signature="e#51352#52186#0#PHP" expanded="false" />
-                <element signature="e#52555#52810#0#PHP" expanded="false" />
-                <element signature="e#54224#54507#0#PHP" expanded="false" />
-                <element signature="n#adverts_single_contact_information#0;n#!!top" expanded="false" />
-                <element signature="e#55460#55815#0#PHP" expanded="false" />
-                <element signature="n#adverts_form_search_reveal_hidden#0;n#!!top" expanded="false" />
-                <element signature="e#56125#56462#0#PHP" expanded="false" />
-                <element signature="n#adverts_form_search_display_hidden#0;n#!!top" expanded="false" />
-                <element signature="e#56794#57082#0#PHP" expanded="false" />
-                <element signature="n#adverts_remove_account_field#0;n#!!top" expanded="false" />
-                <element signature="e#57387#57688#0#PHP" expanded="false" />
-                <element signature="n#adverts_post_class#0;n#!!top" expanded="false" />
-                <element signature="e#57906#58473#0#PHP" expanded="false" />
-                <element signature="n#adverts_delete_post#0;n#!!top" expanded="false" />
-                <element signature="e#58789#59159#0#PHP" expanded="false" />
-                <element signature="n#adverts_add_menu_classes#0;n#!!top" expanded="false" />
-                <marker date="1503647999603" expanded="true" signature="23624:23630" ph=" " />
+                <marker date="1503923075973" expanded="true" signature="2020:2069" ph="..." />
+                <marker date="1503923075973" expanded="true" signature="2070:2239" ph="..." />
+                <marker date="1503923075973" expanded="true" signature="2368:3032" ph="..." />
+                <marker date="1503923075973" expanded="true" signature="2423:3009" ph="..." />
+                <marker date="1503923075973" expanded="true" signature="2602:2982" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="add-preview.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/plugins/wpadverts/templates/add-preview.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="33" lean-forward="true" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+              <folding>
+                <element signature="n#style#0;n#input#2;n#form#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#2;n#form#1;n#!!top" expanded="true" />
+                <marker date="1503928460200" expanded="true" signature="947:1240" ph="..." />
+                <marker date="1503928460200" expanded="true" signature="1295:1482" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="manage.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/plugins/wpadverts/templates/manage.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-811">
+              <caret line="32" column="44" lean-forward="false" selection-start-line="32" selection-start-column="44" selection-end-line="32" selection-end-column="44" />
+              <folding>
+                <element signature="n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
+                <marker date="1503915638923" expanded="true" signature="157:230" ph="..." />
               </folding>
             </state>
           </provider>
@@ -212,10 +79,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Simp</find>
-      <find>SimplyWorld</find>
-      <find>adverts_sh_manage_actions_more</find>
-      <find>if( $valid ) {</find>
       <find>Simply</find>
       <find>order</find>
       <find>publish</find>
@@ -242,6 +105,10 @@
       <find>adverts_gallery_upload</find>
       <find>$children</find>
       <find>post_parent</find>
+      <find>posts</find>
+      <find>post_author</find>
+      <find>form</find>
+      <find>_post_id</find>
     </findStrings>
     <dirStrings>
       <dir>C:\OpenServer\domains\www.secondtz.com\www.adverts-test.tk</dir>
@@ -265,11 +132,11 @@
         <option value="$PROJECT_DIR$/wp-includes/post.php" />
         <option value="$PROJECT_DIR$/wp-admin/user-edit.php" />
         <option value="$PROJECT_DIR$/wp-admin/includes/user.php" />
-        <option value="$PROJECT_DIR$/wp-content/plugins/wpadverts/templates/manage.php" />
-        <option value="$PROJECT_DIR$/wp-content/plugins/wpadverts/templates/add-preview.php" />
-        <option value="$PROJECT_DIR$/wp-content/plugins/wpadverts/includes/functions.php" />
-        <option value="$PROJECT_DIR$/wp-content/plugins/wpadverts/templates/add.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/wpadverts/includes/gallery.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/wpadverts/includes/functions.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/wpadverts/templates/manage.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/wpadverts/templates/add.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/wpadverts/templates/add-preview.php" />
       </list>
     </option>
   </component>
@@ -304,7 +171,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -431,6 +297,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -518,7 +385,9 @@
       <workItem from="1503382287240" duration="26042000" />
       <workItem from="1503469483189" duration="26141000" />
       <workItem from="1503555364513" duration="21817000" />
-      <workItem from="1503642436421" duration="12005000" />
+      <workItem from="1503642436421" duration="17000000" />
+      <workItem from="1503901288665" duration="689000" />
+      <workItem from="1503906838141" duration="20843000" />
     </task>
     <task id="LOCAL-00001" summary="first action....">
       <created>1503408625035</created>
@@ -569,18 +438,25 @@
       <option name="project" value="LOCAL" />
       <updated>1503583259816</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="make 45% from 100% Установлен плагин, для стоп-слов... работает не корректно. Есть функция для подсчётов кол-ва изображений после загрузки....">
+      <created>1503655467628</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1503655467643</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92527000" />
+    <option name="totallyTimeSpent" value="119054000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15355521" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22390318" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22995462" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -614,59 +490,19 @@
     <MESSAGE value="make 30% from 100% Добавлена возможность редактирвоание виртуальных денег через админку, Осталять объявления могут только залогененые юзеры." />
     <MESSAGE value="make 40% from 100% Добавлено Ограничение размера изображений ( не более 200 kb )" />
     <MESSAGE value="make 45% from 100% Установлен плагин, для стоп-слов... работает не корректно" />
-    <option name="LAST_COMMIT_MESSAGE" value="make 45% from 100% Установлен плагин, для стоп-слов... работает не корректно" />
+    <MESSAGE value="make 45% from 100% Установлен плагин, для стоп-слов... работает не корректно. Есть функция для подсчётов кол-ва изображений после загрузки...." />
+    <option name="LAST_COMMIT_MESSAGE" value="make 45% from 100% Установлен плагин, для стоп-слов... работает не корректно. Есть функция для подсчётов кол-ва изображений после загрузки...." />
   </component>
   <component name="WordPressConfiguration" enabled="true">
     <wordpressPath>C:\OpenServer\domains\www.secondtz.com\www.adverts-test.tk</wordpressPath>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/Core.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="457" column="9" lean-forward="false" selection-start-line="457" selection-start-column="9" selection-end-line="457" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/sg-window/inc/customize-info.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="95" column="4" lean-forward="true" selection-start-line="95" selection-start-column="4" selection-end-line="95" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/sg-window/page-templates/full-contact.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-411">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/sg-window/page-templates/full-width.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-479">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-includes/theme.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-229">
-          <caret line="1544" column="34" lean-forward="false" selection-start-line="1544" selection-start-column="34" selection-end-line="1544" selection-end-column="34" />
-          <folding>
-            <element signature="n#get_background_color#0;n#!!top" expanded="false" />
-            <element signature="n#_custom_background_cb#0;n#!!top" expanded="false" />
-            <marker date="1503315322425" expanded="true" signature="94848:94995" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/woocommerce/templates/single-product.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-37">
@@ -723,14 +559,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-includes/plugin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="416" column="37" lean-forward="false" selection-start-line="416" selection-start-column="37" selection-end-line="416" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/wpadverts/assets/css/adverts-frontend.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="194">
@@ -745,21 +573,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-includes/class-wp-post.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="58" column="11" lean-forward="false" selection-start-line="58" selection-start-column="11" selection-end-line="58" selection-end-column="11" />
-          <folding>
-            <marker date="1503315326925" expanded="true" signature="3262:3310" ph="SELECT * FRO... wp_posts" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/wpadverts/includes/shortcodes.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="143">
           <caret line="459" column="9" lean-forward="false" selection-start-line="459" selection-start-column="9" selection-end-line="459" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -767,35 +584,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-255">
           <caret line="9" column="6" lean-forward="false" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-          <folding>
-            <element signature="e#183#236#0#PHP" expanded="false" />
-            <element signature="e#272#353#0#PHP" expanded="false" />
-            <element signature="e#395#465#0#PHP" expanded="false" />
-            <element signature="e#504#637#0#PHP" expanded="false" />
-            <element signature="e#678#907#0#PHP" expanded="false" />
-            <element signature="n#__construct#0;n#Adverts_Html#0;n#!!top" expanded="false" />
-            <element signature="e#1086#1266#0#PHP" expanded="false" />
-            <element signature="n#forceLongClosing#0;n#Adverts_Html#0;n#!!top" expanded="false" />
-            <element signature="e#1372#1485#0#PHP" expanded="false" />
-            <element signature="e#2039#2130#0#PHP" expanded="false" />
-            <element signature="n#__toString#0;n#Adverts_Html#0;n#!!top" expanded="false" />
-            <element signature="e#2217#2385#0#PHP" expanded="false" />
-            <element signature="n#build#0;n#Adverts_Html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-includes/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="770" column="9" lean-forward="false" selection-start-line="770" selection-start-column="9" selection-end-line="770" selection-end-column="9" />
-          <folding>
-            <marker date="1503315324535" expanded="true" signature="17236:17340" ph="SELECT meta_... wp_postmeta" />
-            <marker date="1503315324535" expanded="true" signature="18399:18503" ph="SELECT post_... wp_postmeta" />
-            <marker date="1503315324535" expanded="true" signature="38380:38449" ph="SELECT optio... wp_options" />
-            <marker date="1503315324535" expanded="true" signature="147101:147197" ph="SELECT post_... wp_postmeta" />
-            <marker date="1503315324535" expanded="true" signature="147660:147762" ph="SELECT comme... wp_commentmeta" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -803,7 +591,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="194">
           <caret line="25" column="20" lean-forward="false" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -854,15 +641,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="194">
           <caret line="460" column="9" lean-forward="false" selection-start-line="460" selection-start-column="9" selection-end-line="460" selection-end-column="9" />
-          <folding>
-            <marker date="1503315323759" expanded="true" signature="2605:2669" ph="SELECT COUNT... ${$table}" />
-            <marker date="1503315323759" expanded="true" signature="6711:6777" ph="SELECT ${$id... ${$table}" />
-            <marker date="1503315323759" expanded="true" signature="12138:12187" ph="SELECT ${$id... ${$table}" />
-            <marker date="1503315323759" expanded="true" signature="12771:12823" ph="SELECT ${$ty... ${$table}" />
-            <marker date="1503315323759" expanded="true" signature="13650:13725" ph="DELETE FROM " />
-            <marker date="1503315323759" expanded="true" signature="18832:18874" ph="SELECT * FRO... ${$table}" />
-            <marker date="1503315323759" expanded="true" signature="25615:25715" ph="SELECT ${$co... ${$table}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -877,7 +655,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="7293">
           <caret line="454" column="33" lean-forward="true" selection-start-line="454" selection-start-column="33" selection-end-line="454" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -906,19 +683,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="194">
           <caret line="819" column="9" lean-forward="false" selection-start-line="819" selection-start-column="9" selection-end-line="819" selection-end-column="9" />
-          <folding>
-            <marker date="1503315322184" expanded="true" signature="11089:11123" ph="SELECT COUNT... wp_posts" />
-            <marker date="1503315322184" expanded="true" signature="12536:12641" ph="SELECT post_... wp_posts" />
-            <marker date="1503315322184" expanded="true" signature="26752:26904" ph="SELECT ${{$s... " />
-            <marker date="1503315322184" expanded="true" signature="27508:27645" ph="SELECT meta_... $" />
-            <marker date="1503315322184" expanded="true" signature="54053:54134" ph="SELECT ID FR... wp_users" />
-            <marker date="1503315322184" expanded="true" signature="54530:54611" ph="SELECT ID FR... wp_users" />
-            <marker date="1503315322184" expanded="true" signature="73887:73957" ph="SELECT ID, u... wp_users" />
-            <marker date="1503315322184" expanded="true" signature="78599:78606" ph="..." />
-            <marker date="1503315322184" expanded="true" signature="80531:80538" ph="..." />
-            <marker date="1503315322184" expanded="true" signature="80552:80560" ph="…" />
-            <marker date="1503315322184" expanded="true" signature="83583:83694" ph="SELECT user_... wp_usermeta" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -940,7 +704,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="194">
           <caret line="4674" column="9" lean-forward="false" selection-start-line="4674" selection-start-column="9" selection-end-line="4674" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -948,12 +711,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="555" column="126" lean-forward="true" selection-start-line="555" selection-start-column="72" selection-end-line="555" selection-end-column="126" />
-          <folding>
-            <marker date="1503494814381" expanded="true" signature="4196:4257" ph="SELECT user_... $" />
-            <marker date="1503494814381" expanded="true" signature="4328:4393" ph="UPDATE ${{$w... " />
-            <marker date="1503494814381" expanded="true" signature="6040:6101" ph="SELECT user_... $" />
-            <marker date="1503494814381" expanded="true" signature="6163:6228" ph="UPDATE ${{$w... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -982,45 +739,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="194">
           <caret line="993" column="9" lean-forward="false" selection-start-line="993" selection-start-column="9" selection-end-line="993" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wpadverts/templates/manage.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="57" lean-forward="false" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="57" />
-          <folding>
-            <marker date="1503573443332" expanded="true" signature="156:229" ph="..." />
-            <marker date="1503573443332" expanded="true" signature="377:546" ph="..." />
-            <marker date="1503573443332" expanded="true" signature="592:2189" ph="..." />
-            <marker date="1503573443332" expanded="true" signature="639:1060" ph="..." />
-            <marker date="1503573443332" expanded="true" signature="1513:2189" ph="..." />
-            <marker date="1503573443332" expanded="true" signature="2520:3266" ph="..." />
-            <marker date="1503573443332" expanded="true" signature="2576:3266" ph="..." />
-            <marker date="1503573443332" expanded="true" signature="3701:4196" ph="..." />
-            <marker date="1503573443332" expanded="true" signature="4355:4634" ph="..." />
-            <marker date="1503573443332" expanded="true" signature="4689:4790" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wpadverts/templates/add-preview.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="32" lean-forward="false" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-includes/pluggable.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="1936" column="9" lean-forward="false" selection-start-line="1936" selection-start-column="9" selection-end-line="1936" selection-end-column="9" />
-          <folding>
-            <marker date="1503315323284" expanded="true" signature="3278:3324" ph="SELECT * FRO... wp_users" />
-            <marker date="1503315323284" expanded="true" signature="52821:52895" ph="SELECT count... wp_comments" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1028,7 +746,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-187">
           <caret line="25" column="42" lean-forward="true" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1052,165 +769,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-includes/post.php">
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_4.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="595" column="23" lean-forward="false" selection-start-line="595" selection-start-column="9" selection-end-line="595" selection-end-column="23" />
+        <state relative-caret-position="194">
+          <caret line="37" column="9" lean-forward="false" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-includes/pluggable.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="67" column="28" lean-forward="false" selection-start-line="67" selection-start-column="9" selection-end-line="67" selection-end-column="28" />
           <folding>
-            <element signature="e#110#224#0#PHP" expanded="false" />
-            <element signature="n#create_initial_post_types#0;n#!!top" expanded="false" />
-            <element signature="e#9099#9849#0#PHP" expanded="false" />
-            <element signature="n#get_attached_file#0;n#!!top" expanded="false" />
-            <element signature="e#10545#10929#0#PHP" expanded="false" />
-            <element signature="n#update_attached_file#0;n#!!top" expanded="false" />
-            <element signature="e#11518#11763#0#PHP" expanded="false" />
-            <element signature="n#_wp_relative_upload_path#0;n#!!top" expanded="false" />
-            <element signature="e#12296#15086#0#PHP" expanded="false" />
-            <element signature="e#16336#16951#0#PHP" expanded="false" />
-            <element signature="n#get_extended#0;n#!!top" expanded="false" />
-            <element signature="e#17559#18509#0#PHP" expanded="false" />
-            <element signature="e#19279#19457#0#PHP" expanded="false" />
-            <element signature="n#get_post_ancestors#0;n#!!top" expanded="false" />
-            <element signature="e#20020#20852#0#PHP" expanded="false" />
-            <element signature="e#21103#21432#0#PHP" expanded="false" />
-            <element signature="n#get_post_mime_type#0;n#!!top" expanded="false" />
-            <element signature="e#21576#21892#0#PHP" expanded="false" />
-            <element signature="n#get_post_status#0;n#!!top" expanded="false" />
-            <element signature="e#22846#23086#0#PHP" expanded="false" />
-            <element signature="n#get_post_statuses#0;n#!!top" expanded="false" />
-            <element signature="e#23295#23533#0#PHP" expanded="false" />
-            <element signature="n#get_page_statuses#0;n#!!top" expanded="false" />
-            <element signature="e#23703#26545#0#PHP" expanded="false" />
-            <element signature="n#register_post_status#0;n#!!top" expanded="false" />
-            <element signature="e#28259#28538#0#PHP" expanded="false" />
-            <element signature="n#get_post_status_object#0;n#!!top" expanded="false" />
-            <element signature="e#28724#29521#0#PHP" expanded="false" />
-            <element signature="n#get_post_stati#0;n#!!top" expanded="false" />
-            <element signature="e#29762#30039#0#PHP" expanded="false" />
-            <element signature="n#is_post_type_hierarchical#0;n#!!top" expanded="false" />
-            <element signature="e#30236#30431#0#PHP" expanded="false" />
-            <element signature="n#post_type_exists#0;n#!!top" expanded="false" />
-            <element signature="e#30528#30789#0#PHP" expanded="false" />
-            <element signature="n#get_post_type#0;n#!!top" expanded="false" />
-            <element signature="e#30911#31279#0#PHP" expanded="false" />
-            <element signature="n#get_post_type_object#0;n#!!top" expanded="false" />
-            <element signature="e#31488#32358#0#PHP" expanded="false" />
-            <element signature="n#get_post_types#0;n#!!top" expanded="false" />
-            <element signature="e#32593#44283#0#PHP" expanded="false" />
-            <element signature="n#register_post_type#0;n#!!top" expanded="false" />
-            <element signature="e#45528#45847#0#PHP" expanded="false" />
-            <element signature="n#unregister_post_type#0;n#!!top" expanded="false" />
-            <element signature="e#46743#49669#0#PHP" expanded="false" />
-            <element signature="n#get_post_type_capabilities#0;n#!!top" expanded="false" />
-            <element signature="e#51633#51883#0#PHP" expanded="false" />
-            <element signature="n#_post_type_meta_capabilities#0;n#!!top" expanded="false" />
-            <element signature="e#52161#56300#0#PHP" expanded="false" />
-            <element signature="n#get_post_type_labels#0;n#!!top" expanded="false" />
-            <element signature="e#59167#59570#0#PHP" expanded="false" />
-            <element signature="n#_get_custom_object_labels#0;n#!!top" expanded="false" />
-            <element signature="e#60867#60944#0#PHP" expanded="false" />
-            <element signature="n#_add_post_type_submenus#0;n#!!top" expanded="false" />
-            <element signature="e#61375#62228#0#PHP" expanded="false" />
-            <element signature="n#add_post_type_support#0;n#!!top" expanded="false" />
-            <element signature="e#62572#62825#0#PHP" expanded="false" />
-            <element signature="n#remove_post_type_support#0;n#!!top" expanded="false" />
-            <element signature="e#62984#63176#0#PHP" expanded="false" />
-            <element signature="n#get_all_post_type_supports#0;n#!!top" expanded="false" />
-            <element signature="e#63383#63686#0#PHP" expanded="false" />
-            <element signature="n#post_type_supports#0;n#!!top" expanded="false" />
-            <element signature="e#63846#64479#0#PHP" expanded="false" />
-            <element signature="n#get_post_types_by_support#0;n#!!top" expanded="false" />
-            <element signature="e#64736#65231#0#PHP" expanded="false" />
-            <element signature="n#set_post_type#0;n#!!top" expanded="false" />
-            <element signature="e#65540#66090#0#PHP" expanded="false" />
-            <element signature="n#is_post_type_viewable#0;n#!!top" expanded="false" />
-            <element signature="e#66365#67482#0#PHP" expanded="false" />
-            <element signature="n#get_posts#0;n#!!top" expanded="false" />
-            <element signature="e#68543#69030#0#PHP" expanded="false" />
-            <element signature="n#add_post_meta#0;n#!!top" expanded="false" />
-            <element signature="e#69317#69883#0#PHP" expanded="false" />
-            <element signature="n#delete_post_meta#0;n#!!top" expanded="false" />
-            <element signature="e#70155#70611#0#PHP" expanded="false" />
-            <element signature="n#get_post_meta#0;n#!!top" expanded="false" />
-            <element signature="e#70735#71390#0#PHP" expanded="false" />
-            <element signature="n#update_post_meta#0;n#!!top" expanded="false" />
-            <element signature="e#71688#71910#0#PHP" expanded="false" />
-            <element signature="n#delete_post_meta_by_key#0;n#!!top" expanded="false" />
-            <element signature="e#72034#72368#0#PHP" expanded="false" />
-            <element signature="n#get_post_custom#0;n#!!top" expanded="false" />
-            <element signature="e#72529#72804#0#PHP" expanded="false" />
-            <element signature="n#get_post_custom_keys#0;n#!!top" expanded="false" />
-            <element signature="e#72987#73396#0#PHP" expanded="false" />
-            <element signature="n#get_post_custom_values#0;n#!!top" expanded="false" />
-            <element signature="e#73583#73898#0#PHP" expanded="false" />
-            <element signature="n#is_sticky#0;n#!!top" expanded="false" />
-            <element signature="e#74183#74815#0#PHP" expanded="false" />
-            <element signature="n#sanitize_post#0;n#!!top" expanded="false" />
-            <element signature="e#75641#76348#0#PHP" expanded="false" />
-            <element signature="n#sanitize_post_field#0;n#!!top" expanded="false" />
-            <element signature="e#80098#80251#0#PHP" expanded="false" />
-            <element signature="n#stick_post#0;n#!!top" expanded="false" />
-            <element signature="n#unstick_post#0;n#!!top" expanded="false" />
-            <element signature="e#81456#81740#0#PHP" expanded="false" />
-            <element signature="n#_count_posts_cache_key#0;n#!!top" expanded="false" />
-            <element signature="e#82130#82935#0#PHP" expanded="false" />
-            <element signature="n#wp_count_posts#0;n#!!top" expanded="false" />
-            <element signature="e#84563#85215#0#PHP" expanded="false" />
-            <element signature="n#wp_count_attachments#0;n#!!top" expanded="false" />
-            <element signature="e#86188#86291#0#PHP" expanded="false" />
-            <element signature="n#get_post_mime_types#0;n#!!top" expanded="false" />
-            <element signature="e#87030#87570#0#PHP" expanded="false" />
-            <element signature="n#wp_match_mime_types#0;n#!!top" expanded="false" />
-            <element signature="e#88744#89141#0#PHP" expanded="false" />
-            <element signature="n#wp_post_mime_type_where#0;n#!!top" expanded="false" />
-            <element signature="e#90617#91376#0#PHP" expanded="false" />
-            <element signature="n#wp_delete_post#0;n#!!top" expanded="false" />
-            <element signature="e#95200#95444#0#PHP" expanded="false" />
-            <element signature="n#_reset_front_page_settings_for_post#0;n#!!top" expanded="false" />
-            <element signature="e#95975#96339#0#PHP" expanded="false" />
-            <element signature="n#wp_trash_post#0;n#!!top" expanded="false" />
-            <element signature="e#97133#97340#0#PHP" expanded="false" />
-            <element signature="n#wp_untrash_post#0;n#!!top" expanded="false" />
-            <element signature="e#98140#98409#0#PHP" expanded="false" />
-            <element signature="n#wp_trash_post_comments#0;n#!!top" expanded="false" />
-            <marker date="1503496304220" expanded="true" signature="57523:57539" ph="Insert into post... " />
-            <marker date="1503496304220" expanded="true" signature="57549:57565" ph="Insert into page... " />
-            <marker date="1503496304220" expanded="true" signature="83341:83425" ph="SELECT post_... $" />
-            <marker date="1503496304220" expanded="true" signature="85361:85512" ph="SELECT post_... wp_posts" />
-            <marker date="1503496304220" expanded="true" signature="85682:85775" ph="SELECT COUNT... wp_posts" />
-            <marker date="1503496304220" expanded="true" signature="91503:91543" ph="SELECT * FRO... wp_posts" />
-            <marker date="1503496304220" expanded="true" signature="92950:93018" ph="SELECT * FRO... wp_posts" />
-            <marker date="1503496304220" expanded="true" signature="93343:93420" ph="SELECT ID FR... wp_posts" />
-            <marker date="1503496304220" expanded="true" signature="93872:93937" ph="SELECT comme... wp_comments" />
-            <marker date="1503496304220" expanded="true" signature="94130:94184" ph="SELECT meta_... wp_postmeta" />
-            <marker date="1503496304220" expanded="true" signature="98772:98855" ph="SELECT comme... wp_comments" />
-            <marker date="1503496304220" expanded="true" signature="100777:100860" ph="UPDATE wp_co... " />
-            <marker date="1503496304220" expanded="true" signature="121241:121282" ph="SELECT ID FR... wp_posts" />
-            <marker date="1503496304220" expanded="true" signature="132781:132857" ph="SELECT post_... wp_posts" />
-            <marker date="1503496304220" expanded="true" signature="133930:134065" ph="SELECT post_... wp_posts" />
-            <marker date="1503496304220" expanded="true" signature="135183:135278" ph="SELECT post_... wp_posts" />
-            <marker date="1503496304220" expanded="true" signature="149433:149485" ph="SELECT ID FR... wp_posts" />
-            <marker date="1503496304220" expanded="true" signature="152069:152209" ph="SELECT ID, p... wp_posts" />
-            <marker date="1503496304220" expanded="true" signature="154026:154124" ph="SELECT ID FR... wp_posts" />
-            <marker date="1503496304220" expanded="true" signature="154185:154262" ph="SELECT ID FR... wp_posts" />
-            <marker date="1503496304220" expanded="true" signature="166353:166411" ph="SELECT * FRO... wp_posts" />
-            <marker date="1503496304220" expanded="true" signature="170821:170861" ph="SELECT * FRO... wp_posts" />
-            <marker date="1503496304220" expanded="true" signature="171979:172044" ph="SELECT comme... wp_comments" />
-            <marker date="1503496304220" expanded="true" signature="172238:172292" ph="SELECT meta_... wp_postmeta" />
-            <marker date="1503496304220" expanded="true" signature="172863:172982" ph="SELECT meta_... wp_postmeta" />
-            <marker date="1503496304220" expanded="true" signature="195141:195286" ph="SELECT post_... " />
-            <marker date="1503496304220" expanded="true" signature="195342:195483" ph="SELECT post_... " />
-            <marker date="1503496304220" expanded="true" signature="195579:195773" ph="SELECT DATE_... " />
-            <marker date="1503496304220" expanded="true" signature="206547:206657" ph="SELECT ID FR... wp_posts" />
-            <marker date="1503496304220" expanded="true" signature="209178:209234" ph="SELECT wp_po... wp_posts" />
+            <marker date="1503315323284" expanded="true" signature="3278:3324" ph="SELECT * FRO... wp_users" />
+            <marker date="1503315323284" expanded="true" signature="52821:52895" ph="SELECT count... wp_comments" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/wpadverts/includes/functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="1933" column="11" lean-forward="false" selection-start-line="1933" selection-start-column="4" selection-end-line="1933" selection-end-column="11" />
+        <state relative-caret-position="3111">
+          <caret line="1790" column="41" lean-forward="false" selection-start-line="1790" selection-start-column="9" selection-end-line="1790" selection-end-column="41" />
           <folding>
             <element signature="e#296#474#0#PHP" expanded="false" />
             <element signature="n#adverts_config#0;n#!!top" expanded="false" />
@@ -1343,7 +924,9 @@
             <element signature="e#50855#51117#0#PHP" expanded="false" />
             <element signature="n#adverts_css_classes#0;n#!!top" expanded="false" />
             <element signature="e#51352#52186#0#PHP" expanded="false" />
+            <element signature="n#adverts_sort_images#0;n#!!top" expanded="false" />
             <element signature="e#52555#52810#0#PHP" expanded="false" />
+            <element signature="n#adverts_single_rslides#0;n#!!top" expanded="false" />
             <element signature="e#54224#54507#0#PHP" expanded="false" />
             <element signature="n#adverts_single_contact_information#0;n#!!top" expanded="false" />
             <element signature="e#55460#55815#0#PHP" expanded="false" />
@@ -1358,33 +941,352 @@
             <element signature="n#adverts_delete_post#0;n#!!top" expanded="false" />
             <element signature="e#58789#59159#0#PHP" expanded="false" />
             <element signature="n#adverts_add_menu_classes#0;n#!!top" expanded="false" />
-            <marker date="1503647999603" expanded="true" signature="23624:23630" ph=" " />
+            <marker date="1503907487072" expanded="true" signature="23624:23630" ph=" " />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wpadverts/includes/gallery.php">
+    <entry file="file://$PROJECT_DIR$/wp-includes/plugin.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="195" column="13" lean-forward="false" selection-start-line="195" selection-start-column="13" selection-end-line="195" selection-end-column="13" />
+        <state relative-caret-position="194">
+          <caret line="420" column="9" lean-forward="false" selection-start-line="420" selection-start-column="9" selection-end-line="420" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/woocommerce/templates/single-product/add-to-cart/grouped.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="21" column="17" lean-forward="false" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-includes/class-wp-post.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4712">
+          <caret line="37" column="23" lean-forward="false" selection-start-line="37" selection-start-column="11" selection-end-line="37" selection-end-column="23" />
           <folding>
-            <marker date="1503655334222" expanded="true" signature="8324:8536" ph="..." />
-            <marker date="1503655334222" expanded="true" signature="8927:10753" ph="..." />
-            <marker date="1503655334222" expanded="true" signature="8969:10733" ph="..." />
-            <marker date="1503655334222" expanded="true" signature="9220:10357" ph="..." />
-            <marker date="1503655334222" expanded="true" signature="9247:10337" ph="..." />
-            <marker date="1503655334222" expanded="true" signature="9324:9562" ph="..." />
-            <marker date="1503655334222" expanded="true" signature="9639:9976" ph="..." />
-            <marker date="1503655334222" expanded="true" signature="10053:10288" ph="..." />
-            <marker date="1503655334222" expanded="true" signature="10388:10717" ph="..." />
+            <marker date="1503315326925" expanded="true" signature="3262:3310" ph="SELECT * FRO... wp_posts" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-includes/post-template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1124">
+          <caret line="1016" column="0" lean-forward="false" selection-start-line="1016" selection-start-column="0" selection-end-line="1016" selection-end-column="0" />
+          <folding>
+            <element signature="e#155#241#0#PHP" expanded="false" />
+            <element signature="n#the_ID#0;n#!!top" expanded="false" />
+            <element signature="e#285#474#0#PHP" expanded="false" />
+            <element signature="n#get_the_ID#0;n#!!top" expanded="false" />
+            <element signature="e#569#984#0#PHP" expanded="false" />
+            <element signature="n#the_title#0;n#!!top" expanded="false" />
+            <element signature="e#1209#2093#0#PHP" expanded="false" />
+            <element signature="n#the_title_attribute#0;n#!!top" expanded="false" />
+            <element signature="e#2520#2886#0#PHP" expanded="false" />
+            <element signature="n#get_the_title#0;n#!!top" expanded="false" />
+            <element signature="e#4411#4805#0#PHP" expanded="false" />
+            <element signature="n#the_guid#0;n#!!top" expanded="false" />
+            <element signature="e#5270#5642#0#PHP" expanded="false" />
+            <element signature="n#get_the_guid#0;n#!!top" expanded="false" />
+            <element signature="e#6063#6304#0#PHP" expanded="false" />
+            <element signature="n#the_content#0;n#!!top" expanded="false" />
+            <element signature="e#6687#7404#0#PHP" expanded="false" />
+            <element signature="n#get_the_content#0;n#!!top" expanded="false" />
+            <element signature="e#9576#9763#0#PHP" expanded="false" />
+            <element signature="n#_convert_urlencoded_to_entities#0;n#!!top" expanded="false" />
+            <element signature="e#9876#9930#0#PHP" expanded="false" />
+            <element signature="n#the_excerpt#0;n#!!top" expanded="false" />
+            <element signature="e#10172#10403#0#PHP" expanded="false" />
+            <element signature="n#get_the_excerpt#0;n#!!top" expanded="false" />
+            <element signature="e#11004#11237#0#PHP" expanded="false" />
+            <element signature="n#has_excerpt#0;n#!!top" expanded="false" />
+            <element signature="e#11348#11594#0#PHP" expanded="false" />
+            <element signature="n#post_class#0;n#!!top" expanded="false" />
+            <element signature="e#11798#12768#0#PHP" expanded="false" />
+            <element signature="n#get_post_class#0;n#!!top" expanded="false" />
+            <element signature="e#15555#15705#0#PHP" expanded="false" />
+            <element signature="n#body_class#0;n#!!top" expanded="false" />
+            <element signature="e#15886#16117#0#PHP" expanded="false" />
+            <element signature="n#get_body_class#0;n#!!top" expanded="false" />
+            <element signature="e#22134#22434#0#PHP" expanded="false" />
+            <element signature="n#post_password_required#0;n#!!top" expanded="false" />
+            <element signature="e#23656#25712#0#PHP" expanded="false" />
+            <element signature="n#wp_link_pages#0;n#!!top" expanded="false" />
+            <element signature="e#28371#28550#0#PHP" expanded="false" />
+            <element signature="n#_wp_link_page#0;n#!!top" expanded="false" />
+            <element signature="e#29608#29857#0#PHP" expanded="false" />
+            <element signature="n#post_custom#0;n#!!top" expanded="false" />
+            <element signature="e#30071#30198#0#PHP" expanded="false" />
+            <element signature="n#the_meta#0;n#!!top" expanded="false" />
+            <element signature="e#30940#32825#0#PHP" expanded="false" />
+            <element signature="n#wp_dropdown_pages#0;n#!!top" expanded="false" />
+            <element signature="e#34462#37377#0#PHP" expanded="false" />
+            <element signature="n#wp_list_pages#0;n#!!top" expanded="false" />
+            <element signature="e#39751#41909#0#PHP" expanded="false" />
+            <element signature="n#wp_page_menu#0;n#!!top" expanded="false" />
+            <element signature="e#44855#45092#0#PHP" expanded="false" />
+            <element signature="n#walk_page_tree#0;n#!!top" expanded="false" />
+            <element signature="e#45491#45733#0#PHP" expanded="false" />
+            <element signature="n#walk_page_dropdown_tree#0;n#!!top" expanded="false" />
+            <element signature="e#46039#46429#0#PHP" expanded="false" />
+            <element signature="n#the_attachment_link#0;n#!!top" expanded="false" />
+            <element signature="e#46756#47725#0#PHP" expanded="false" />
+            <element signature="n#wp_get_attachment_link#0;n#!!top" expanded="false" />
+            <element signature="e#49248#49373#0#PHP" expanded="false" />
+            <element signature="n#prepend_attachment#0;n#!!top" expanded="false" />
+            <element signature="e#50600#50847#0#PHP" expanded="false" />
+            <element signature="n#get_the_password_form#0;n#!!top" expanded="false" />
+            <element signature="e#51908#52489#0#PHP" expanded="false" />
+            <element signature="n#is_page_template#0;n#!!top" expanded="false" />
+            <element signature="e#53006#53399#0#PHP" expanded="false" />
+            <element signature="n#get_page_template_slug#0;n#!!top" expanded="false" />
+            <element signature="e#53673#54021#0#PHP" expanded="false" />
+            <element signature="n#wp_post_revision_title#0;n#!!top" expanded="false" />
+            <element signature="e#54939#55303#0#PHP" expanded="false" />
+            <element signature="n#wp_post_revision_title_expanded#0;n#!!top" expanded="false" />
+            <element signature="e#57233#57573#0#PHP" expanded="false" />
+            <element signature="n#wp_list_post_revisions#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-includes/post.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-117">
+          <caret line="862" column="23" lean-forward="false" selection-start-line="862" selection-start-column="9" selection-end-line="862" selection-end-column="23" />
+          <folding>
+            <element signature="e#110#224#0#PHP" expanded="false" />
+            <element signature="n#create_initial_post_types#0;n#!!top" expanded="false" />
+            <element signature="e#9099#9849#0#PHP" expanded="false" />
+            <element signature="n#get_attached_file#0;n#!!top" expanded="false" />
+            <element signature="e#10545#10929#0#PHP" expanded="false" />
+            <element signature="n#update_attached_file#0;n#!!top" expanded="false" />
+            <element signature="e#11518#11763#0#PHP" expanded="false" />
+            <element signature="n#_wp_relative_upload_path#0;n#!!top" expanded="false" />
+            <element signature="e#12296#15086#0#PHP" expanded="false" />
+            <element signature="n#get_children#0;n#!!top" expanded="false" />
+            <element signature="e#16336#16951#0#PHP" expanded="false" />
+            <element signature="n#get_extended#0;n#!!top" expanded="false" />
+            <element signature="e#17559#18509#0#PHP" expanded="false" />
+            <element signature="n#get_post#0;n#!!top" expanded="false" />
+            <element signature="e#19279#19457#0#PHP" expanded="false" />
+            <element signature="n#get_post_ancestors#0;n#!!top" expanded="false" />
+            <element signature="e#20020#20852#0#PHP" expanded="false" />
+            <element signature="n#get_post_field#0;n#!!top" expanded="false" />
+            <element signature="e#21103#21432#0#PHP" expanded="false" />
+            <element signature="n#get_post_mime_type#0;n#!!top" expanded="false" />
+            <element signature="e#21576#21892#0#PHP" expanded="false" />
+            <element signature="n#get_post_status#0;n#!!top" expanded="false" />
+            <element signature="e#22846#23086#0#PHP" expanded="false" />
+            <element signature="n#get_post_statuses#0;n#!!top" expanded="false" />
+            <element signature="e#23295#23533#0#PHP" expanded="false" />
+            <element signature="n#get_page_statuses#0;n#!!top" expanded="false" />
+            <element signature="e#23703#26545#0#PHP" expanded="false" />
+            <element signature="n#register_post_status#0;n#!!top" expanded="false" />
+            <element signature="e#28259#28538#0#PHP" expanded="false" />
+            <element signature="n#get_post_status_object#0;n#!!top" expanded="false" />
+            <element signature="e#28724#29521#0#PHP" expanded="false" />
+            <element signature="n#get_post_stati#0;n#!!top" expanded="false" />
+            <element signature="e#29762#30039#0#PHP" expanded="false" />
+            <element signature="n#is_post_type_hierarchical#0;n#!!top" expanded="false" />
+            <element signature="e#30236#30431#0#PHP" expanded="false" />
+            <element signature="n#post_type_exists#0;n#!!top" expanded="false" />
+            <element signature="e#30528#30789#0#PHP" expanded="false" />
+            <element signature="n#get_post_type#0;n#!!top" expanded="false" />
+            <element signature="e#30911#31279#0#PHP" expanded="false" />
+            <element signature="n#get_post_type_object#0;n#!!top" expanded="false" />
+            <element signature="e#31488#32358#0#PHP" expanded="false" />
+            <element signature="n#get_post_types#0;n#!!top" expanded="false" />
+            <element signature="e#32593#44283#0#PHP" expanded="false" />
+            <element signature="n#register_post_type#0;n#!!top" expanded="false" />
+            <element signature="e#45528#45847#0#PHP" expanded="false" />
+            <element signature="n#unregister_post_type#0;n#!!top" expanded="false" />
+            <element signature="e#46743#49669#0#PHP" expanded="false" />
+            <element signature="n#get_post_type_capabilities#0;n#!!top" expanded="false" />
+            <element signature="e#51633#51883#0#PHP" expanded="false" />
+            <element signature="n#_post_type_meta_capabilities#0;n#!!top" expanded="false" />
+            <element signature="e#52161#56300#0#PHP" expanded="false" />
+            <element signature="n#get_post_type_labels#0;n#!!top" expanded="false" />
+            <element signature="e#59167#59570#0#PHP" expanded="false" />
+            <element signature="n#_get_custom_object_labels#0;n#!!top" expanded="false" />
+            <element signature="e#60867#60944#0#PHP" expanded="false" />
+            <element signature="n#_add_post_type_submenus#0;n#!!top" expanded="false" />
+            <element signature="e#61375#62228#0#PHP" expanded="false" />
+            <element signature="n#add_post_type_support#0;n#!!top" expanded="false" />
+            <element signature="e#62572#62825#0#PHP" expanded="false" />
+            <element signature="n#remove_post_type_support#0;n#!!top" expanded="false" />
+            <element signature="e#62984#63176#0#PHP" expanded="false" />
+            <element signature="n#get_all_post_type_supports#0;n#!!top" expanded="false" />
+            <element signature="e#63383#63686#0#PHP" expanded="false" />
+            <element signature="n#post_type_supports#0;n#!!top" expanded="false" />
+            <element signature="e#63846#64479#0#PHP" expanded="false" />
+            <element signature="n#get_post_types_by_support#0;n#!!top" expanded="false" />
+            <element signature="e#64736#65231#0#PHP" expanded="false" />
+            <element signature="n#set_post_type#0;n#!!top" expanded="false" />
+            <element signature="e#65540#66090#0#PHP" expanded="false" />
+            <element signature="n#is_post_type_viewable#0;n#!!top" expanded="false" />
+            <element signature="e#66365#67482#0#PHP" expanded="false" />
+            <element signature="n#get_posts#0;n#!!top" expanded="false" />
+            <element signature="e#68543#69030#0#PHP" expanded="false" />
+            <element signature="n#add_post_meta#0;n#!!top" expanded="false" />
+            <element signature="e#69317#69883#0#PHP" expanded="false" />
+            <element signature="n#delete_post_meta#0;n#!!top" expanded="false" />
+            <element signature="e#70155#70611#0#PHP" expanded="false" />
+            <element signature="e#70735#71390#0#PHP" expanded="false" />
+            <element signature="n#update_post_meta#0;n#!!top" expanded="false" />
+            <element signature="e#71688#71910#0#PHP" expanded="false" />
+            <element signature="n#delete_post_meta_by_key#0;n#!!top" expanded="false" />
+            <element signature="e#72034#72368#0#PHP" expanded="false" />
+            <element signature="n#get_post_custom#0;n#!!top" expanded="false" />
+            <element signature="e#72529#72804#0#PHP" expanded="false" />
+            <element signature="n#get_post_custom_keys#0;n#!!top" expanded="false" />
+            <element signature="e#72987#73396#0#PHP" expanded="false" />
+            <element signature="n#get_post_custom_values#0;n#!!top" expanded="false" />
+            <element signature="e#73583#73898#0#PHP" expanded="false" />
+            <element signature="n#is_sticky#0;n#!!top" expanded="false" />
+            <element signature="e#74183#74815#0#PHP" expanded="false" />
+            <element signature="n#sanitize_post#0;n#!!top" expanded="false" />
+            <element signature="e#75641#76348#0#PHP" expanded="false" />
+            <element signature="n#sanitize_post_field#0;n#!!top" expanded="false" />
+            <element signature="e#80098#80251#0#PHP" expanded="false" />
+            <element signature="n#stick_post#0;n#!!top" expanded="false" />
+            <element signature="n#unstick_post#0;n#!!top" expanded="false" />
+            <element signature="e#81456#81740#0#PHP" expanded="false" />
+            <element signature="n#_count_posts_cache_key#0;n#!!top" expanded="false" />
+            <element signature="e#82130#82935#0#PHP" expanded="false" />
+            <element signature="n#wp_count_posts#0;n#!!top" expanded="false" />
+            <element signature="e#84563#85215#0#PHP" expanded="false" />
+            <element signature="n#wp_count_attachments#0;n#!!top" expanded="false" />
+            <element signature="e#86188#86291#0#PHP" expanded="false" />
+            <element signature="n#get_post_mime_types#0;n#!!top" expanded="false" />
+            <element signature="e#87030#87570#0#PHP" expanded="false" />
+            <element signature="n#wp_match_mime_types#0;n#!!top" expanded="false" />
+            <element signature="e#88744#89141#0#PHP" expanded="false" />
+            <element signature="n#wp_post_mime_type_where#0;n#!!top" expanded="false" />
+            <element signature="e#90617#91376#0#PHP" expanded="false" />
+            <element signature="n#wp_delete_post#0;n#!!top" expanded="false" />
+            <element signature="e#95200#95444#0#PHP" expanded="false" />
+            <element signature="n#_reset_front_page_settings_for_post#0;n#!!top" expanded="false" />
+            <element signature="e#95975#96339#0#PHP" expanded="false" />
+            <element signature="n#wp_trash_post#0;n#!!top" expanded="false" />
+            <element signature="e#97133#97340#0#PHP" expanded="false" />
+            <element signature="n#wp_untrash_post#0;n#!!top" expanded="false" />
+            <element signature="e#98140#98409#0#PHP" expanded="false" />
+            <element signature="n#wp_trash_post_comments#0;n#!!top" expanded="false" />
+            <marker date="1503496304220" expanded="true" signature="57523:57539" ph="Insert into post... " />
+            <marker date="1503496304220" expanded="true" signature="57549:57565" ph="Insert into page... " />
+            <marker date="1503496304220" expanded="true" signature="83341:83425" ph="SELECT post_... $" />
+            <marker date="1503496304220" expanded="true" signature="85361:85512" ph="SELECT post_... wp_posts" />
+            <marker date="1503496304220" expanded="true" signature="85682:85775" ph="SELECT COUNT... wp_posts" />
+            <marker date="1503496304220" expanded="true" signature="91503:91543" ph="SELECT * FRO... wp_posts" />
+            <marker date="1503496304220" expanded="true" signature="92950:93018" ph="SELECT * FRO... wp_posts" />
+            <marker date="1503496304220" expanded="true" signature="93343:93420" ph="SELECT ID FR... wp_posts" />
+            <marker date="1503496304220" expanded="true" signature="93872:93937" ph="SELECT comme... wp_comments" />
+            <marker date="1503496304220" expanded="true" signature="94130:94184" ph="SELECT meta_... wp_postmeta" />
+            <marker date="1503496304220" expanded="true" signature="98772:98855" ph="SELECT comme... wp_comments" />
+            <marker date="1503496304220" expanded="true" signature="100777:100860" ph="UPDATE wp_co... " />
+            <marker date="1503496304220" expanded="true" signature="121241:121282" ph="SELECT ID FR... wp_posts" />
+            <marker date="1503496304220" expanded="true" signature="132781:132857" ph="SELECT post_... wp_posts" />
+            <marker date="1503496304220" expanded="true" signature="133930:134065" ph="SELECT post_... wp_posts" />
+            <marker date="1503496304220" expanded="true" signature="135183:135278" ph="SELECT post_... wp_posts" />
+            <marker date="1503496304220" expanded="true" signature="149433:149485" ph="SELECT ID FR... wp_posts" />
+            <marker date="1503496304220" expanded="true" signature="152069:152209" ph="SELECT ID, p... wp_posts" />
+            <marker date="1503496304220" expanded="true" signature="154026:154124" ph="SELECT ID FR... wp_posts" />
+            <marker date="1503496304220" expanded="true" signature="154185:154262" ph="SELECT ID FR... wp_posts" />
+            <marker date="1503496304220" expanded="true" signature="166353:166411" ph="SELECT * FRO... wp_posts" />
+            <marker date="1503496304220" expanded="true" signature="170821:170861" ph="SELECT * FRO... wp_posts" />
+            <marker date="1503496304220" expanded="true" signature="171979:172044" ph="SELECT comme... wp_comments" />
+            <marker date="1503496304220" expanded="true" signature="172238:172292" ph="SELECT meta_... wp_postmeta" />
+            <marker date="1503496304220" expanded="true" signature="172863:172982" ph="SELECT meta_... wp_postmeta" />
+            <marker date="1503496304220" expanded="true" signature="195141:195286" ph="SELECT post_... " />
+            <marker date="1503496304220" expanded="true" signature="195342:195483" ph="SELECT post_... " />
+            <marker date="1503496304220" expanded="true" signature="195579:195773" ph="SELECT DATE_... " />
+            <marker date="1503496304220" expanded="true" signature="206547:206657" ph="SELECT ID FR... wp_posts" />
+            <marker date="1503496304220" expanded="true" signature="209178:209234" ph="SELECT wp_po... wp_posts" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/date.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="1049" column="9" lean-forward="false" selection-start-line="1049" selection-start-column="9" selection-end-line="1049" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-includes/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="60" column="9" lean-forward="false" selection-start-line="60" selection-start-column="9" selection-end-line="60" selection-end-column="9" />
+          <folding>
+            <marker date="1503315324535" expanded="true" signature="17236:17340" ph="SELECT meta_... wp_postmeta" />
+            <marker date="1503315324535" expanded="true" signature="18399:18503" ph="SELECT post_... wp_postmeta" />
+            <marker date="1503315324535" expanded="true" signature="38380:38449" ph="SELECT optio... wp_options" />
+            <marker date="1503315324535" expanded="true" signature="147101:147197" ph="SELECT post_... wp_postmeta" />
+            <marker date="1503315324535" expanded="true" signature="147660:147762" ph="SELECT comme... wp_commentmeta" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-includes/class-wp-query.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="3354" column="20" lean-forward="false" selection-start-line="3354" selection-start-column="20" selection-end-line="3354" selection-end-column="20" />
+          <folding>
+            <marker date="1503315326857" expanded="true" signature="77345:77440" ph="SELECT ${$di... " />
+            <marker date="1503315326857" expanded="true" signature="85673:85771" ph="SELECT ${$fo... $" />
+            <marker date="1503315326857" expanded="true" signature="88589:88697" ph="SELECT ${$fo... " />
+            <marker date="1503315326857" expanded="true" signature="91005:91090" ph="SELECT ${{$w... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wpadverts/templates/manage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-811">
+          <caret line="32" column="44" lean-forward="false" selection-start-line="32" selection-start-column="44" selection-end-line="32" selection-end-column="44" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
+            <marker date="1503915638923" expanded="true" signature="157:230" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wpadverts/templates/add-preview.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="33" lean-forward="true" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+          <folding>
+            <element signature="n#style#0;n#input#2;n#form#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#2;n#form#1;n#!!top" expanded="true" />
+            <marker date="1503928460200" expanded="true" signature="947:1240" ph="..." />
+            <marker date="1503928460200" expanded="true" signature="1295:1482" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/wpadverts/templates/add.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+        <state relative-caret-position="153">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <marker date="1503923075973" expanded="true" signature="2020:2069" ph="..." />
+            <marker date="1503923075973" expanded="true" signature="2070:2239" ph="..." />
+            <marker date="1503923075973" expanded="true" signature="2368:3032" ph="..." />
+            <marker date="1503923075973" expanded="true" signature="2423:3009" ph="..." />
+            <marker date="1503923075973" expanded="true" signature="2602:2982" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wpadverts/includes/gallery.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="169" column="44" lean-forward="true" selection-start-line="169" selection-start-column="44" selection-end-line="169" selection-end-column="44" />
           <folding />
         </state>
       </provider>
