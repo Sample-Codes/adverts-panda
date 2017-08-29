@@ -61,7 +61,15 @@
 </div>
 
 <div class="adverts-content">
-    <?php echo $post_content ?>
+
+    <?php
+        if(substr_count($post_content,'***') > 0 ){
+            echo '<p style="color: red">Введены запрещённые слова</p>';
+            echo $post_content;
+        }else echo $post_content
+    ?>
+
+    <?php //echo $post_content ?>
 </div>
 
 <?php do_action( "adverts_tpl_single_bottom", $post_id ) ?>

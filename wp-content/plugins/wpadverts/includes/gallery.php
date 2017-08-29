@@ -178,12 +178,6 @@ function adverts_gallery_content( $post = null, $conf = array() ) {
             require_once ADVERTS_PATH . "/includes/functions.php";
             $children = adverts_sort_images($children, $post->ID);
 
-            //SimplyWorld
-
-//                $img = adverts_single_rslides($post->ID );
-//            echo '<pre>'; var_dump($img); die;
-            //SimplyWorld
-
             foreach($children as $child) {
 
                 $data[] = adverts_upload_item_data( $child->ID );

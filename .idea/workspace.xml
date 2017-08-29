@@ -3,10 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="f8967dec-7335-4daa-aa19-08b38a8d1ebf" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpadverts/includes/functions.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wpadverts/includes/functions.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpadverts/includes/gallery.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wpadverts/includes/gallery.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpadverts/templates/add-preview.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wpadverts/templates/add-preview.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpadverts/templates/add.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wpadverts/templates/add.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpadverts/templates/single.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wpadverts/templates/single.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,184 +20,28 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="gallery.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/plugins/wpadverts/includes/gallery.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="182" column="60" lean-forward="false" selection-start-line="182" selection-start-column="60" selection-end-line="183" selection-end-column="48" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="add-preview.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/plugins/wpadverts/templates/add-preview.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+            <state relative-caret-position="456">
+              <caret line="71" column="7" lean-forward="true" selection-start-line="71" selection-start-column="7" selection-end-line="71" selection-end-column="7" />
               <folding>
                 <element signature="n#style#0;n#input#2;n#form#1;n#!!top" expanded="true" />
-                <marker date="1503994455578" expanded="true" signature="1131:1141" ph="..." />
-                <marker date="1503994455578" expanded="true" signature="1935:2122" ph="..." />
+                <marker date="1503997104173" expanded="true" signature="1179:1189" ph="..." />
+                <marker date="1503997104173" expanded="true" signature="1391:1401" ph="..." />
+                <marker date="1503997104173" expanded="true" signature="2293:2480" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/plugins/wpadverts/includes/functions.php">
+      <file leaf-file-name="single.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/plugins/wpadverts/templates/single.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="395">
-              <caret line="1934" column="53" lean-forward="true" selection-start-line="1919" selection-start-column="4" selection-end-line="1934" selection-end-column="53" />
+            <state relative-caret-position="272">
+              <caret line="63" column="0" lean-forward="true" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
               <folding>
-                <element signature="e#296#474#0#PHP" expanded="false" />
-                <element signature="n#adverts_config#0;n#!!top" expanded="false" />
-                <element signature="e#1862#1996#0#PHP" expanded="false" />
-                <element signature="n#adverts_config_default#0;n#!!top" expanded="false" />
-                <element signature="e#2527#2759#0#PHP" expanded="false" />
-                <element signature="n#adverts_config_set#0;n#!!top" expanded="false" />
-                <element signature="e#3314#3501#0#PHP" expanded="false" />
-                <element signature="n#adverts_config_save#0;n#!!top" expanded="false" />
-                <element signature="e#3994#4439#0#PHP" expanded="false" />
-                <element signature="n#adverts_taxonomy_get#0;n#!!top" expanded="false" />
-                <element signature="e#4767#5145#0#PHP" expanded="false" />
-                <element signature="n#adverts_taxonomy_update#0;n#!!top" expanded="false" />
-                <element signature="e#5509#5727#0#PHP" expanded="false" />
-                <element signature="n#adverts_tmp_post_status#0;n#!!top" expanded="false" />
-                <element signature="e#5835#6094#0#PHP" expanded="false" />
-                <element signature="n#adverts_request#0;n#!!top" expanded="false" />
-                <element signature="e#6352#6543#0#PHP" expanded="false" />
-                <element signature="n#adverts_file_is_image#0;n#!!top" expanded="false" />
-                <element signature="e#7089#7267#0#PHP" expanded="false" />
-                <element signature="n#adverts_price#0;n#!!top" expanded="false" />
-                <element signature="e#7753#7867#0#PHP" expanded="false" />
-                <element signature="n#adverts_get_the_price#0;n#!!top" expanded="false" />
-                <element signature="e#8218#8473#0#PHP" expanded="false" />
-                <element signature="n#adverts_get_main_image#0;n#!!top" expanded="false" />
-                <element signature="e#8976#9188#0#PHP" expanded="false" />
-                <element signature="n#adverts_the_content#0;n#!!top" expanded="false" />
-                <element signature="e#10122#10555#0#PHP" expanded="false" />
-                <element signature="n#adverts_posts_results#0;n#!!top" expanded="false" />
-                <element signature="e#11125#11584#0#PHP" expanded="false" />
-                <element signature="n#adverts_template_include#0;n#!!top" expanded="false" />
-                <element signature="e#11748#12072#0#PHP" expanded="false" />
-                <element signature="n#adverts_list_show_term_description#0;n#!!top" expanded="false" />
-                <element signature="e#12328#12456#0#PHP" expanded="false" />
-                <element signature="n#adverts_post_thumbnail_html#0;n#!!top" expanded="false" />
-                <element signature="e#12638#12812#0#PHP" expanded="false" />
-                <element signature="n#adverts_field_has_errors#0;n#!!top" expanded="false" />
-                <element signature="e#12988#13208#0#PHP" expanded="false" />
-                <element signature="n#adverts_field_has_validator#0;n#!!top" expanded="false" />
-                <element signature="e#13524#13709#0#PHP" expanded="false" />
-                <element signature="n#adverts_field_get_renderer#0;n#!!top" expanded="false" />
-                <element signature="e#13867#14057#0#PHP" expanded="false" />
-                <element signature="n#adverts_form_add_field#0;n#!!top" expanded="false" />
-                <element signature="e#14261#14374#0#PHP" expanded="false" />
-                <element signature="n#adverts_form_add_filter#0;n#!!top" expanded="false" />
-                <element signature="e#14604#14720#0#PHP" expanded="false" />
-                <element signature="n#adverts_form_add_validator#0;n#!!top" expanded="false" />
-                <element signature="e#14968#15097#0#PHP" expanded="false" />
-                <element signature="n#adverts_is_required#0;n#!!top" expanded="false" />
-                <element signature="e#15253#15403#0#PHP" expanded="false" />
-                <element signature="n#adverts_is_email#0;n#!!top" expanded="false" />
-                <element signature="e#15542#15831#0#PHP" expanded="false" />
-                <element signature="n#adverts_is_email_registered#0;n#!!top" expanded="false" />
-                <element signature="e#16213#16364#0#PHP" expanded="false" />
-                <element signature="n#adverts_is_url#0;n#!!top" expanded="false" />
-                <element signature="e#16554#16702#0#PHP" expanded="false" />
-                <element signature="n#adverts_is_integer#0;n#!!top" expanded="false" />
-                <element signature="e#16881#17019#0#PHP" expanded="false" />
-                <element signature="n#adverts_is_number#0;n#!!top" expanded="false" />
-                <element signature="e#17227#17401#0#PHP" expanded="false" />
-                <element signature="n#adverts_string_length#0;n#!!top" expanded="false" />
-                <element signature="e#17702#17950#0#PHP" expanded="false" />
-                <element signature="n#adverts_max_choices#0;n#!!top" expanded="false" />
-                <element signature="e#18128#18265#0#PHP" expanded="false" />
-                <element signature="n#adverts_filter_money#0;n#!!top" expanded="false" />
-                <element signature="e#18803#18952#0#PHP" expanded="false" />
-                <element signature="n#adverts_filter_url#0;n#!!top" expanded="false" />
-                <element signature="e#19028#19176#0#PHP" expanded="false" />
-                <element signature="n#adverts_filter_int#0;n#!!top" expanded="false" />
-                <element signature="e#19247#19396#0#PHP" expanded="false" />
-                <element signature="n#adverts_filter_float#0;n#!!top" expanded="false" />
-                <element signature="e#19531#19697#0#PHP" expanded="false" />
-                <element signature="n#adverts_filter_number#0;n#!!top" expanded="false" />
-                <element signature="e#19785#20021#0#PHP" expanded="false" />
-                <element signature="n#adverts_field_hidden#0;n#!!top" expanded="false" />
-                <element signature="e#20379#20592#0#PHP" expanded="false" />
-                <element signature="n#adverts_field_label#0;n#!!top" expanded="false" />
-                <element signature="e#20793#21092#0#PHP" expanded="false" />
-                <element signature="n#adverts_field_text#0;n#!!top" expanded="false" />
-                <element signature="e#21814#22384#0#PHP" expanded="false" />
-                <element signature="n#adverts_field_select#0;n#!!top" expanded="false" />
-                <element signature="e#24845#25157#0#PHP" expanded="false" />
-                <element signature="n#adverts_field_textarea#0;n#!!top" expanded="false" />
-                <element signature="e#26894#27213#0#PHP" expanded="false" />
-                <element signature="n#adverts_field_checkbox#0;n#!!top" expanded="false" />
-                <element signature="e#29282#29596#0#PHP" expanded="false" />
-                <element signature="n#adverts_field_radio#0;n#!!top" expanded="false" />
-                <element signature="e#30484#30761#0#PHP" expanded="false" />
-                <element signature="n#adverts_field_account#0;n#!!top" expanded="false" />
-                <element signature="e#31595#31770#0#PHP" expanded="false" />
-                <element signature="n#adverts_field_gallery#0;n#!!top" expanded="false" />
-                <element signature="e#32192#32626#0#PHP" expanded="false" />
-                <element signature="n#adverts_save_single#0;n#!!top" expanded="false" />
-                <element signature="e#32827#33240#0#PHP" expanded="false" />
-                <element signature="n#adverts_save_multi#0;n#!!top" expanded="false" />
-                <element signature="e#33739#34176#0#PHP" expanded="false" />
-                <element signature="n#adverts_bind_single#0;n#!!top" expanded="false" />
-                <element signature="e#34661#35163#0#PHP" expanded="false" />
-                <element signature="n#adverts_bind_multi#0;n#!!top" expanded="false" />
-                <element signature="e#35830#35986#0#PHP" expanded="false" />
-                <element signature="n#adverts_admin_flash#0;n#!!top" expanded="false" />
-                <element signature="e#36442#36690#0#PHP" expanded="false" />
-                <element signature="n#adverts_admin_js_redirect#0;n#!!top" expanded="false" />
-                <element signature="e#37063#37218#0#PHP" expanded="false" />
-                <element signature="n#adverts_form_layout_config#0;n#!!top" expanded="false" />
-                <element signature="e#39798#40027#0#PHP" expanded="false" />
-                <element signature="n#adverts_walk_category_dropdown_tree#0;n#!!top" expanded="false" />
-                <element signature="e#40502#40736#0#PHP" expanded="false" />
-                <element signature="n#adverts_taxonomies#0;n#!!top" expanded="false" />
-                <element signature="e#41399#41533#0#PHP" expanded="false" />
-                <element signature="n#adverts_get_ip#0;n#!!top" expanded="false" />
-                <element signature="e#41958#42242#0#PHP" expanded="false" />
-                <element signature="n#adverts_currency_list#0;n#!!top" expanded="false" />
-                <element signature="e#45259#45495#0#PHP" expanded="false" />
-                <element signature="n#advert_term_path#0;n#!!top" expanded="false" />
-                <element signature="e#45855#46092#0#PHP" expanded="false" />
-                <element signature="n#advert_category_path#0;n#!!top" expanded="false" />
-                <element signature="e#46194#46392#0#PHP" expanded="false" />
-                <element signature="n#adverts_category_post_count#0;n#!!top" expanded="false" />
-                <element signature="e#46736#47147#0#PHP" expanded="false" />
-                <element signature="n#adverts_css_rem_fix#0;n#!!top" expanded="false" />
-                <element signature="e#47312#47575#0#PHP" expanded="false" />
-                <element signature="n#adverts_disable_default_archive#0;n#!!top" expanded="false" />
-                <element signature="e#47760#48084#0#PHP" expanded="false" />
-                <element signature="n#adverts_plugin_uploaded#0;n#!!top" expanded="false" />
-                <element signature="e#48302#48812#0#PHP" expanded="false" />
-                <element signature="n#adverts_create_user_from_post_id#0;n#!!top" expanded="false" />
-                <element signature="e#49423#49886#0#PHP" expanded="false" />
-                <element signature="n#_adverts_create_user_from_post_id#0;n#!!top" expanded="false" />
-                <element signature="e#50855#51117#0#PHP" expanded="false" />
-                <element signature="n#adverts_css_classes#0;n#!!top" expanded="false" />
-                <element signature="e#51352#52186#0#PHP" expanded="false" />
-                <element signature="n#adverts_sort_images#0;n#!!top" expanded="false" />
-                <element signature="e#52555#52810#0#PHP" expanded="false" />
-                <element signature="e#54193#54476#0#PHP" expanded="false" />
-                <element signature="n#adverts_single_contact_information#0;n#!!top" expanded="false" />
-                <element signature="e#55429#55784#0#PHP" expanded="false" />
-                <element signature="n#adverts_form_search_reveal_hidden#0;n#!!top" expanded="false" />
-                <element signature="e#56094#56431#0#PHP" expanded="false" />
-                <element signature="n#adverts_form_search_display_hidden#0;n#!!top" expanded="false" />
-                <element signature="e#56763#57051#0#PHP" expanded="false" />
-                <element signature="n#adverts_remove_account_field#0;n#!!top" expanded="false" />
-                <element signature="e#57356#57657#0#PHP" expanded="false" />
-                <element signature="n#adverts_post_class#0;n#!!top" expanded="false" />
-                <element signature="e#57875#58442#0#PHP" expanded="false" />
-                <element signature="n#adverts_delete_post#0;n#!!top" expanded="false" />
-                <element signature="e#58758#59128#0#PHP" expanded="false" />
-                <element signature="n#adverts_add_menu_classes#0;n#!!top" expanded="false" />
-                <marker date="1503993139857" expanded="true" signature="23624:23630" ph=" " />
+                <marker date="1503997233813" expanded="true" signature="2865:2875" ph="..." />
               </folding>
             </state>
           </provider>
@@ -208,8 +51,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Simply</find>
-      <find>order</find>
       <find>publish</find>
       <find>wc_pending</find>
       <find>button wp-generate-pw hide-if-no-js</find>
@@ -238,6 +79,8 @@
       <find>post_author</find>
       <find>form</find>
       <find>_post_id</find>
+      <find>$post_content</find>
+      <find>post_content</find>
     </findStrings>
     <dirStrings>
       <dir>C:\OpenServer\domains\www.secondtz.com\www.adverts-test.tk</dir>
@@ -263,9 +106,10 @@
         <option value="$PROJECT_DIR$/wp-admin/includes/user.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/wpadverts/templates/manage.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/wpadverts/templates/add.php" />
-        <option value="$PROJECT_DIR$/wp-content/plugins/wpadverts/includes/gallery.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/wpadverts/includes/functions.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/wpadverts/includes/gallery.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/wpadverts/templates/add-preview.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/wpadverts/templates/single.php" />
       </list>
     </option>
   </component>
@@ -517,7 +361,7 @@
       <workItem from="1503642436421" duration="17000000" />
       <workItem from="1503901288665" duration="689000" />
       <workItem from="1503906838141" duration="24339000" />
-      <workItem from="1503989233711" duration="5240000" />
+      <workItem from="1503989233711" duration="8016000" />
     </task>
     <task id="LOCAL-00001" summary="first action....">
       <created>1503408625035</created>
@@ -582,15 +426,22 @@
       <option name="project" value="LOCAL" />
       <updated>1503928606170</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="make 65% from 100% Установлен плагин, для стоп-слов... работает не корректно. Подсчёт картин, и предуприждение">
+      <created>1503994519844</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1503994519844</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="127790000" />
+    <option name="totallyTimeSpent" value="130566000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15355521" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23373677" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -642,13 +493,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/sg-window/woocommerce.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/sg-window/front-page.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -1229,28 +1073,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wpadverts/templates/add.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding>
-            <marker date="1503929269245" expanded="true" signature="1998:2047" ph="..." />
-            <marker date="1503929269245" expanded="true" signature="2048:2217" ph="..." />
-            <marker date="1503929269245" expanded="true" signature="2346:3010" ph="..." />
-            <marker date="1503929269245" expanded="true" signature="2401:2987" ph="..." />
-            <marker date="1503929269245" expanded="true" signature="2580:2960" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wpadverts/includes/gallery.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="182" column="60" lean-forward="false" selection-start-line="182" selection-start-column="60" selection-end-line="183" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/DOMCore.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="194">
@@ -1261,8 +1083,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/wpadverts/includes/functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="1934" column="53" lean-forward="true" selection-start-line="1919" selection-start-column="4" selection-end-line="1934" selection-end-column="53" />
+        <state relative-caret-position="191">
+          <caret line="1922" column="0" lean-forward="true" selection-start-line="1922" selection-start-column="0" selection-end-line="1922" selection-end-column="0" />
           <folding>
             <element signature="e#296#474#0#PHP" expanded="false" />
             <element signature="n#adverts_config#0;n#!!top" expanded="false" />
@@ -1416,14 +1238,43 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wpadverts/includes/gallery.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="178" column="66" lean-forward="false" selection-start-line="178" selection-start-column="66" selection-end-line="178" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wpadverts/templates/add.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#fieldset#0;n#form#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wpadverts/templates/single.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="63" column="0" lean-forward="true" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+          <folding>
+            <marker date="1503997233813" expanded="true" signature="2865:2875" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/wpadverts/templates/add-preview.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+        <state relative-caret-position="456">
+          <caret line="71" column="7" lean-forward="true" selection-start-line="71" selection-start-column="7" selection-end-line="71" selection-end-column="7" />
           <folding>
             <element signature="n#style#0;n#input#2;n#form#1;n#!!top" expanded="true" />
-            <marker date="1503994455578" expanded="true" signature="1131:1141" ph="..." />
-            <marker date="1503994455578" expanded="true" signature="1935:2122" ph="..." />
+            <marker date="1503997104173" expanded="true" signature="1179:1189" ph="..." />
+            <marker date="1503997104173" expanded="true" signature="1391:1401" ph="..." />
+            <marker date="1503997104173" expanded="true" signature="2293:2480" ph="..." />
           </folding>
         </state>
       </provider>
