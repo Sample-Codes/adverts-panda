@@ -39,25 +39,40 @@ $img = $images;
 $images = adverts_sort_images($images, $post_id);
 $countimg = count($images);
 $countstar = substr_count($post_content,'***');
+$pregurl = preg_match_all('@((https?://)?([-\\w]+\\.[-\\w\\.]+)+\\w(:\\d+)?(/([-\\w/_\\.]*(\\?\\S+)?)?)*)@', $post_content, $pregurl);
 
     if ($countimg > 5) {
         echo '<p style="color: red">Загружено больше чем 5 изображений, пожалуйста вернитесь в редактирование объявления и удалите лишние.</p>';
-
     }
-//        if(substr_count($post_content,'***') > 0 ){
-//            echo '<p style="color: red">Введены запрещённые слова</p>';
-//            echo $post_content;
-//        }else echo $post_content;
 
-//SimplyWorld
+    if (preg_match_all('@((https?://)?([-\\w]+\\.[-\\w\\.]+)+\\w(:\\d+)?(/([-\\w/_\\.]*(\\?\\S+)?)?)*)@', $post_content, $a)) {
+        echo '<p style="color: red">Запрещён ввод URL ссылок.</p>';
+    }
+
+
+
+//var_dump($pregurl);
+
+//$disabled = '';
+//if($time_passed > 3600 && $time_per_day > 86400) {
+//    $disabled = 'disabled';
+//}elseif ($countimg > 5) {
+//    $disabled = 'disabled';
+//} elseif ($countstar > 0) {
+//    $disabled = 'disabled';
+//}
+
+
 
 //echo '<pre>'; print_r($last_post_data);  echo '</pre>';
 //echo '<pre>'; print_r($new_post_data);  echo '</pre>';
-//echo '<pre>'; print_r($time_passed);  echo '</pre>';
-//echo '<pre>'; print_r($time_per_day);  echo '</pre>';
-echo '<pre>'; var_dump($countstar);  echo '</pre>';
+echo '<pre>'; print_r($time_passed);  echo '</pre>';
+echo '<pre>'; print_r($time_per_day);  echo '</pre>';
+//echo '<pre>'; var_dump($countstar);  echo '</pre>';
 //echo '<pre>'; print_r(get_posts($post_id));  echo '</pre>';
 //        die;
+
+//SimplyWorld
 ?>
 <form action="" method="post" style="display:inline">
     <input type="hidden" name="_adverts_action" value="" />
@@ -68,5 +83,8 @@ echo '<pre>'; var_dump($countstar);  echo '</pre>';
 <form action="" method="post" id="sub_post" style="display:inline">
     <input type="hidden" name="_adverts_action" value="save" />
     <input type="hidden" name="_post_id" id="_post_id" value="<?php esc_attr_e($post_id) ?>" />
-    <input type="submit" <?= ($time_passed > 3600 && $time_per_day > 86400 ? false : 'disabled') || $countimg > 5 ? 'disabled' : false ?> value="<?php _e("Publish Listing", "adverts") ?>" style="font-size:1.2em; display: <?//=$countimg > 5 ? 'none' : 'block'?>" class="adverts-cancel-unload" />
+    <input type="submit" <?= ($time_passed > 3600 && $time_per_day > 86400 ? false : 'disabled')
+                              || $countimg > 5 ? 'disabled' : false
+                              || $countstar > 0 ? 'disabled' : false
+                              || $pregurl !=true ? 'disabled' : false ?> value="<?php _e("Publish Listing", "adverts") ?>" style="font-size:1.2em; display: <?= $countstar > 0 ? 'none' : 'contents'?>" class="adverts-cancel-unload" />
 </form>
