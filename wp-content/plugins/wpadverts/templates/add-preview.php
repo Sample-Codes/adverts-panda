@@ -66,8 +66,8 @@ $pregurl = preg_match_all('@((https?://)?([-\\w]+\\.[-\\w\\.]+)+\\w(:\\d+)?(/([-
 
 //echo '<pre>'; print_r($last_post_data);  echo '</pre>';
 //echo '<pre>'; print_r($new_post_data);  echo '</pre>';
-echo '<pre>'; print_r($time_passed);  echo '</pre>';
-echo '<pre>'; print_r($time_per_day);  echo '</pre>';
+//echo '<pre>'; print_r($time_passed);  echo '</pre>';
+//echo '<pre>'; print_r($time_per_day);  echo '</pre>';
 //echo '<pre>'; var_dump($countstar);  echo '</pre>';
 //echo '<pre>'; print_r(get_posts($post_id));  echo '</pre>';
 //        die;
@@ -86,5 +86,5 @@ echo '<pre>'; print_r($time_per_day);  echo '</pre>';
     <input type="submit" <?= ($time_passed > 3600 && $time_per_day > 86400 ? false : 'disabled')
                               || $countimg > 5 ? 'disabled' : false
                               || $countstar > 0 ? 'disabled' : false
-                              || $pregurl !=true ? 'disabled' : false ?> value="<?php _e("Publish Listing", "adverts") ?>" style="font-size:1.2em; display: <?= $countstar > 0 ? 'none' : 'contents'?>" class="adverts-cancel-unload" />
+                              || $pregurl == true ? 'disabled' : false ?> value="<?php _e("Publish Listing", "adverts") ?>" style="font-size:1.2em" class="adverts-cancel-unload" />
 </form>
