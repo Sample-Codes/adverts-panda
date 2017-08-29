@@ -1,5 +1,5 @@
 <?php adverts_flash( $adverts_flash ) ?>
-<?php global $post; ?>
+
 <form action="" method="post" class="adverts-form adverts-form-aligned">
     <fieldset>
 

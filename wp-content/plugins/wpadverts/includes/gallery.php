@@ -181,7 +181,7 @@ function adverts_gallery_content( $post = null, $conf = array() ) {
             //SimplyWorld
 
 //                $img = adverts_single_rslides($post->ID );
-//                    echo '<pre>'; var_dump($img); die;
+//            echo '<pre>'; var_dump($img); die;
             //SimplyWorld
 
             foreach($children as $child) {
