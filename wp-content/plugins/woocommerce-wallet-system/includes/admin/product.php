@@ -12,10 +12,10 @@ function product_creation(){
 	$post = array(
 				'post_author' => get_current_user_ID(),
 				'post_content'=> '',
-				'post_status' => "publish",
+				'post_status' => "pending",
 				'post_title'  => "Wallet",
 				'post_parent' => '',
-				'post_type'   => "product" 
+				'post_type'   => "product"
 			);
 	if(empty($wallet->post_title)){
 		$post_id = wp_insert_post($post);
@@ -48,6 +48,7 @@ function product_creation(){
 		update_post_meta($post_id, '_product_version', '2.6.11');
 		update_post_meta($post_id, '_product_image_gallery', '');
 		update_post_meta($post_id, '_stock', '');
+
 		$wpdb->get_results("INSERT INTO {$wpdb->prefix}term_relationships ( object_id, term_taxonomy_id, term_order ) VALUES ($post_id, '6', '0'), ($post_id, '7', '0'), ($post_id, '14', '0') ");
 
 		// $wpdb->get_results("UPDATE {$wpdb->prefix}term_taxonomy SET count = (CASE term_id WHEN '2' THEN $term_2_count WHEN '6' THEN $term_6_count WHEN '7' THEN $term_7_count WHEN '14' THEN $term_14_count END ) WHERE term_id IN ( '2', '6', '7', '14' ) ");

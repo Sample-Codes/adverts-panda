@@ -12,7 +12,7 @@
  *
  * @since SG Window 1.0.0
  */
-      
+
 if ( ! isset( $content_width ) ) {
 	$content_width = 1280;
 }
@@ -34,12 +34,12 @@ if ( ! function_exists( 'sgwindow_setup' ) ) :
 function sgwindow_setup() {
 
 	load_theme_textdomain( 'sg-window', get_template_directory() . '/languages' );
-	
+
 	$defaults = sgwindow_get_defaults();
-	
+
 	global $sgwindow_sidebar_slug;
 	$sgwindow_sidebar_slug = null;
-	
+
 	/* new */
 	global $sgwindow_widget_sidebars;
 	$sgwindow_widget_sidebars = array();
@@ -50,19 +50,19 @@ function sgwindow_setup() {
 
 	/* custom layouts */
 	global $sgwindow_layout_class;
-	$sgwindow_layout_class = new sgwindow_Layout_Class();	
-	
+	$sgwindow_layout_class = new sgwindow_Layout_Class();
+
 	/* custom colors */
 	global $sgwindow_colors_class;
-	$sgwindow_colors_class = new sgwindow_Colors_Class();	
-		
+	$sgwindow_colors_class = new sgwindow_Colors_Class();
+
 	if ( get_theme_mod( 'is_show_top_menu', $defaults ['is_show_top_menu']) == '1' )
 		register_nav_menu( 'top1', __( 'First Top Menu', 'sg-window' ));
 	if ( get_theme_mod( 'is_show_secont_top_menu', $defaults ['is_show_secont_top_menu']) == '1' )
 		register_nav_menu( 'top2', __( 'Second Top Menu', 'sg-window' ));
 	if ( get_theme_mod( 'is_show_footer_menu', $defaults ['is_show_footer_menu']) == '1' )
 		register_nav_menu( 'footer', __( 'Footer Menu', 'sg-window' ));
-	
+
 	add_theme_support( 'automatic-feed-links' );
 
 	add_theme_support( 'custom-background', array(
@@ -70,9 +70,9 @@ function sgwindow_setup() {
 	) );
 
 	add_theme_support( 'post-thumbnails' );
-	
-	set_post_thumbnail_size( sgwindow_get_theme_mod( 'post_thumbnail_size' ) , 9999 ); 
-	
+
+	set_post_thumbnail_size( sgwindow_get_theme_mod( 'post_thumbnail_size' ) , 9999 );
+
 	$args = array(
 		'default-image'          => '',
 		'header-text'            => true,
@@ -83,23 +83,23 @@ function sgwindow_setup() {
 		'flex-width'             => true,
 	);
 	add_theme_support( 'custom-header', $args );
-	
+
 	add_theme_support( 'html5', array(
 		'search-form', 'comment-form', 'comment-list', 'caption'
 	) );
-	
+
 	add_theme_support( 'title-tag' );
-	
+
 	/*
 	 * Enable support for WooCommerce plugin.
 	 */
-	 
+
 	add_theme_support( 'woocommerce' );
-	
+
 	/*
 	 * Enable support for Jetpack Portfolio custom post type.
 	 */
-	 
+
 	add_theme_support( 'jetpack-portfolio' );
 
 }
@@ -109,7 +109,7 @@ endif;
 if ( ! function_exists( '_wp_render_title_tag' ) ) :
 /**
  *  Backwards compatibility for older versions (4.1)
- * 
+ *
  * @since SG Window 1.0.0
  */
 	function sgwindow_render_title() {
@@ -118,7 +118,7 @@ if ( ! function_exists( '_wp_render_title_tag' ) ) :
 	<?php
 	}
 	add_action( 'wp_head', 'sgwindow_render_title' );
-	
+
 /**
  * Create a nicely formatted and more specific title element text for output
  * in head of document, based on current view.
@@ -151,7 +151,7 @@ function sgwindow_wp_title( $title, $sep ) {
 	return $title;
 }
 add_filter( 'wp_title', 'sgwindow_wp_title', 10, 2 );
-	
+
 endif;
 
 /**
@@ -164,19 +164,19 @@ function sgwindow_get_font_url() {
 	$font = str_replace( ' ', '+', sgwindow_get_theme_mod( 'body_font' ) );
 	$heading_font = str_replace( ' ', '+', sgwindow_get_theme_mod( 'heading_font' ) );
 	$header_font = str_replace( ' ', '+', sgwindow_get_theme_mod( 'header_font' ) );
-	if ( '0' == $font && '0' == $heading_font && '0' == $header_font ) 
+	if ( '0' == $font && '0' == $heading_font && '0' == $header_font )
 		return $font_url;
-		
+
 	if ( '0' != $font && '0' != $heading_font )
 		$font .= '%7C';
-		
-	$font .= $heading_font;	
-	
+
+	$font .= $heading_font;
+
 	if ( '0' != $font && '0' != $header_font )
 		$font .= '%7C';
 
 	$font .= $header_font;
-	
+
 	/* translators: If there are characters in your language that are not supported
 	 * by Open Sans, Alegreya Sans, Allerta Stencil fonts, translate this to 'off'. Do not translate into your own language.
 	 */
@@ -184,7 +184,7 @@ function sgwindow_get_font_url() {
 		$subsets = 'latin,latin-ext';
 		$family = $font . ':300,400';
 
-		/* translators: To add an additional Open Sans character subset specific to your language,	
+		/* translators: To add an additional Open Sans character subset specific to your language,
 		 * translate this to 'greek', 'cyrillic' or 'vietnamese'. Do not translate into your own language.
 		 */
 		$subset = _x( 'no-subset', 'Font: add new subset (greek, cyrillic, vietnamese)', 'sg-window' );
@@ -204,7 +204,7 @@ function sgwindow_get_font_url() {
 			'subset' => $subsets,
 		);
 		$font_url = "//fonts.googleapis.com/css?family=" . $family . '&' . $subsets;
-		
+
 	}
 
 	return $font_url;
@@ -218,14 +218,14 @@ function sgwindow_get_font_url() {
 function sgwindow_scripts_styles() {
 
 	$defaults = sgwindow_get_defaults();
-	
+
 	// Add Genericons font.
 	wp_enqueue_style( 'sgwindow-genericons', get_template_directory_uri() . '/genericons/genericons.css', array(), '05.08.2015' );
-	
+
 	$font_url = sgwindow_get_font_url();
 	if ( ! empty( $font_url ) )
 		wp_enqueue_style( 'sgwindow-fonts', esc_url_raw( $font_url ), array(), null );
-		
+
 	// Loads our main stylesheet.
 	wp_enqueue_style( 'sgwindow-style', get_stylesheet_uri(), array(), '05.08.2015' );
 
@@ -235,19 +235,19 @@ function sgwindow_scripts_styles() {
 	 */
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) )
 		wp_enqueue_script( 'comment-reply' );
-		
+
 	// Adds JavaScript for handing the navigation menu and top sidebars hide-and-show behavior.
 	wp_enqueue_script( 'sgwindow-navigation', get_template_directory_uri() . '/js/navigation.js', array( 'jquery' ), '2015321', true );
-	
+
 	global $sgwindow_colors_class;
-	
+
 	wp_enqueue_style( 'sgwindow-colors', get_template_directory_uri() . '/css/scheme-' . esc_attr( sgwindow_get_theme_mod( 'color_scheme', $defaults['color_scheme'] ) ) . '.css', array(), '05.08.2015' );
-	
+
 	wp_enqueue_script( 'sgwindow-parallax', get_template_directory_uri() . '/js/parallax.js', array( 'jquery'), '05.08.2015', true );
 
 }
 add_action( 'wp_enqueue_scripts', 'sgwindow_scripts_styles' );
- 
+
 /**
  * Add Editor styles and fonts to Tiny MCE
  *
@@ -256,7 +256,7 @@ add_action( 'wp_enqueue_scripts', 'sgwindow_scripts_styles' );
 function sgwindow_add_editor_styles() {
 	// This theme styles the visual editor to resemble the theme style.
 	add_editor_style( array( 'css/editor-style.css', 'genericons/genericons.css' ) );
-	
+
 	$font_url = sgwindow_get_font_url();
 	if ( ! empty( $font_url ) )
 		 add_editor_style( $font_url );
@@ -276,43 +276,43 @@ function sgwindow_body_class( $classes ) {
 
 	$background_color = get_background_color();
 	$background_image = get_background_image();
-	
+
 	$defaults = sgwindow_get_defaults();
 
 	if(sgwindow_get_theme_mod('image_style') == 'boxed'){
 		$classes[] = 'boxed-image';
-	}	
+	}
 	if(sgwindow_get_theme_mod('content_style') == 'boxed'){
 		$classes[] = 'boxed-content';
 		$classes[] = 'boxed-header';
-	}	
+	}
 	/* new */
 	if(sgwindow_get_theme_mod('site_style') == 'boxed'){
 		$classes[] = 'boxed-site';
 	}
-	
+
 	if ( empty( $background_image ) ) {
 		if ( empty( $background_color ) )
 			$classes[] = 'custom-background';
 		elseif ( in_array( $background_color, array( 'ccc', 'cccccc' ) ) )
 			$classes[] = 'custom-background';
 	}
-	
+
 	// Enable custom class only if the header text enabled.
 	if ( display_header_text() ) {
 		$classes[] = 'header-text-is-on';
-	}	
-	
+	}
+
 	if( is_front_page() && '' == sgwindow_get_theme_mod('front_page_style') && ! is_home() ) {
 		$classes[] = 'no-content';
 	}
-	
+
 	// Enable custom font class only if the font CSS is queued to load.
 	if ( wp_style_is( 'sgwindow-fonts', 'queue' ) )
 		$classes[] = 'google-fonts-on';
 
 	// Enable custom class only if the logotype is active.
-	if ( get_theme_mod( 'logotype_url', $defaults['logotype_url'] ) != '' ) 
+	if ( get_theme_mod( 'logotype_url', $defaults['logotype_url'] ) != '' )
 		$classes[] = 'logo-is-on';
 
 	return $classes;
@@ -333,7 +333,7 @@ function sgwindow_title( $title, $id = null ) {
     if ( trim($title) == '' && (is_archive() || is_home() || is_search() ) ) {
         return ( esc_html( get_the_date() ) );
     }
-	
+
     return $title;
 }
 add_filter( 'the_title', 'sgwindow_title', 10, 2 );
@@ -371,7 +371,7 @@ function sgwindow_text_color( $color_scheme ) {
 	switch ($color_scheme) {
 		case '0':
 			$text_color = 'd0dff4';
-		break;		
+		break;
 		case '1':
 			$text_color = 'b7ba2a';
 		break;
@@ -415,7 +415,7 @@ function sgwindow_post_nav() {
 				else :
 					previous_post_link( '%link', __( '<span class="nav-previous-one">&larr; %title</span>', 'sg-window' ) );
 				endif;
-				
+
 			endif;
 			?>
 		</div><!-- .nav-links -->
@@ -474,7 +474,7 @@ function sgwindow_paging_nav() {
 	</nav><!-- .navigation -->
 	<?php
 	endif;
-	
+
 }
 endif;
 
@@ -535,50 +535,50 @@ if ( ! function_exists( 'sgwindow_posted_on' ) ) :
  * @since SG Window 1.0.0
  */
 function sgwindow_posted_on() {
-	
-	$is_author = ( is_singular() ? ( '1' == sgwindow_get_theme_mod( 'is_author' ) ? true : false ) : 
+
+	$is_author = ( is_singular() ? ( '1' == sgwindow_get_theme_mod( 'is_author' ) ? true : false ) :
 									( '1' == sgwindow_get_theme_mod( 'blog_is_author' ) ? true : false ) );
-									
-	$is_date = ( is_singular() ? ( '1' == sgwindow_get_theme_mod( 'is_date' ) ? true : false ) : 
+
+	$is_date = ( is_singular() ? ( '1' == sgwindow_get_theme_mod( 'is_date' ) ? true : false ) :
 									( '1' == sgwindow_get_theme_mod( 'blog_is_date' ) ? true : false ) );
-									
-	$is_comments = ( is_singular() ? ( '1' == sgwindow_get_theme_mod( 'is_comments' ) ? true : false ) : 
+
+	$is_comments = ( is_singular() ? ( '1' == sgwindow_get_theme_mod( 'is_comments' ) ? true : false ) :
 									( '1' == sgwindow_get_theme_mod( 'blog_is_comments' ) ? true : false ) );
-									
-	$is_views = ( is_singular() ? ( '1' == sgwindow_get_theme_mod( 'is_views' ) ? true : false ) : 
+
+	$is_views = ( is_singular() ? ( '1' == sgwindow_get_theme_mod( 'is_views' ) ? true : false ) :
 									( '1' == sgwindow_get_theme_mod( 'blog_is_views' ) ? true : false ) );
 	$rez = '';
 	// Set up and print post meta information.
 	if ( $is_date ) {
-	
+
 		echo '<span class="entry-date">
 					<a href="' . esc_url( get_permalink() ) . '" title="' . esc_attr( get_the_date( '' ) ) . '" rel="bookmark">
 						<span class="entry-date" datetime="' . esc_attr( get_the_date( '' ) ) . '">' . esc_html( get_the_date() ) .  '</span>
 					</a>
 			 </span>';
 	}
-	
+
 	if ( $is_author ) {
-	
+
 		echo '<span class="byline">
 				<span title="' . get_the_author() . '" class="author vcard">
 					<a class="url fn n" href="' . esc_url( get_author_posts_url( get_the_author_meta( 'ID' ) ) ) . '" rel="author">' . get_the_author() . '</a>
 				</span>
 			</span>';
 	}
-	
+
 	if ( $is_views ) {
-	
+
 		if( class_exists('Jetpack') && Jetpack::is_module_active('stats') && function_exists ( 'stats_get_csv' ) ) {
 			$result = $result = stats_get_csv( 'postviews', 'post_id=' . get_the_ID() . '&days=-1&limit=-1&summarize');
-			
-			echo '<span class="post-views" title="' . number_format_i18n( $result[0]['views'] ) . '">' 
+
+			echo '<span class="post-views" title="' . number_format_i18n( $result[0]['views'] ) . '">'
 					. number_format_i18n( $result[0]['views'] ) .
 			 '</span>';
-			
+
 		}
 	}
-	
+
 	if ( $is_comments ) {
 		if ( ! is_single() && ! post_password_required() && ( comments_open() || get_comments_number() ) ) {
 			echo '<span class="comments-link">';
@@ -598,15 +598,15 @@ if ( ! function_exists( 'sgwindow_content_width' ) ) :
  * @since SG Window 1.0.0
  */
 function sgwindow_content_width() {
-	
+
 	global $sgwindow_layout_class;
 	global $content_width;
-	
+
 	$curr_layout = $sgwindow_layout_class->get_layout();
 	$curr_content_layout = $sgwindow_layout_class->get_content_layout();
-	$content_columns = preg_replace('/[^0-9]/','',$curr_content_layout);	
+	$content_columns = preg_replace('/[^0-9]/','',$curr_content_layout);
 	$content_area_width = sgwindow_calc_content_width( $curr_layout );
-	$content_width = sgwindow_calc_content_column_width ($content_area_width, $content_columns); 
+	$content_width = sgwindow_calc_content_column_width ($content_area_width, $content_columns);
 }
 add_action( 'template_redirect', 'sgwindow_content_width' );
 
@@ -622,22 +622,22 @@ if ( ! function_exists( 'sgwindow_calc_content_column_width' ) ) :
  * @since SG Window 1.0.0
  */
 function sgwindow_calc_content_column_width( $width, $columns ) {
-	
+
 	switch( $columns ) {
 		case 1:
-		break;	
+		break;
 		case 2:
 			$width = $width/100*48;
-		break;	
+		break;
 		case 3:
 			$width = $width/100*30;
-		break;	
+		break;
 		case 4:
 			$width = $width/100*22;
 		break;
 	}
-	$width = absint($width - 2); 
-	
+	$width = absint($width - 2);
+
 	return $width;
 }
 endif;
@@ -657,7 +657,7 @@ function sgwindow_calc_content_width( $curr_layout ) {
 
 	if( 'left-sidebar' == $curr_layout) {
 		$content_width = $content_width - $content_width/100*sgwindow_get_theme_mod('width_column_1_left_rate') - 40;
-	} 
+	}
 	elseif( 'right-sidebar' == $curr_layout) {
 		$content_width = $content_width - $content_width/100*sgwindow_get_theme_mod('width_column_1_right_rate') - 40;
 	}
@@ -681,13 +681,13 @@ endif;
 function sgwindow_get_defaults() {
 
 	global $sgwindow_defaults;
-	
+
 	if(isset($sgwindow_defaults)) {
 		return $sgwindow_defaults;
 	}
-	
+
 	$defaults = array();
-	
+
 	/* slider defaults */
 	$defaults['slider_height'] = '80';
 	$defaults['slider_margin'] = '33';
@@ -695,9 +695,9 @@ function sgwindow_get_defaults() {
 	$defaults['slider_content_type'] = '0';
 	$defaults['slider_speed'] = '500';
 	$defaults['slider_delay'] = '4000';
-	
+
 	$defaults['is_thumbnail_empty_icon'] = '';
-	
+
 	$defaults['is_cat'] = '1';
 	$defaults['is_author'] = '1';
 	$defaults['is_date'] = '1';
@@ -709,25 +709,25 @@ function sgwindow_get_defaults() {
 	$defaults['blog_is_views'] = '';
 	$defaults['blog_is_comments'] = '1';
 	$defaults['blog_is_entry_meta'] = '';
-	
+
 	$defaults['is_sticky_first_menu'] = '';
 	$defaults['is_sticky_second_menu'] = '';
 	$defaults['site_style'] = 'full';
 	$defaults['are_we_saved'] = '';
 	$defaults['max_id'] = 0;
-	
+
 	$defaults['sidebar_widgets_count'] = '30';
-	
+
 	$defaults['is_defaults_post_thumbnail_background'] = '1';
 	$defaults['is_parallax_header'] = '';
 	$defaults['parallax_image_speed'] = 30;
 	$defaults['parallax_image_height'] = 400;
-	
+
 	$defaults['logotype_url'] =  get_template_directory_uri() . '/img/logo.png';
 	$defaults['is_show_top_menu'] = '1';
 	$defaults['is_show_secont_top_menu'] = '1';
 	$defaults['is_show_footer_menu'] = '';
-	$defaults['column_background_url'] = get_template_directory_uri().'/img/back.jpg';	
+	$defaults['column_background_url'] = get_template_directory_uri().'/img/back.jpg';
 	$defaults['post_thumbnail_size'] = '400';
 	$defaults['scroll_button'] = 'none';
 	$defaults['scroll_animate'] = 'none';
@@ -744,31 +744,31 @@ function sgwindow_get_defaults() {
 	$defaults['is_text_on_front_page_only'] = '';
 	$defaults['top'] = 'top';
 
-	$defaults['front_page_style'] = '1';	
+	$defaults['front_page_style'] = '1';
 	$defaults['is_home_footer'] = '';
 	$defaults['unit'] = 1;
-	
+
 	$defaults['width_site'] = '1680';
 	$defaults['width_main_wrapper'] = '1200';
 	$defaults['width_top_widget_area'] = '1680';
-	$defaults['width_content_no_sidebar'] = '1680';	
-	
+	$defaults['width_content_no_sidebar'] = '1680';
+
 	/* Header Image size */
 	$defaults['size_image'] = '1680';
 	$defaults['size_image_height'] = '400';
 	/* Header Image and top sidebar wrapper */
 	$defaults['width_image'] = '1680';
 	$defaults['width_content'] = '1200';
-	
+
 	$defaults['header_style'] = 'full';
 	$defaults['image_style'] = 'full';
 	$defaults['content_style'] = 'full';
-	
+
 	$defaults['width_column_1_rate'] = '22';
 	$defaults['width_column_1_left_rate'] = '34';
 	$defaults['width_column_1_right_rate'] = '34';
 	$defaults['width_column_2_rate'] = '22';
-	
+
 	/* post: excerpt/content */
 	$defaults['single_style'] = '';
 	$defaults['is_display_post_image'] = '1';
@@ -780,17 +780,17 @@ function sgwindow_get_defaults() {
 	$defaults['page_style'] = '';
 	$defaults['is_display_page_image'] = '1';
 	$defaults['is_display_page_title'] = '1';
-	
+
 	/* portfolio: excerpt/content */
 	$defaults['portfolio_style'] = 'excerpt';
 	$defaults['is_display_portfolio_image'] = '1';
 	$defaults['is_display_portfolio_title'] = '1';
 	$defaults['is_display_portfolio_tags'] = '1';
 	$defaults['is_display_portfolio_project'] = '1';
-	
+
 	$defaults['empty_image'] = get_template_directory_uri() . '/img/empty.png';;
 	$defaults['footer_text'] = '<a href="' . __( 'http://wordpress.org/', 'sg-window' ) . '">' . __( 'Powered by WordPress', 'sg-window' ). '</a> | ' . __( 'theme ', 'sg-window' ) . '<a href="' .  __( 'http://wpblogs.ru/themes/blog/theme/sg-window/', 'sg-window') . '">SG Window</a>';
-	
+
 	$defaults['width_mobile_switch'] = '960';
 	$defaults['columns_direction'] = 'c_1_2';
 	$defaults['is_mobile_column_1'] = '1';
@@ -799,148 +799,148 @@ function sgwindow_get_defaults() {
 /* declare theme sidebars */
 
 	$defaults['theme_sidebars']['column-1']  = array (
-													'title' => __( 'First column', 'sg-window' ), 
-													'is_checked' => '', 
+													'title' => __( 'First column', 'sg-window' ),
+													'is_checked' => '',
 													'is_constant' => '');
 	$defaults['theme_sidebars']['column-2']  = array (
-													'title' => __( 'Second column', 'sg-window' ), 
-													'is_checked' => '', 
+													'title' => __( 'Second column', 'sg-window' ),
+													'is_checked' => '',
 													'is_constant' => '');
 	$defaults['theme_sidebars']['sidebar-top']  = array (
 													'title' => __( 'First Top Sidebar', 'sg-window' ),
 													'is_checked' => '',
-													'is_constant' => '');	
+													'is_constant' => '');
 	$defaults['theme_sidebars']['sidebar-before-footer']  = array (
-													'title' => __( 'Before Footer Sidebar', 'sg-window' ), 
-													'is_checked' => '', 
-													'is_constant' => '');												
+													'title' => __( 'Before Footer Sidebar', 'sg-window' ),
+													'is_checked' => '',
+													'is_constant' => '');
 	$defaults['theme_sidebars']['sidebar-footer-1']  = array (
-													'title' => __( 'Footer Sidebar 1', 'sg-window' ), 
-													'is_checked' => '', 
-													'is_constant' => '1');	
+													'title' => __( 'Footer Sidebar 1', 'sg-window' ),
+													'is_checked' => '',
+													'is_constant' => '1');
 	$defaults['theme_sidebars']['sidebar-footer-2']  = array (
-													'title' => __( 'Footer Sidebar 2', 'sg-window' ), 
-													'is_checked' => '', 
-													'is_constant' => '1');	
+													'title' => __( 'Footer Sidebar 2', 'sg-window' ),
+													'is_checked' => '',
+													'is_constant' => '1');
 	$defaults['theme_sidebars']['sidebar-footer-3']  = array (
-													'title' => __( 'Footer Sidebar 3', 'sg-window' ), 
-													'is_checked' => '', 
+													'title' => __( 'Footer Sidebar 3', 'sg-window' ),
+													'is_checked' => '',
 													'is_constant' => '1');
 
 	/* order is important */
 	$defaults['defined_sidebars']['static'] = array(
 											'use' => '1',
 											'callback' => '',
-											'param' => '', 
-											'title' => __( 'Static', 'sg-window' ), 
+											'param' => '',
+											'title' => __( 'Static', 'sg-window' ),
 											'sidebar-footer-1' => '1',
 											);//Sidebars, visible on all posts and pages
 
 	$defaults['defined_sidebars']['default'] = array(
-											'use' => '1', 
-											'callback' => '', 
-											'param' => '', 
+											'use' => '1',
+											'callback' => '',
+											'param' => '',
 											'title' => __( 'Default', 'sg-window' ),
-											'sidebar-top' => '1', 
-											'column-1' => '1', 
+											'sidebar-top' => '1',
+											'column-1' => '1',
 											'column-2' => '1',
 											'sidebar-before-footer' => '1',
 											);
-	
+
 	$defaults['defined_sidebars']['page'] = array(
-											'use' => '', 
-											'callback' => 'is_page', 
-											'param' => '', 
+											'use' => '',
+											'callback' => 'is_page',
+											'param' => '',
 											'title' => __( 'Pages', 'sg-window' ),
 											'sidebar-top' => '1',
 											'sidebar-before-footer' => '1',
 											'column-1' => '',
-											'column-2' => '1', 
+											'column-2' => '1',
 											);
 	$defaults['defined_sidebars']['archive'] = array(
-											'use' => '', 
-											'callback' => 'is_archive', 
-											'param' => '', 
+											'use' => '',
+											'callback' => 'is_archive',
+											'param' => '',
 											'title' => __( 'Archive', 'sg-window' ),
 											'sidebar-top' => '1',
 											'sidebar-before-footer' => '1',
 											'column-1' => '1',
-											'column-2' => '1', 
+											'column-2' => '1',
 											);
 	$defaults['defined_sidebars']['portfolio-page'] = array(
-											'use' => '1', 
-											'callback' => 'sgwindow_is_portfolio_page', 
-											'param' => '', 
+											'use' => '1',
+											'callback' => 'sgwindow_is_portfolio_page',
+											'param' => '',
 											'title' => __( 'Portfolio (Page)', 'sg-window' ),
 											'sidebar-top' => '1',
 											'sidebar-before-footer' => '',
 											'column-1' => '',
-											'column-2' => '1', 
+											'column-2' => '1',
 											);
 	$defaults['defined_sidebars']['portfolio'] = array(
-											'use' => '1', 
-											'callback' => 'sgwindow_is_portfolio', 
-											'param' => '', 
+											'use' => '1',
+											'callback' => 'sgwindow_is_portfolio',
+											'param' => '',
 											'title' => __( 'Portfolio (Archive)', 'sg-window' ),
 											'sidebar-top' => '1',
 											'sidebar-before-footer' => '1',
 											'column-1' => '1',
-											'column-2' => '', 
+											'column-2' => '',
 											);
-											
+
  	if ( defined ( 'SGWINDOW' ) ) :
 
 	$defaults['defined_sidebars']['shop-page'] = array(
-											'use' => '1', 
-											'callback' => 'sgwindow_is_shop_page', 
-											'param' => '', 
+											'use' => '1',
+											'callback' => 'sgwindow_is_shop_page',
+											'param' => '',
 											'title' => __( 'Shop (Page)', 'sg-window' ),
 											'sidebar-top' => '',
 											'sidebar-before-footer' => '',
 											'column-1' => '',
-											'column-2' => '', 
-											);	
+											'column-2' => '',
+											);
 	$defaults['defined_sidebars']['shop'] = array(
-											'use' => '', 
-											'callback' => 'sgwindow_is_shop', 
-											'param' => '', 
+											'use' => '',
+											'callback' => 'sgwindow_is_shop',
+											'param' => '',
 											'title' => __( 'Shop (Archive)', 'sg-window' ),
 											'sidebar-top' => '1',
 											'sidebar-before-footer' => '1',
 											'column-1' => '',
-											'column-2' => '', 
+											'column-2' => '',
 											);
 	endif;
-	
+
 	$defaults['defined_sidebars']['blog'] = array(
-											'use' => '', 
-											'callback' => 'is_home', 
-											'param' => '', 
+											'use' => '',
+											'callback' => 'is_home',
+											'param' => '',
 											'title' => __( 'Blog', 'sg-window' ),
 											'sidebar-top' => '1',
 											'sidebar-before-footer' => '1',
 											'column-1' => '',
-											'column-2' => '', 
+											'column-2' => '',
 											);
 	$defaults['defined_sidebars']['search'] = array(
-											'use' => '', 
-											'callback' => 'is_search', 
+											'use' => '',
+											'callback' => 'is_search',
 											'param' => '',
 											'title' => __( 'Search', 'sg-window' ),
 											'sidebar-top' => '',
 											'sidebar-before-footer' => '',
 											'column-1' => '',
-											'column-2' => '', 
+											'column-2' => '',
 											);
 	$defaults['defined_sidebars']['home'] = array(
-											'use' => '1', 
-											'callback' => 'is_front_page', 
-											'param' => '', 
+											'use' => '1',
+											'callback' => 'is_front_page',
+											'param' => '',
 											'title' => __( 'Home', 'sg-window' ),
 											'sidebar-top' => '1',
 											'sidebar-before-footer' => '1',
 											'column-1' => '1',
-											'column-2' => '', 
+											'column-2' => '',
 											);
 	$defaults['defined_sidebars']['page404'] = array(
 											'use' => '1',
@@ -955,7 +955,7 @@ function sgwindow_get_defaults() {
 
 	$defaults['per_page_sidebars'] = array();
 
-	
+
 	return apply_filters( 'sgwindow_option_defaults', $defaults );
 }
 
@@ -1002,7 +1002,7 @@ function sgwindow_get_sidebar_width( $sidebar_id ) {
 	$sidebar_id = sgwindow_san_sidebar_id( $sidebar_id );
 	if( false == $sidebar_id)
 		return $width;
-				
+
 	switch ( $sidebar_id ) {
 		case 'sidebar-top':
 			$width = sgwindow_get_theme_mod('width_site');
@@ -1015,12 +1015,12 @@ function sgwindow_get_sidebar_width( $sidebar_id ) {
 		break;
 		case 'column-1':
 			$width = 300;
-		break;		
+		break;
 		case 'column-2':
 			$width = 300;
-		break;		
+		break;
 	}
-		
+
 	return $width;
 }
 
@@ -1036,13 +1036,13 @@ function sgwindow_get_content_prefix() {
 	if( 'post' == $post_type) {
 		$post_prefix = get_post_format();
 	} else {
-		$post_prefix = $post_type.'-'; 
+		$post_prefix = $post_type.'-';
 	}
 	if( is_search() || is_archive() || is_home() ) {
 		$name = $post_prefix . ( '' == $post_prefix ? '' : '-') . 'archive';
-		
+
 		$located = locate_template( $name . '.php' );
-		
+
 		if ( ! empty( $located ) ) {
 			return $name;
 		} else {
@@ -1054,7 +1054,7 @@ function sgwindow_get_content_prefix() {
 }
 
 /**
- * Check for 'flex' prefix 
+ * Check for 'flex' prefix
  *
  * @layout string content layout
  *
@@ -1087,9 +1087,9 @@ function sgwindow_site_info() {
 								)
 								); ?>
 		</div><!-- .site-info -->
-	
-	<?php endif; 
-	
+
+	<?php endif;
+
 	if ( 'none' != sgwindow_get_theme_mod( 'scroll_button' ) ) : ?>
 		<a href="#" class="scrollup <?php echo esc_attr( sgwindow_get_theme_mod( 'scroll_button' )).
 			esc_attr( 'none' == sgwindow_get_theme_mod( 'scroll_animate' ) ? '' : ' ' . sgwindow_get_theme_mod( 'scroll_animate' ) ); ?>"></a>
@@ -1112,28 +1112,28 @@ function sgwindow_hook_favicon() {
 add_action('wp_head', 'sgwindow_hook_favicon');
 
  /**
- * Retrieve the array of ids of all terms for the current archive page 
+ * Retrieve the array of ids of all terms for the current archive page
  *
  * @param string $tax, taxonomy name
  * @since SG Window 1.0.0
  */
 function sgwindow_get_tax_ids( $tax ) {
 	$tax_names = array();
-	
-	while ( have_posts() ) : the_post(); 
-			
+
+	while ( have_posts() ) : the_post();
+
 		$terms = get_the_terms( get_the_ID(), $tax );
-								
-		if ( $terms && ! is_wp_error( $terms ) ) : 
+
+		if ( $terms && ! is_wp_error( $terms ) ) :
 
 			foreach ( $terms as $id => $term ) {
 				$tax_names[ $term->term_id ] = $term->name;
 			}
 
 		endif;
-		
-	endwhile; 
-	
+
+	endwhile;
+
 	rewind_posts();
 
 	return array_unique( $tax_names );
@@ -1147,17 +1147,17 @@ function sgwindow_get_tax_ids( $tax ) {
  */
 function sgwindow_get_curr_tax_ids( $tax ) {
 	$tax_names = array();
-		
+
 	$terms = get_the_terms( get_the_ID(), $tax );
-							
-	if ( $terms && ! is_wp_error( $terms ) ) : 
+
+	if ( $terms && ! is_wp_error( $terms ) ) :
 
 		foreach ( $terms as $term ) {
 			$tax_names[] = $term->term_id;
 		}
 
 	endif;
-			
+
 	return array_unique( $tax_names );
 }
 
@@ -1169,17 +1169,17 @@ function sgwindow_get_curr_tax_ids( $tax ) {
  */
 function sgwindow_get_curr_tax_names( $tax ) {
 	$tax_names = array();
-		
+
 	$terms = get_the_terms( get_the_ID(), $tax );
-							
-	if ( $terms && ! is_wp_error( $terms ) ) : 
+
+	if ( $terms && ! is_wp_error( $terms ) ) :
 
 		foreach ( $terms as $term ) {
 			$tax_names[] = $term->name;
 		}
 
 	endif;
-			
+
 	return array_unique( $tax_names );
 }
 
@@ -1255,7 +1255,7 @@ function sgwindow_get_sidebar_widget( $layout ) {
 /**
  * Set excerpt length to 30 words
  *
- * @param string $length current length 
+ * @param string $length current length
  *
  * @since SG Window 1.0.0
  */
@@ -1298,7 +1298,7 @@ function sgwindow_the_excerpt( $charlength = 200 ) {
 function sgwindow_the_top_sidebar_widgets() {
 
 	the_widget( 'sgwindow_slider', 'title=&is_background=1&is_play=1' );
-	
+
 }
 add_action('sgwindow_empty_sidebar_top-home', 'sgwindow_the_top_sidebar_widgets', 20);
 
@@ -1308,9 +1308,9 @@ add_action('sgwindow_empty_sidebar_top-home', 'sgwindow_the_top_sidebar_widgets'
  * @since SG Window 1.0.0
  */
 function sgwindow_the_footer_sidebar_widgets() {
-			
+
 	the_widget( 'WP_Widget_Search', 'title=' );
-	
+
 }
 add_action('sgwindow_empty_sidebar_before_footer-home', 'sgwindow_the_footer_sidebar_widgets', 20);
 
@@ -1355,10 +1355,10 @@ function sgwindow_header() {
 				</a><!-- .logo-section -->
 			</div><!-- .logo-block -->
 		<?php endif; ?>
-		
+
 	<div class="menu-top">
-		<!-- First Top Menu -->		
-		<div class="nav-container top-1-navigation">						
+		<!-- First Top Menu -->
+		<div class="nav-container top-1-navigation">
 			<?php if ( sgwindow_get_theme_mod( 'is_show_top_menu' ) == '1' ) : ?>
 				<nav class="horisontal-navigation menu-1" role="navigation">
 					<?php if ( '' != sgwindow_get_theme_mod( 'logotype_url' ) ) : ?>
@@ -1374,7 +1374,7 @@ function sgwindow_header() {
 		</div><!-- .top-1-navigation .nav-container -->
 
 	<div class="sg-site-header-1">
-		
+
 		<div class="site-title">
 			<h1><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
 		</div><!-- .site-title -->
@@ -1382,10 +1382,10 @@ function sgwindow_header() {
 		<div class="site-description">
 			<h2><?php echo bloginfo( 'description' ); ?></h2>
 		</div><!-- .site-description -->
-		
+
 	</div><!-- .sg-site-header-1 -->
-			
-			<!-- Second Top Menu -->	
+
+			<!-- Second Top Menu -->
 			<?php if ( '1' == sgwindow_get_theme_mod( 'is_show_secont_top_menu') ) : ?>
 
 				<div class="nav-container top-navigation">
@@ -1400,7 +1400,7 @@ function sgwindow_header() {
 					</nav><!-- .menu-2 .horisontal-navigation -->
 					<div class="clear"></div>
 				</div><!-- .top-navigation.nav-container -->
-				
+
 			<?php endif; ?>
 		</div><!-- .menu-top  -->
 	</div><!-- .sg-site-header -->
@@ -1415,10 +1415,10 @@ add_action( 'sgwindow_header_top', 'sgwindow_header', 20 );
  */
 function sgwindow_header_image() {
 
-	if ( get_header_image() && ( sgwindow_get_theme_mod( 'is_header_on_front_page_only' ) != '1' || is_front_page() ) ) :	
-				
+	if ( get_header_image() && ( sgwindow_get_theme_mod( 'is_header_on_front_page_only' ) != '1' || is_front_page() ) ) :
+
 		if ( '1' != sgwindow_get_theme_mod( 'is_parallax_header' ) ) : ?>
-		
+
 			<!-- Banner -->
 			<div class="image-container">
 				<div class="image-wrapper">
@@ -1427,7 +1427,7 @@ function sgwindow_header_image() {
 					</a>
 				</div>
 			</div>
-			
+
 		<?php else : ?>
 
 			<!-- Banner -->
@@ -1437,9 +1437,9 @@ function sgwindow_header_image() {
 					</div><!-- .parallax-image -->
 				</div><!-- .my-image -->
 			</a>
-			
-		<?php endif; 
-		
+
+		<?php endif;
+
 	endif;
 }
 add_action( 'sgwindow_header_image', 'sgwindow_header_image', 20 );
@@ -1452,10 +1452,10 @@ add_action( 'sgwindow_header_image', 'sgwindow_header_image', 20 );
 function sgwindow_right_sidebar_default() {
 
 	if ( is_single() ) {
-	
+
 		the_widget( 'sgwindow_slider', 'title=' . __( 'Related Posts', 'sg-window' ) . '&is_background=1&is_play=&content_type=5&margin=0' );
 
-	} 	
+	}
 
 	the_widget( 'sgwindow_items_category', 'title='.__('Recent Posts', 'sg-window').
 								'&count=4'.
@@ -1579,3 +1579,56 @@ require get_template_directory() . '/inc/customize-info.php';
 
 //admin page
 require get_template_directory() . '/inc/admin-page.php';
+
+
+
+// function wc_mark_all_orders_as_complete($order_status, $order_id) {
+//  $order = new WC_Order($order_id);
+//  if ($order_status == 'wc-processing' && ( $order->status == 'wc-on-hold' || $order->status == 'wc-pending' || $order->status == 'wc-failed' )) {
+//  return 'wc-completed';
+//  }
+// return $order_status;
+//  }
+// add_filter('woocommerce_payment_complete_order_status', 'wc_mark_all_orders_as_complete', 10, 2);
+
+add_action( 'woocommerce_thankyou', 'custom_woocommerce_auto_complete_order' );
+function custom_woocommerce_auto_complete_order( $order_id ) {
+if ( ! $order_id ) {
+return;
+}
+$order = wc_get_order( $order_id );
+$order->update_status( 'completed' );
+}
+//
+// add_filter( 'wp_insert_post_data', 'prevent_post_change', 20, 2 );
+//
+// function prevent_post_change( $data, $postarr ) {
+//     if ( ! isset($postarr['ID']) || ! $postarr['ID'] ) return $data;
+//     if ( $postarr['post_type'] !== 'product' ) return $data; // only for products
+//     $old = get_post($postarr['ID']); // the post before update
+//     if (
+//         $data['post_type'] == "advert"
+//     ) {
+//         // set post to incomplete before being published
+//         $data['post_status'] = 'pending';
+//     }
+//     return $data;
+// }
+add_action( 'transition_post_status', 'wpse118970_post_status_new', 10, 3 );
+function wpse118970_post_status_new( $new_status, $old_status, $post ) {
+	// echo "new_status = ". $new_status ."<br/>";
+	// echo "old_status = ". $old_status ."<br/>";
+	// die;
+	//$i = 0;
+		if ($post->post_type == 'advert' && $old_status == 'draft') {
+			$post->post_status = 'publish';
+			wp_update_post( $post );
+			return;
+		}
+    if ( $post->post_type == 'advert' && $new_status == 'publish' && $old_status  != $new_status ) {
+        $post->post_status = 'draft';
+        wp_update_post( $post );
+				//$i=1;
+    }
+
+}

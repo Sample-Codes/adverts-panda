@@ -20,13 +20,13 @@
 
 // ** Параметры MySQL: Эту информацию можно получить у вашего хостинг-провайдера ** //
 /** Имя базы данных для WordPress */
-define('DB_NAME', 'ds2');
+define('DB_NAME', 'develop_panda');
 
 /** Имя пользователя MySQL */
-define('DB_USER', 'ds2');
+define('DB_USER', 'develop_panda');
 
 /** Пароль к базе данных MySQL */
-define('DB_PASSWORD', 'UI12roDs');
+define('DB_PASSWORD', 'T8b7H0q1');
 
 /** Имя сервера MySQL */
 define('DB_HOST', 'localhost');
@@ -54,8 +54,8 @@ define('AUTH_SALT',        'B-*pi(c%7j|,R-!K.nLIh)T}O,_rtXP&oq_aTx9*a}OT3m3ud*od
 define('SECURE_AUTH_SALT', '25SXgzERe`E&x=f&_KLi<ka9NS$@3P}fR`nY n#DZbT^!BD5Qa+Sw8Swp*sD[fKK');
 define('LOGGED_IN_SALT',   'VOZWqoEDmuLz07wy_S,Qf?ePYl&1Nik<pCdgm_vujb,RJEa0AGH;u*;J-ix}!(.S');
 define('NONCE_SALT',       'sjFLL#=Pt4U.PVR_)iR VT$LRhZ,GVIDwF*{_jP^n+n)6G!UeWD?XE_KnKW3Rypz');
-define('WP_SITEURL', 'http://ds2.systemethic.it/');
-define('WP_HOME', 'http://ds2.systemethic.it/');
+define('WP_SITEURL', 'http://develop.panda-code.com/');
+define('WP_HOME', 'http://develop.panda-code.com/');
 
 /**#@-*/
 

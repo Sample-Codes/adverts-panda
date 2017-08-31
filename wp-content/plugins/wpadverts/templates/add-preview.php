@@ -1,5 +1,6 @@
 <?php include apply_filters( "adverts_template_load", ADVERTS_PATH . 'templates/single.php' ); ?>
 
+<link rel='stylesheet' href='plugins/wpadverts/assets/css/simply.css' type='text/css' media='all'/>
 <hr/>
 
 <!-- SimplyWorld  получаем айди юзера-->
@@ -40,6 +41,7 @@ $images = adverts_sort_images($images, $post_id);
 $countimg = count($images);
 $countstar = substr_count($post_content,'***');
 $pregurl = preg_match_all('@((https?://)?([-\\w]+\\.[-\\w\\.]+)+\\w(:\\d+)?(/([-\\w/_\\.]*(\\?\\S+)?)?)*)@', $post_content, $pregurl);
+$left_time_to_msg = ceil((3600 - $time_passed)/60);
 
     if ($countimg > 5) {
         echo '<p style="color: red">Загружено больше чем 5 изображений, пожалуйста вернитесь в редактирование объявления и удалите лишние.</p>';
@@ -49,18 +51,12 @@ $pregurl = preg_match_all('@((https?://)?([-\\w]+\\.[-\\w\\.]+)+\\w(:\\d+)?(/([-
         echo '<p style="color: red">Запрещён ввод URL ссылок.</p>';
     }
 
+    if ($time_passed < 3600) {
+        echo '<div class="simply-info"><strong>Внимание!</strong><br>';
+        echo 'До нового сообщения осталось '. $left_time_to_msg .' минут.</div>';
+    }
 
 
-//var_dump($pregurl);
-
-//$disabled = '';
-//if($time_passed > 3600 && $time_per_day > 86400) {
-//    $disabled = 'disabled';
-//}elseif ($countimg > 5) {
-//    $disabled = 'disabled';
-//} elseif ($countstar > 0) {
-//    $disabled = 'disabled';
-//}
 
 
 
@@ -74,6 +70,7 @@ $pregurl = preg_match_all('@((https?://)?([-\\w]+\\.[-\\w\\.]+)+\\w(:\\d+)?(/([-
 
 //SimplyWorld
 ?>
+
 <form action="" method="post" style="display:inline">
     <input type="hidden" name="_adverts_action" value="" />
     <input type="hidden" name="_post_id" id="_post_id" value="<?php esc_attr_e($post_id) ?>" />
@@ -88,3 +85,16 @@ $pregurl = preg_match_all('@((https?://)?([-\\w]+\\.[-\\w\\.]+)+\\w(:\\d+)?(/([-
                               || $countstar > 0 ? 'disabled' : false
                               || $pregurl == true ? 'disabled' : false ?> value="<?php _e("Publish Listing", "adverts") ?>" style="font-size:1.2em" class="adverts-cancel-unload" />
 </form>
+
+<style>
+    .simply-info {
+        color: #000a0e;
+        background-color: rgba(210, 8, 8, 0.33);
+        border-color: #bce8f1;
+        padding: 8px 35px 8px 14px;
+        margin-bottom: 20px;
+        text-shadow: 0 1px 0 rgba(255,255,255,.5);
+        border: 1px solid #fbeed5;
+        -webkit-border-radius: 4px;
+    }
+</style>

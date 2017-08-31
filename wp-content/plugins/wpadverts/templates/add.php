@@ -13,12 +13,21 @@
 
         <?php if ( is_user_logged_in() ) : ?>
         <?php foreach($form->get_fields() as $field): ?>
+                <!-- SimplyWorld -->
+                <?php if($field["label"] == 'Информация об объявлении') {
+                    $field['label'] = '';
+                }?>
+                <?php if($field["label"] == 'Объявление') {
+                    $field['label'] = '';
+                }?>
+                <!-- SimplyWorld -->
 
         <div class="adverts-control-group <?php echo esc_attr( str_replace("_", "-", $field["type"] ) . " adverts-field-name-" . $field["name"] ) ?> <?php if(adverts_field_has_errors($field)): ?>adverts-field-error<?php endif; ?>">
 
             <?php if($field["type"] == "adverts_field_header"): ?>
 
             <div class="adverts-field-header">
+
                 <span class="adverts-field-header-title"><?php echo esc_html($field["label"]) ?></span>
 
                 <?php if( isset( $field["description"] ) ): ?>
@@ -27,16 +36,15 @@
             </div>
             <?php else: ?>
 
+
             <label for="<?php esc_attr_e($field["name"]) ?>">
                 <?php esc_html_e($field["label"]) ?>
-                <?php if(adverts_field_has_validator($field, "is_required")): ?>
+                <?php if(adverts_field_has_validator($field, "is_required") && !empty($field["label"])): ?>
                 <span class="adverts-form-required">*</span>
                 <?php endif; ?>
             </label>
 
             <?php call_user_func( adverts_field_get_renderer($field), $field) ?>
-
-
 
             <?php endif; ?>
 
@@ -47,6 +55,7 @@
                 <?php endforeach; ?>
             </ul>
             <?php endif; ?>
+
 
         </div>
         <?php endforeach; ?>
@@ -73,3 +82,8 @@
 
     </fieldset>
 </form>
+<style>
+    #post-7 > div > form > fieldset > div:nth-child(15) > div{
+        display: none;
+    }
+</style>
