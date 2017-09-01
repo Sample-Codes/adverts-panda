@@ -2,305 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8967dec-7335-4daa-aa19-08b38a8d1ebf" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/languages/admin-ru_RU.mo" afterPath="$PROJECT_DIR$/wp-content/languages/admin-ru_RU.mo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/languages/plugins/woocommerce-ru_RU.mo" afterPath="$PROJECT_DIR$/wp-content/languages/plugins/woocommerce-ru_RU.mo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/languages/ru_RU.mo" afterPath="$PROJECT_DIR$/wp-content/languages/ru_RU.mo" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/license.txt" afterPath="$PROJECT_DIR$/license.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-config.php" afterPath="$PROJECT_DIR$/wp-config.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/languages/admin-ru_RU.po" afterPath="$PROJECT_DIR$/wp-content/languages/admin-ru_RU.po" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/languages/ru_RU.po" afterPath="$PROJECT_DIR$/wp-content/languages/ru_RU.po" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/cyr3lat/cyr-to-lat.php" afterPath="$PROJECT_DIR$/wp-content/plugins/cyr3lat/cyr-to-lat.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/admin/add-ons.php" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/admin/add-ons.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/admin/admin-bar.php" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/admin/admin-bar.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/admin/admin-functions.php" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/admin/admin-functions.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/admin/basic-info.php" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/admin/basic-info.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/admin/general-settings.php" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/admin/general-settings.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/admin/manage-fields.php" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/admin/manage-fields.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/admin/pms-cross-promotion.php" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/admin/pms-cross-promotion.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/admin/register-version.php" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/admin/register-version.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/css/rtl.css" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/css/rtl.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/css/select2/select2.min.css" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/css/select2/select2.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/css/serial-notice.css" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/css/serial-notice.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/css/style-back-end.css" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/css/style-back-end.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/css/style-front-end.css" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/css/style-front-end.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/js/jquery-edit-profile.js" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/js/jquery-edit-profile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/js/jquery-email-confirmation.js" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/js/jquery-email-confirmation.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/js/jquery-epf-rf.js" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/js/jquery-epf-rf.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/js/jquery-manage-fields-live-change.js" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/js/jquery-manage-fields-live-change.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/js/jquery-pb-add-ons.js" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/js/jquery-pb-add-ons.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/js/jquery-pb-sitewide.js" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/js/jquery-pb-sitewide.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/js/select2/i18n/ar.js" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/js/select2/i18n/ar.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/js/select2/i18n/az.js" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/js/select2/i18n/az.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/js/select2/i18n/bg.js" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/js/select2/i18n/bg.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/js/select2/i18n/ca.js" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/js/select2/i18n/ca.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/js/select2/i18n/cs.js" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/js/select2/i18n/cs.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/js/select2/i18n/da.js" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/js/select2/i18n/da.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/js/select2/i18n/de.js" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/js/select2/i18n/de.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/js/select2/i18n/el.js" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/js/select2/i18n/el.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/js/select2/i18n/en.js" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/js/select2/i18n/en.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/js/select2/i18n/es.js" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/js/select2/i18n/es.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/js/select2/i18n/et.js" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/js/select2/i18n/et.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/js/select2/i18n/eu.js" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/js/select2/i18n/eu.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/js/select2/i18n/fa.js" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/js/select2/i18n/fa.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/js/select2/i18n/fi.js" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/js/select2/i18n/fi.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/js/select2/i18n/fr.js" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/js/select2/i18n/fr.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/js/select2/i18n/gl.js" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/js/select2/i18n/gl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/js/select2/i18n/he.js" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/js/select2/i18n/he.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/js/select2/i18n/hi.js" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/js/select2/i18n/hi.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/js/select2/i18n/hr.js" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/js/select2/i18n/hr.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/js/select2/i18n/hu.js" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/js/select2/i18n/hu.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/js/select2/i18n/id.js" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/js/select2/i18n/id.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/js/select2/i18n/is.js" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/js/select2/i18n/is.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/js/select2/i18n/it.js" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/js/select2/i18n/it.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/js/select2/i18n/ja.js" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/js/select2/i18n/ja.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/js/select2/i18n/km.js" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/js/select2/i18n/km.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/js/select2/i18n/ko.js" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/js/select2/i18n/ko.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/js/select2/i18n/lt.js" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/js/select2/i18n/lt.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/js/select2/i18n/lv.js" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/js/select2/i18n/lv.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/js/select2/i18n/mk.js" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/js/select2/i18n/mk.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/js/select2/i18n/ms.js" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/js/select2/i18n/ms.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/js/select2/i18n/nb.js" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/js/select2/i18n/nb.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/js/select2/i18n/nl.js" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/js/select2/i18n/nl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/js/select2/i18n/pl.js" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/js/select2/i18n/pl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/js/select2/i18n/pt-BR.js" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/js/select2/i18n/pt-BR.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/js/select2/i18n/pt.js" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/js/select2/i18n/pt.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/js/select2/i18n/ro.js" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/js/select2/i18n/ro.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/js/select2/i18n/ru.js" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/js/select2/i18n/ru.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/js/select2/i18n/sk.js" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/js/select2/i18n/sk.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/js/select2/i18n/sr-Cyrl.js" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/js/select2/i18n/sr-Cyrl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/js/select2/i18n/sr.js" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/js/select2/i18n/sr.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/js/select2/i18n/sv.js" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/js/select2/i18n/sv.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/js/select2/i18n/th.js" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/js/select2/i18n/th.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/js/select2/i18n/tr.js" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/js/select2/i18n/tr.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/js/select2/i18n/uk.js" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/js/select2/i18n/uk.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/js/select2/i18n/vi.js" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/js/select2/i18n/vi.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/js/select2/i18n/zh-CN.js" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/js/select2/i18n/zh-CN.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/js/select2/i18n/zh-TW.js" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/js/select2/i18n/zh-TW.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/js/select2/select2.min.js" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/js/select2/select2.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/Mustache/Autoloader.php" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/Mustache/Autoloader.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/Mustache/Compiler.php" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/Mustache/Compiler.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/Mustache/Context.php" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/Mustache/Context.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/Mustache/Engine.php" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/Mustache/Engine.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/Mustache/Exception.php" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/Mustache/Exception.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/Mustache/Exception/InvalidArgumentException.php" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/Mustache/Exception/InvalidArgumentException.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/Mustache/Exception/LogicException.php" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/Mustache/Exception/LogicException.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/Mustache/Exception/RuntimeException.php" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/Mustache/Exception/RuntimeException.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/Mustache/Exception/SyntaxException.php" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/Mustache/Exception/SyntaxException.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/Mustache/Exception/UnknownFilterException.php" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/Mustache/Exception/UnknownFilterException.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/Mustache/Exception/UnknownHelperException.php" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/Mustache/Exception/UnknownHelperException.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/Mustache/Exception/UnknownTemplateException.php" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/Mustache/Exception/UnknownTemplateException.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/Mustache/HelperCollection.php" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/Mustache/HelperCollection.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/Mustache/LambdaHelper.php" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/Mustache/LambdaHelper.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/Mustache/Loader.php" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/Mustache/Loader.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/Mustache/Loader/ArrayLoader.php" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/Mustache/Loader/ArrayLoader.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/Mustache/Loader/CascadingLoader.php" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/Mustache/Loader/CascadingLoader.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/Mustache/Loader/FilesystemLoader.php" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/Mustache/Loader/FilesystemLoader.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/Mustache/Loader/InlineLoader.php" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/Mustache/Loader/InlineLoader.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/Mustache/Loader/MutableLoader.php" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/Mustache/Loader/MutableLoader.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/Mustache/Loader/StringLoader.php" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/Mustache/Loader/StringLoader.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/Mustache/Logger.php" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/Mustache/Logger.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/Mustache/Logger/AbstractLogger.php" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/Mustache/Logger/AbstractLogger.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/Mustache/Logger/StreamLogger.php" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/Mustache/Logger/StreamLogger.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/Mustache/Parser.php" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/Mustache/Parser.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/Mustache/Template.php" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/Mustache/Template.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/Mustache/Tokenizer.php" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/Mustache/Tokenizer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/class_notices.php" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/class_notices.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/LICENSE" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/addon/comment/comment.js" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/addon/comment/comment.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/addon/comment/continuecomment.js" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/addon/comment/continuecomment.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/addon/dialog/dialog.css" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/addon/dialog/dialog.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/addon/dialog/dialog.js" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/addon/dialog/dialog.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/addon/display/fullscreen.css" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/addon/display/fullscreen.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/addon/display/fullscreen.js" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/addon/display/fullscreen.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/addon/display/placeholder.js" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/addon/display/placeholder.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/addon/edit/closebrackets.js" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/addon/edit/closebrackets.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/addon/edit/closetag.js" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/addon/edit/closetag.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/addon/edit/continuelist.js" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/addon/edit/continuelist.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/addon/edit/matchbrackets.js" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/addon/edit/matchbrackets.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/addon/edit/matchtags.js" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/addon/edit/matchtags.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/addon/edit/trailingspace.js" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/addon/edit/trailingspace.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/addon/fold/brace-fold.js" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/addon/fold/brace-fold.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/addon/fold/comment-fold.js" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/addon/fold/comment-fold.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/addon/fold/foldcode.js" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/addon/fold/foldcode.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/addon/fold/foldgutter.js" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/addon/fold/foldgutter.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/addon/fold/indent-fold.js" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/addon/fold/indent-fold.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/addon/fold/xml-fold.js" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/addon/fold/xml-fold.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/addon/hint/anyword-hint.js" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/addon/hint/anyword-hint.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/addon/hint/css-hint.js" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/addon/hint/css-hint.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/addon/hint/html-hint.js" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/addon/hint/html-hint.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/addon/hint/javascript-hint.js" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/addon/hint/javascript-hint.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/addon/hint/pig-hint.js" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/addon/hint/pig-hint.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/addon/hint/python-hint.js" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/addon/hint/python-hint.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/addon/hint/show-hint.css" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/addon/hint/show-hint.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/addon/hint/show-hint.js" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/addon/hint/show-hint.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/addon/hint/xml-hint.js" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/addon/hint/xml-hint.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/addon/lint/coffeescript-lint.js" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/addon/lint/coffeescript-lint.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/addon/lint/css-lint.js" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/addon/lint/css-lint.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/addon/lint/javascript-lint.js" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/addon/lint/javascript-lint.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/addon/lint/json-lint.js" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/addon/lint/json-lint.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/addon/lint/lint.css" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/addon/lint/lint.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/addon/lint/lint.js" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/addon/lint/lint.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/addon/merge/dep/diff_match_patch.js" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/addon/merge/dep/diff_match_patch.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/addon/merge/merge.css" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/addon/merge/merge.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/addon/merge/merge.js" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/addon/merge/merge.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/addon/mode/loadmode.js" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/addon/mode/loadmode.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/addon/mode/multiplex.js" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/addon/mode/multiplex.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/addon/mode/multiplex_test.js" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/addon/mode/multiplex_test.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/addon/mode/overlay.js" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/addon/mode/overlay.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/addon/runmode/colorize.js" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/addon/runmode/colorize.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/addon/runmode/runmode-standalone.js" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/addon/runmode/runmode-standalone.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/addon/runmode/runmode.js" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/addon/runmode/runmode.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/addon/runmode/runmode.node.js" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/addon/runmode/runmode.node.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/addon/scroll/scrollpastend.js" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/addon/scroll/scrollpastend.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/addon/search/match-highlighter.js" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/addon/search/match-highlighter.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/addon/search/search.js" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/addon/search/search.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/addon/search/searchcursor.js" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/addon/search/searchcursor.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/addon/selection/active-line.js" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/addon/selection/active-line.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/addon/selection/mark-selection.js" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/addon/selection/mark-selection.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/addon/tern/tern.css" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/addon/tern/tern.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/addon/tern/tern.js" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/addon/tern/tern.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/addon/tern/worker.js" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/addon/tern/worker.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/lib/codemirror.css" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/lib/codemirror.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/lib/codemirror.js" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/lib/codemirror.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/mode/css/css.js" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/mode/css/css.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/mode/css/index.html" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/mode/css/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/mode/css/scss.html" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/mode/css/scss.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/mode/css/scss_test.js" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/mode/css/scss_test.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/mode/css/test.js" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/mode/css/test.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/mode/htmlembedded/htmlembedded.js" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/mode/htmlembedded/htmlembedded.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/mode/htmlembedded/index.html" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/mode/htmlembedded/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/mode/htmlmixed/htmlmixed.js" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/mode/htmlmixed/htmlmixed.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/mode/htmlmixed/index.html" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/mode/htmlmixed/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/mode/http/http.js" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/mode/http/http.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/mode/http/index.html" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/mode/http/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/mode/index.html" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/mode/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/mode/javascript/index.html" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/mode/javascript/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/mode/javascript/javascript.js" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/mode/javascript/javascript.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/mode/javascript/test.js" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/mode/javascript/test.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/mode/javascript/typescript.html" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/mode/javascript/typescript.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/mode/meta.js" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/mode/meta.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/mode/php/index.html" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/mode/php/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/mode/php/php.js" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/mode/php/php.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/mode/xml/index.html" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/mode/xml/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/mode/xml/xml.js" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/codemirror/mode/xml/xml.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/wck-api/assets/country/country-select.php" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/wck-api/assets/country/country-select.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/wck-api/assets/datepicker/datepicker.css" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/wck-api/assets/datepicker/datepicker.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/wck-api/assets/js/tiny_mce/license.txt" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/wck-api/assets/js/tiny_mce/license.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/wck-api/assets/js/tiny_mce/plugins/directionality/editor_plugin_src.js" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/wck-api/assets/js/tiny_mce/plugins/directionality/editor_plugin_src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/wck-api/assets/js/tiny_mce/plugins/fullscreen/editor_plugin_src.js" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/wck-api/assets/js/tiny_mce/plugins/fullscreen/editor_plugin_src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/wck-api/assets/js/tiny_mce/plugins/fullscreen/fullscreen.htm" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/wck-api/assets/js/tiny_mce/plugins/fullscreen/fullscreen.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/wck-api/assets/js/tiny_mce/plugins/inlinepopups/editor_plugin_src.js" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/wck-api/assets/js/tiny_mce/plugins/inlinepopups/editor_plugin_src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/wck-api/assets/js/tiny_mce/plugins/inlinepopups/skins/clearlooks2/window.css" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/wck-api/assets/js/tiny_mce/plugins/inlinepopups/skins/clearlooks2/window.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/wck-api/assets/js/tiny_mce/plugins/inlinepopups/template.htm" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/wck-api/assets/js/tiny_mce/plugins/inlinepopups/template.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/wck-api/assets/js/tiny_mce/plugins/media/css/media.css" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/wck-api/assets/js/tiny_mce/plugins/media/css/media.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/wck-api/assets/js/tiny_mce/plugins/media/editor_plugin_src.js" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/wck-api/assets/js/tiny_mce/plugins/media/editor_plugin_src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/wck-api/assets/js/tiny_mce/plugins/media/js/embed.js" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/wck-api/assets/js/tiny_mce/plugins/media/js/embed.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/wck-api/assets/js/tiny_mce/plugins/media/js/media.js" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/wck-api/assets/js/tiny_mce/plugins/media/js/media.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/wck-api/assets/js/tiny_mce/plugins/media/langs/en_dlg.js" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/wck-api/assets/js/tiny_mce/plugins/media/langs/en_dlg.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/wck-api/assets/js/tiny_mce/plugins/media/media.htm" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/wck-api/assets/js/tiny_mce/plugins/media/media.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/wck-api/assets/js/tiny_mce/plugins/paste/editor_plugin_src.js" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/wck-api/assets/js/tiny_mce/plugins/paste/editor_plugin_src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/wck-api/assets/js/tiny_mce/plugins/paste/js/pastetext.js" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/wck-api/assets/js/tiny_mce/plugins/paste/js/pastetext.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/wck-api/assets/js/tiny_mce/plugins/paste/js/pasteword.js" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/wck-api/assets/js/tiny_mce/plugins/paste/js/pasteword.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/wck-api/assets/js/tiny_mce/plugins/paste/pastetext.htm" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/wck-api/assets/js/tiny_mce/plugins/paste/pastetext.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/wck-api/assets/js/tiny_mce/plugins/paste/pasteword.htm" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/wck-api/assets/js/tiny_mce/plugins/paste/pasteword.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/wck-api/assets/js/tiny_mce/plugins/spellchecker/css/content.css" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/wck-api/assets/js/tiny_mce/plugins/spellchecker/css/content.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/wck-api/assets/js/tiny_mce/plugins/spellchecker/editor_plugin_src.js" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/wck-api/assets/js/tiny_mce/plugins/spellchecker/editor_plugin_src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/wck-api/assets/js/tiny_mce/plugins/tabfocus/editor_plugin_src.js" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/wck-api/assets/js/tiny_mce/plugins/tabfocus/editor_plugin_src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/wck-api/assets/js/tiny_mce/plugins/wordcount/editor_plugin_src.js" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/wck-api/assets/js/tiny_mce/plugins/wordcount/editor_plugin_src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/wck-api/assets/js/tiny_mce/themes/advanced/about.htm" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/wck-api/assets/js/tiny_mce/themes/advanced/about.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/wck-api/assets/js/tiny_mce/themes/advanced/anchor.htm" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/wck-api/assets/js/tiny_mce/themes/advanced/anchor.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/wck-api/assets/js/tiny_mce/themes/advanced/charmap.htm" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/wck-api/assets/js/tiny_mce/themes/advanced/charmap.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/wck-api/assets/js/tiny_mce/themes/advanced/color_picker.htm" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/wck-api/assets/js/tiny_mce/themes/advanced/color_picker.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/wck-api/assets/js/tiny_mce/themes/advanced/editor_template_src.js" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/wck-api/assets/js/tiny_mce/themes/advanced/editor_template_src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/wck-api/assets/js/tiny_mce/themes/advanced/image.htm" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/wck-api/assets/js/tiny_mce/themes/advanced/image.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/wck-api/assets/js/tiny_mce/themes/advanced/js/about.js" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/wck-api/assets/js/tiny_mce/themes/advanced/js/about.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/wck-api/assets/js/tiny_mce/themes/advanced/js/anchor.js" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/wck-api/assets/js/tiny_mce/themes/advanced/js/anchor.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/wck-api/assets/js/tiny_mce/themes/advanced/js/charmap.js" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/wck-api/assets/js/tiny_mce/themes/advanced/js/charmap.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/wck-api/assets/js/tiny_mce/themes/advanced/js/color_picker.js" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/wck-api/assets/js/tiny_mce/themes/advanced/js/color_picker.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/wck-api/assets/js/tiny_mce/themes/advanced/js/image.js" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/wck-api/assets/js/tiny_mce/themes/advanced/js/image.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/wck-api/assets/js/tiny_mce/themes/advanced/js/link.js" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/wck-api/assets/js/tiny_mce/themes/advanced/js/link.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/wck-api/assets/js/tiny_mce/themes/advanced/js/source_editor.js" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/wck-api/assets/js/tiny_mce/themes/advanced/js/source_editor.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/wck-api/assets/js/tiny_mce/themes/advanced/langs/en_dlg.js" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/wck-api/assets/js/tiny_mce/themes/advanced/langs/en_dlg.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/wck-api/assets/js/tiny_mce/themes/advanced/link.htm" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/wck-api/assets/js/tiny_mce/themes/advanced/link.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/wck-api/assets/js/tiny_mce/themes/advanced/shortcuts.htm" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/wck-api/assets/js/tiny_mce/themes/advanced/shortcuts.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/wck-api/assets/js/tiny_mce/themes/advanced/skins/default/content.css" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/wck-api/assets/js/tiny_mce/themes/advanced/skins/default/content.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/wck-api/assets/js/tiny_mce/themes/advanced/skins/default/dialog.css" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/wck-api/assets/js/tiny_mce/themes/advanced/skins/default/dialog.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/wck-api/assets/js/tiny_mce/themes/advanced/skins/default/ui.css" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/wck-api/assets/js/tiny_mce/themes/advanced/skins/default/ui.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/wck-api/assets/js/tiny_mce/themes/advanced/skins/wp_theme/content.css" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/wck-api/assets/js/tiny_mce/themes/advanced/skins/wp_theme/content.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/wck-api/assets/js/tiny_mce/themes/advanced/skins/wp_theme/dialog.css" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/wck-api/assets/js/tiny_mce/themes/advanced/skins/wp_theme/dialog.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/wck-api/assets/js/tiny_mce/themes/advanced/skins/wp_theme/ui.css" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/wck-api/assets/js/tiny_mce/themes/advanced/skins/wp_theme/ui.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/wck-api/assets/js/tiny_mce/themes/advanced/source_editor.htm" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/wck-api/assets/js/tiny_mce/themes/advanced/source_editor.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/wck-api/assets/js/tiny_mce/tiny_mce_popup.js" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/wck-api/assets/js/tiny_mce/tiny_mce_popup.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/wck-api/assets/js/tiny_mce/utils/editable_selects.js" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/wck-api/assets/js/tiny_mce/utils/editable_selects.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/wck-api/assets/js/tiny_mce/utils/form_utils.js" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/wck-api/assets/js/tiny_mce/utils/form_utils.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/wck-api/assets/js/tiny_mce/utils/mctabs.js" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/wck-api/assets/js/tiny_mce/utils/mctabs.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/wck-api/assets/js/tiny_mce/utils/validate.js" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/wck-api/assets/js/tiny_mce/utils/validate.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/wck-api/assets/js/tiny_mce/wck_tiny_mce_init.js" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/wck-api/assets/js/tiny_mce/wck_tiny_mce_init.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/wck-api/fields/checkbox.php" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/wck-api/fields/checkbox.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/wck-api/fields/country select.php" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/wck-api/fields/country select.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/wck-api/fields/cpt select.php" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/wck-api/fields/cpt select.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/wck-api/fields/datepicker.php" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/wck-api/fields/datepicker.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/wck-api/fields/nested repeater.php" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/wck-api/fields/nested repeater.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/wck-api/fields/radio.php" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/wck-api/fields/radio.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/wck-api/fields/select.php" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/wck-api/fields/select.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/wck-api/fields/text.php" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/wck-api/fields/text.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/wck-api/fields/textarea.php" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/wck-api/fields/textarea.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/wck-api/fields/upload.js" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/wck-api/fields/upload.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/wck-api/fields/upload.php" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/wck-api/fields/upload.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/wck-api/fields/user select.php" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/wck-api/fields/user select.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/wck-api/fields/wysiwyg editor.php" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/wck-api/fields/wysiwyg editor.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/wck-api/readme.txt" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/wck-api/readme.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/wck-api/wordpress-creation-kit.css" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/wck-api/wordpress-creation-kit.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/wck-api/wordpress-creation-kit.js" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/wck-api/wordpress-creation-kit.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/wck-api/wordpress-creation-kit.php" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/lib/wck-api/wordpress-creation-kit.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/misc/fallback-page.php" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/misc/fallback-page.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/misc/plugin-compatibilities.php" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/assets/misc/plugin-compatibilities.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/features/class-list-table.php" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/features/class-list-table.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/features/email-confirmation/class-email-confirmation.php" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/features/email-confirmation/class-email-confirmation.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/features/email-confirmation/email-confirmation.php" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/features/email-confirmation/email-confirmation.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/features/functions.php" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/features/functions.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/features/login-widget/login-widget.php" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/features/login-widget/login-widget.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/features/roles-editor/assets/css/roles-editor.css" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/features/roles-editor/assets/css/roles-editor.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/features/roles-editor/assets/font/wppb_re_font.svg" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/features/roles-editor/assets/font/wppb_re_font.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/features/roles-editor/assets/js/roles-editor.js" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/features/roles-editor/assets/js/roles-editor.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/features/roles-editor/roles-editor.php" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/features/roles-editor/roles-editor.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/features/upgrades/upgrades-functions.php" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/features/upgrades/upgrades-functions.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/features/upgrades/upgrades.php" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/features/upgrades/upgrades.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/front-end/class-formbuilder.php" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/front-end/class-formbuilder.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/front-end/default-fields/aim/aim.php" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/front-end/default-fields/aim/aim.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/front-end/default-fields/blog-details/blog-details.php" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/front-end/default-fields/blog-details/blog-details.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/front-end/default-fields/default-fields.php" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/front-end/default-fields/default-fields.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/front-end/default-fields/description/description.php" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/front-end/default-fields/description/description.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/front-end/default-fields/display-name/display-name.php" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/front-end/default-fields/display-name/display-name.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/front-end/default-fields/email/email.php" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/front-end/default-fields/email/email.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/front-end/default-fields/first-name/first-name.php" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/front-end/default-fields/first-name/first-name.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/front-end/default-fields/headings/about-yourself.php" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/front-end/default-fields/headings/about-yourself.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/front-end/default-fields/headings/contact-info.php" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/front-end/default-fields/headings/contact-info.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/front-end/default-fields/headings/name.php" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/front-end/default-fields/headings/name.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/front-end/default-fields/jabber/jabber.php" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/front-end/default-fields/jabber/jabber.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/front-end/default-fields/last-name/last-name.php" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/front-end/default-fields/last-name/last-name.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/front-end/default-fields/nickname/nickname.php" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/front-end/default-fields/nickname/nickname.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/front-end/default-fields/password-repeat/password-repeat.php" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/front-end/default-fields/password-repeat/password-repeat.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/front-end/default-fields/password/password.php" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/front-end/default-fields/password/password.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/front-end/default-fields/recaptcha/recaptcha.php" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/front-end/default-fields/recaptcha/recaptcha.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/front-end/default-fields/user-role/user-role.php" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/front-end/default-fields/user-role/user-role.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/front-end/default-fields/username/username.php" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/front-end/default-fields/username/username.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/front-end/default-fields/website/website.php" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/front-end/default-fields/website/website.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/front-end/default-fields/yim/yim.php" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/front-end/default-fields/yim/yim.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/front-end/edit-profile.php" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/front-end/edit-profile.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/front-end/login.php" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/front-end/login.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/front-end/logout.php" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/front-end/logout.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/front-end/recover.php" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/front-end/recover.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/front-end/register.php" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/front-end/register.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/profile-builder/wpml-config.xml" afterPath="$PROJECT_DIR$/wp-content/plugins/profile-builder/wpml-config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-wallet-system/includes/admin/product.php" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce-wallet-system/includes/admin/product.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/assets/css/twenty-seventeen.scss" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/assets/css/twenty-seventeen.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/i18n/languages/woocommerce.pot" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/i18n/languages/woocommerce.pot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpadverts/templates/add-preview.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wpadverts/templates/add-preview.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpadverts/templates/add.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wpadverts/templates/add.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpadverts-wc/wpadverts-wc.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wpadverts-wc/wpadverts-wc.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpadverts/addons/payments/includes/ajax.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wpadverts/addons/payments/includes/ajax.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpadverts/addons/payments/payments.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wpadverts/addons/payments/payments.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpadverts/wpadverts.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wpadverts/wpadverts.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/sg-window/functions.php" afterPath="$PROJECT_DIR$/wp-content/themes/sg-window/functions.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/images/crystal/license.txt" afterPath="$PROJECT_DIR$/wp-includes/images/crystal/license.txt" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -314,40 +21,31 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="add-preview.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/plugins/wpadverts/templates/add-preview.php">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="ajax.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wp-content/plugins/wpadverts/addons/payments/includes/ajax.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="53" column="22" lean-forward="false" selection-start-line="53" selection-start-column="22" selection-end-line="53" selection-end-column="22" />
+            <state relative-caret-position="422">
+              <caret line="84" column="14" lean-forward="false" selection-start-line="84" selection-start-column="14" selection-end-line="84" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/sg-window/functions.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="196">
+              <caret line="1640" column="12" lean-forward="false" selection-start-line="1640" selection-start-column="12" selection-end-line="1640" selection-end-column="12" />
               <folding>
-                <marker date="1504171232795" expanded="true" signature="1466:1476" ph="..." />
-                <marker date="1504171232795" expanded="true" signature="1746:1756" ph="..." />
-                <marker date="1504171232795" expanded="true" signature="2421:2714" ph="..." />
-                <marker date="1504171232795" expanded="true" signature="2783:3029" ph="..." />
-                <marker date="1504171232795" expanded="true" signature="3375:3700" ph="..." />
-                <marker date="1504171232795" expanded="true" signature="3394:3692" ph="{...}" />
+                <marker date="1504248950740" expanded="true" signature="11061:11067" ph="→" />
+                <marker date="1504248950740" expanded="true" signature="11179:11185" ph="←" />
+                <marker date="1504248950740" expanded="true" signature="11312:11318" ph="←" />
+                <marker date="1504248950740" expanded="true" signature="15496:15755" ph="..." />
+                <marker date="1504248950740" expanded="true" signature="15609:15743" ph="..." />
+                <marker date="1504248950740" expanded="true" signature="15813:16046" ph="..." />
+                <marker date="1504248950740" expanded="true" signature="15878:16035" ph="..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="add.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/wp-content/plugins/wpadverts/templates/add.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="799">
-              <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="form.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/plugins/wpadverts/templates/form.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="46" column="31" lean-forward="true" selection-start-line="46" selection-start-column="31" selection-end-line="46" selection-end-column="31" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -363,27 +61,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>pass1</find>
-      <find>Update Profile</find>
-      <find>UPDATE</find>
-      <find>form-table</find>
-      <find>$query</find>
-      <find>page</find>
-      <find>adverts_add</find>
-      <find>simpl</find>
-      <find>wallet-amount</find>
-      <find>user_meta</find>
-      <find>update_user_meta</find>
-      <find>gallery</find>
-      <find>*</find>
-      <find>adverts-gallery-uploads</find>
-      <find>multipart_params</find>
-      <find>adverts-content</find>
-      <find>multipart</find>
-      <find>adverts_sort_images</find>
-      <find>adverts_gallery_upload</find>
-      <find>$children</find>
-      <find>post_parent</find>
       <find>posts</find>
       <find>post_author</find>
       <find>form</find>
@@ -393,9 +70,33 @@
       <find>adverts-field-header</find>
       <find>payments_listing_type</find>
       <find>label</find>
+      <find>ex</find>
+      <find>get_price</find>
+      <find>renew</find>
+      <find>id=&quot;adverts&quot;</find>
+      <find>&quot;id&quot; =&gt; &quot;adverts&quot;</find>
+      <find>SimplyWorld</find>
+      <find>adverts-renewal</find>
+      <find>wp_update_post</find>
+      <find>advert-pending</find>
+      <find>Renewal</find>
+      <find>pendi</find>
+      <find>advert</find>
+      <find>post_type'</find>
+      <find>post_type</find>
+      <find>post_type' =&gt; 'advert</find>
+      <find>'advert'</find>
+      <find>advert'</find>
+      <find>pending</find>
+      <find>completed</find>
+      <find>transition_post_status</find>
+      <find>wc_pending</find>
     </findStrings>
     <dirStrings>
       <dir>C:\OpenServer\domains\www.secondtz.com\www.adverts-test.tk</dir>
+      <dir>C:\OpenServer\domains\www.secondtz.com\www.adverts-test.tk\wp-content\plugins\wpadverts-wc</dir>
+      <dir>C:\OpenServer\domains\www.secondtz.com\www.adverts-test.tk\wp-content\plugins\wpadverts\addons\payments</dir>
+      <dir>C:\OpenServer\domains\www.secondtz.com\www.adverts-test.tk\wp-admin</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -408,11 +109,7 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/wp-content/themes/sg-window/single.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/sg-window/comments.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/sg-window/functions.php" />
-        <option value="$PROJECT_DIR$/wp-content/plugins/wpadverts/addons/payments/payments.php" />
-        <option value="$PROJECT_DIR$/wp-content/plugins/wpadverts-wc/wpadverts-wc.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/woocommerce-wallet-system/includes/admin/customer-wallet-amount.php" />
-        <option value="$PROJECT_DIR$/wp-content/plugins/wpadverts/wpadverts.php" />
         <option value="$PROJECT_DIR$/wp-includes/post.php" />
         <option value="$PROJECT_DIR$/wp-admin/user-edit.php" />
         <option value="$PROJECT_DIR$/wp-admin/includes/user.php" />
@@ -425,6 +122,13 @@
         <option value="$PROJECT_DIR$/wp-content/plugins/wpadverts/templates/add-preview.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/wpadverts/templates/form.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/wpadverts/templates/add.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/wpadverts/wpadverts.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/wpadverts/addons/payments/includes/admin-pages.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/wpadverts/addons/payments/payments.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/wpadverts-wc/wpadverts-wc.php" />
+        <option value="$PROJECT_DIR$/wp-admin/includes/post.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/sg-window/functions.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/wpadverts/addons/payments/includes/ajax.php" />
       </list>
     </option>
   </component>
@@ -561,28 +265,6 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="wpadverts-wc" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www.adverts-test.tk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www.adverts-test.tk" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wp-content" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="plugins" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="wpadverts" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -609,7 +291,11 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
+              <option name="myItemId" value="addons" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="payments" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -632,6 +318,14 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="wpadverts" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="addons" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="payments" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -639,10 +333,36 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www.adverts-test.tk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www.adverts-test.tk" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wpadverts" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="addons" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -656,6 +376,7 @@
     <property name="js.eslint.eslintPackage" value="" />
     <property name="add_unversioned_files" value="true" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../firsttz.com" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
@@ -734,7 +455,10 @@
       <workItem from="1503901288665" duration="689000" />
       <workItem from="1503906838141" duration="24339000" />
       <workItem from="1503989233711" duration="18899000" />
-      <workItem from="1504162781064" duration="12591000" />
+      <workItem from="1504162781064" duration="12714000" />
+      <workItem from="1504180881831" duration="16239000" />
+      <workItem from="1504203696187" duration="847000" />
+      <workItem from="1504246714807" duration="1855000" />
     </task>
     <task id="LOCAL-00001" summary="first action....">
       <created>1503408625035</created>
@@ -827,18 +551,25 @@
       <option name="project" value="LOCAL" />
       <updated>1504006677587</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="make 99% отправил на тестирование">
+      <created>1504176676389</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1504176676389</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="154040000" />
+    <option name="totallyTimeSpent" value="173104000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15506808" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24054463" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25189108" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -857,6 +588,27 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15506808" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24432677" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
@@ -889,70 +641,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wpadverts/assets/css/adverts-frontend.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="167" column="1" lean-forward="false" selection-start-line="167" selection-start-column="1" selection-end-line="167" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/sg-window/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1315" column="0" lean-forward="false" selection-start-line="1315" selection-start-column="0" selection-end-line="1315" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wpadverts/includes/shortcodes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="459" column="9" lean-forward="false" selection-start-line="459" selection-start-column="9" selection-end-line="459" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wpadverts/includes/class-html.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-255">
-          <caret line="9" column="6" lean-forward="false" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/wc-deprecated-functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-11747">
-          <caret line="182" column="9" lean-forward="false" selection-start-line="182" selection-start-column="9" selection-end-line="182" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wpadverts-wc/admin/options.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-admin/user/user-edit.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-includes/l10n.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="245" column="9" lean-forward="false" selection-start-line="245" selection-start-column="9" selection-end-line="245" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/wc-formatting-functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="469" column="9" lean-forward="false" selection-start-line="469" selection-start-column="9" selection-end-line="469" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-includes/meta.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="194">
@@ -1056,7 +744,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="194">
           <caret line="37" column="9" lean-forward="false" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1064,7 +751,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="186">
           <caret line="67" column="28" lean-forward="false" selection-start-line="67" selection-start-column="9" selection-end-line="67" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1101,126 +787,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-117">
           <caret line="862" column="23" lean-forward="false" selection-start-line="862" selection-start-column="9" selection-end-line="862" selection-end-column="23" />
-          <folding>
-            <element signature="e#110#224#0#PHP" expanded="false" />
-            <element signature="n#create_initial_post_types#0;n#!!top" expanded="false" />
-            <element signature="e#9099#9849#0#PHP" expanded="false" />
-            <element signature="n#get_attached_file#0;n#!!top" expanded="false" />
-            <element signature="e#10545#10929#0#PHP" expanded="false" />
-            <element signature="n#update_attached_file#0;n#!!top" expanded="false" />
-            <element signature="e#11518#11763#0#PHP" expanded="false" />
-            <element signature="n#_wp_relative_upload_path#0;n#!!top" expanded="false" />
-            <element signature="e#12296#15086#0#PHP" expanded="false" />
-            <element signature="n#get_children#0;n#!!top" expanded="false" />
-            <element signature="e#16336#16951#0#PHP" expanded="false" />
-            <element signature="n#get_extended#0;n#!!top" expanded="false" />
-            <element signature="e#17559#18509#0#PHP" expanded="false" />
-            <element signature="n#get_post#0;n#!!top" expanded="false" />
-            <element signature="e#19279#19457#0#PHP" expanded="false" />
-            <element signature="n#get_post_ancestors#0;n#!!top" expanded="false" />
-            <element signature="e#20020#20852#0#PHP" expanded="false" />
-            <element signature="n#get_post_field#0;n#!!top" expanded="false" />
-            <element signature="e#21103#21432#0#PHP" expanded="false" />
-            <element signature="n#get_post_mime_type#0;n#!!top" expanded="false" />
-            <element signature="e#21576#21892#0#PHP" expanded="false" />
-            <element signature="n#get_post_status#0;n#!!top" expanded="false" />
-            <element signature="e#22846#23086#0#PHP" expanded="false" />
-            <element signature="n#get_post_statuses#0;n#!!top" expanded="false" />
-            <element signature="e#23295#23533#0#PHP" expanded="false" />
-            <element signature="n#get_page_statuses#0;n#!!top" expanded="false" />
-            <element signature="e#23703#26545#0#PHP" expanded="false" />
-            <element signature="n#register_post_status#0;n#!!top" expanded="false" />
-            <element signature="e#28259#28538#0#PHP" expanded="false" />
-            <element signature="n#get_post_status_object#0;n#!!top" expanded="false" />
-            <element signature="e#28724#29521#0#PHP" expanded="false" />
-            <element signature="n#get_post_stati#0;n#!!top" expanded="false" />
-            <element signature="e#29762#30039#0#PHP" expanded="false" />
-            <element signature="n#is_post_type_hierarchical#0;n#!!top" expanded="false" />
-            <element signature="e#30236#30431#0#PHP" expanded="false" />
-            <element signature="n#post_type_exists#0;n#!!top" expanded="false" />
-            <element signature="e#30528#30789#0#PHP" expanded="false" />
-            <element signature="n#get_post_type#0;n#!!top" expanded="false" />
-            <element signature="e#30911#31279#0#PHP" expanded="false" />
-            <element signature="n#get_post_type_object#0;n#!!top" expanded="false" />
-            <element signature="e#31488#32358#0#PHP" expanded="false" />
-            <element signature="n#get_post_types#0;n#!!top" expanded="false" />
-            <element signature="e#32593#44283#0#PHP" expanded="false" />
-            <element signature="n#register_post_type#0;n#!!top" expanded="false" />
-            <element signature="e#45528#45847#0#PHP" expanded="false" />
-            <element signature="n#unregister_post_type#0;n#!!top" expanded="false" />
-            <element signature="e#46743#49669#0#PHP" expanded="false" />
-            <element signature="n#get_post_type_capabilities#0;n#!!top" expanded="false" />
-            <element signature="e#51633#51883#0#PHP" expanded="false" />
-            <element signature="n#_post_type_meta_capabilities#0;n#!!top" expanded="false" />
-            <element signature="e#52161#56300#0#PHP" expanded="false" />
-            <element signature="n#get_post_type_labels#0;n#!!top" expanded="false" />
-            <element signature="e#59167#59570#0#PHP" expanded="false" />
-            <element signature="n#_get_custom_object_labels#0;n#!!top" expanded="false" />
-            <element signature="e#60867#60944#0#PHP" expanded="false" />
-            <element signature="n#_add_post_type_submenus#0;n#!!top" expanded="false" />
-            <element signature="e#61375#62228#0#PHP" expanded="false" />
-            <element signature="n#add_post_type_support#0;n#!!top" expanded="false" />
-            <element signature="e#62572#62825#0#PHP" expanded="false" />
-            <element signature="n#remove_post_type_support#0;n#!!top" expanded="false" />
-            <element signature="e#62984#63176#0#PHP" expanded="false" />
-            <element signature="n#get_all_post_type_supports#0;n#!!top" expanded="false" />
-            <element signature="e#63383#63686#0#PHP" expanded="false" />
-            <element signature="n#post_type_supports#0;n#!!top" expanded="false" />
-            <element signature="e#63846#64479#0#PHP" expanded="false" />
-            <element signature="n#get_post_types_by_support#0;n#!!top" expanded="false" />
-            <element signature="e#64736#65231#0#PHP" expanded="false" />
-            <element signature="n#set_post_type#0;n#!!top" expanded="false" />
-            <element signature="e#65540#66090#0#PHP" expanded="false" />
-            <element signature="n#is_post_type_viewable#0;n#!!top" expanded="false" />
-            <element signature="e#66365#67482#0#PHP" expanded="false" />
-            <element signature="n#get_posts#0;n#!!top" expanded="false" />
-            <element signature="e#68543#69030#0#PHP" expanded="false" />
-            <element signature="n#add_post_meta#0;n#!!top" expanded="false" />
-            <element signature="e#69317#69883#0#PHP" expanded="false" />
-            <element signature="n#delete_post_meta#0;n#!!top" expanded="false" />
-            <element signature="e#70155#70611#0#PHP" expanded="false" />
-            <element signature="e#70735#71390#0#PHP" expanded="false" />
-            <element signature="n#update_post_meta#0;n#!!top" expanded="false" />
-            <element signature="e#71688#71910#0#PHP" expanded="false" />
-            <element signature="n#delete_post_meta_by_key#0;n#!!top" expanded="false" />
-            <element signature="e#72034#72368#0#PHP" expanded="false" />
-            <element signature="n#get_post_custom#0;n#!!top" expanded="false" />
-            <element signature="e#72529#72804#0#PHP" expanded="false" />
-            <element signature="n#get_post_custom_keys#0;n#!!top" expanded="false" />
-            <element signature="e#72987#73396#0#PHP" expanded="false" />
-            <element signature="n#get_post_custom_values#0;n#!!top" expanded="false" />
-            <element signature="e#73583#73898#0#PHP" expanded="false" />
-            <element signature="n#is_sticky#0;n#!!top" expanded="false" />
-            <element signature="e#74183#74815#0#PHP" expanded="false" />
-            <element signature="n#sanitize_post#0;n#!!top" expanded="false" />
-            <element signature="e#75641#76348#0#PHP" expanded="false" />
-            <element signature="n#sanitize_post_field#0;n#!!top" expanded="false" />
-            <element signature="e#80098#80251#0#PHP" expanded="false" />
-            <element signature="n#stick_post#0;n#!!top" expanded="false" />
-            <element signature="n#unstick_post#0;n#!!top" expanded="false" />
-            <element signature="e#81456#81740#0#PHP" expanded="false" />
-            <element signature="n#_count_posts_cache_key#0;n#!!top" expanded="false" />
-            <element signature="e#82130#82935#0#PHP" expanded="false" />
-            <element signature="n#wp_count_posts#0;n#!!top" expanded="false" />
-            <element signature="e#84563#85215#0#PHP" expanded="false" />
-            <element signature="n#wp_count_attachments#0;n#!!top" expanded="false" />
-            <element signature="e#86188#86291#0#PHP" expanded="false" />
-            <element signature="n#get_post_mime_types#0;n#!!top" expanded="false" />
-            <element signature="e#87030#87570#0#PHP" expanded="false" />
-            <element signature="n#wp_match_mime_types#0;n#!!top" expanded="false" />
-            <element signature="e#88744#89141#0#PHP" expanded="false" />
-            <element signature="n#wp_post_mime_type_where#0;n#!!top" expanded="false" />
-            <element signature="e#90617#91376#0#PHP" expanded="false" />
-            <element signature="n#wp_delete_post#0;n#!!top" expanded="false" />
-            <element signature="e#95200#95444#0#PHP" expanded="false" />
-            <element signature="n#_reset_front_page_settings_for_post#0;n#!!top" expanded="false" />
-            <element signature="e#95975#96339#0#PHP" expanded="false" />
-            <element signature="n#wp_trash_post#0;n#!!top" expanded="false" />
-            <element signature="e#97133#97340#0#PHP" expanded="false" />
-            <element signature="n#wp_untrash_post#0;n#!!top" expanded="false" />
-            <element signature="e#98140#98409#0#PHP" expanded="false" />
-            <element signature="n#wp_trash_post_comments#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1228,7 +794,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="194">
           <caret line="1049" column="9" lean-forward="false" selection-start-line="1049" selection-start-column="9" selection-end-line="1049" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1251,7 +816,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-646">
           <caret line="32" column="44" lean-forward="false" selection-start-line="32" selection-start-column="44" selection-end-line="32" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1262,167 +826,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wpadverts/includes/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="1922" column="0" lean-forward="true" selection-start-line="1922" selection-start-column="0" selection-end-line="1922" selection-end-column="0" />
-          <folding>
-            <element signature="e#296#474#0#PHP" expanded="false" />
-            <element signature="n#adverts_config#0;n#!!top" expanded="false" />
-            <element signature="e#1862#1996#0#PHP" expanded="false" />
-            <element signature="n#adverts_config_default#0;n#!!top" expanded="false" />
-            <element signature="e#2527#2759#0#PHP" expanded="false" />
-            <element signature="n#adverts_config_set#0;n#!!top" expanded="false" />
-            <element signature="e#3314#3501#0#PHP" expanded="false" />
-            <element signature="n#adverts_config_save#0;n#!!top" expanded="false" />
-            <element signature="e#3994#4439#0#PHP" expanded="false" />
-            <element signature="n#adverts_taxonomy_get#0;n#!!top" expanded="false" />
-            <element signature="e#4767#5145#0#PHP" expanded="false" />
-            <element signature="n#adverts_taxonomy_update#0;n#!!top" expanded="false" />
-            <element signature="e#5509#5727#0#PHP" expanded="false" />
-            <element signature="n#adverts_tmp_post_status#0;n#!!top" expanded="false" />
-            <element signature="e#5835#6094#0#PHP" expanded="false" />
-            <element signature="n#adverts_request#0;n#!!top" expanded="false" />
-            <element signature="e#6352#6543#0#PHP" expanded="false" />
-            <element signature="n#adverts_file_is_image#0;n#!!top" expanded="false" />
-            <element signature="e#7089#7267#0#PHP" expanded="false" />
-            <element signature="n#adverts_price#0;n#!!top" expanded="false" />
-            <element signature="e#7753#7867#0#PHP" expanded="false" />
-            <element signature="n#adverts_get_the_price#0;n#!!top" expanded="false" />
-            <element signature="e#8218#8473#0#PHP" expanded="false" />
-            <element signature="n#adverts_get_main_image#0;n#!!top" expanded="false" />
-            <element signature="e#8976#9188#0#PHP" expanded="false" />
-            <element signature="n#adverts_the_content#0;n#!!top" expanded="false" />
-            <element signature="e#10122#10555#0#PHP" expanded="false" />
-            <element signature="n#adverts_posts_results#0;n#!!top" expanded="false" />
-            <element signature="e#11125#11584#0#PHP" expanded="false" />
-            <element signature="n#adverts_template_include#0;n#!!top" expanded="false" />
-            <element signature="e#11748#12072#0#PHP" expanded="false" />
-            <element signature="n#adverts_list_show_term_description#0;n#!!top" expanded="false" />
-            <element signature="e#12328#12456#0#PHP" expanded="false" />
-            <element signature="n#adverts_post_thumbnail_html#0;n#!!top" expanded="false" />
-            <element signature="e#12638#12812#0#PHP" expanded="false" />
-            <element signature="n#adverts_field_has_errors#0;n#!!top" expanded="false" />
-            <element signature="e#12988#13208#0#PHP" expanded="false" />
-            <element signature="n#adverts_field_has_validator#0;n#!!top" expanded="false" />
-            <element signature="e#13524#13709#0#PHP" expanded="false" />
-            <element signature="n#adverts_field_get_renderer#0;n#!!top" expanded="false" />
-            <element signature="e#13867#14057#0#PHP" expanded="false" />
-            <element signature="n#adverts_form_add_field#0;n#!!top" expanded="false" />
-            <element signature="e#14261#14374#0#PHP" expanded="false" />
-            <element signature="n#adverts_form_add_filter#0;n#!!top" expanded="false" />
-            <element signature="e#14604#14720#0#PHP" expanded="false" />
-            <element signature="n#adverts_form_add_validator#0;n#!!top" expanded="false" />
-            <element signature="e#14968#15097#0#PHP" expanded="false" />
-            <element signature="n#adverts_is_required#0;n#!!top" expanded="false" />
-            <element signature="e#15253#15403#0#PHP" expanded="false" />
-            <element signature="n#adverts_is_email#0;n#!!top" expanded="false" />
-            <element signature="e#15542#15831#0#PHP" expanded="false" />
-            <element signature="n#adverts_is_email_registered#0;n#!!top" expanded="false" />
-            <element signature="e#16213#16364#0#PHP" expanded="false" />
-            <element signature="n#adverts_is_url#0;n#!!top" expanded="false" />
-            <element signature="e#16554#16702#0#PHP" expanded="false" />
-            <element signature="n#adverts_is_integer#0;n#!!top" expanded="false" />
-            <element signature="e#16881#17019#0#PHP" expanded="false" />
-            <element signature="n#adverts_is_number#0;n#!!top" expanded="false" />
-            <element signature="e#17227#17401#0#PHP" expanded="false" />
-            <element signature="n#adverts_string_length#0;n#!!top" expanded="false" />
-            <element signature="e#17702#17950#0#PHP" expanded="false" />
-            <element signature="n#adverts_max_choices#0;n#!!top" expanded="false" />
-            <element signature="e#18128#18265#0#PHP" expanded="false" />
-            <element signature="n#adverts_filter_money#0;n#!!top" expanded="false" />
-            <element signature="e#18803#18952#0#PHP" expanded="false" />
-            <element signature="n#adverts_filter_url#0;n#!!top" expanded="false" />
-            <element signature="e#19028#19176#0#PHP" expanded="false" />
-            <element signature="n#adverts_filter_int#0;n#!!top" expanded="false" />
-            <element signature="e#19247#19396#0#PHP" expanded="false" />
-            <element signature="n#adverts_filter_float#0;n#!!top" expanded="false" />
-            <element signature="e#19531#19697#0#PHP" expanded="false" />
-            <element signature="n#adverts_filter_number#0;n#!!top" expanded="false" />
-            <element signature="e#19785#20021#0#PHP" expanded="false" />
-            <element signature="n#adverts_field_hidden#0;n#!!top" expanded="false" />
-            <element signature="e#20379#20592#0#PHP" expanded="false" />
-            <element signature="n#adverts_field_label#0;n#!!top" expanded="false" />
-            <element signature="e#20793#21092#0#PHP" expanded="false" />
-            <element signature="n#adverts_field_text#0;n#!!top" expanded="false" />
-            <element signature="e#21814#22384#0#PHP" expanded="false" />
-            <element signature="n#adverts_field_select#0;n#!!top" expanded="false" />
-            <element signature="e#24845#25157#0#PHP" expanded="false" />
-            <element signature="n#adverts_field_textarea#0;n#!!top" expanded="false" />
-            <element signature="e#26894#27213#0#PHP" expanded="false" />
-            <element signature="n#adverts_field_checkbox#0;n#!!top" expanded="false" />
-            <element signature="e#29282#29596#0#PHP" expanded="false" />
-            <element signature="n#adverts_field_radio#0;n#!!top" expanded="false" />
-            <element signature="e#30484#30761#0#PHP" expanded="false" />
-            <element signature="n#adverts_field_account#0;n#!!top" expanded="false" />
-            <element signature="e#31595#31770#0#PHP" expanded="false" />
-            <element signature="n#adverts_field_gallery#0;n#!!top" expanded="false" />
-            <element signature="e#32192#32626#0#PHP" expanded="false" />
-            <element signature="n#adverts_save_single#0;n#!!top" expanded="false" />
-            <element signature="e#32827#33240#0#PHP" expanded="false" />
-            <element signature="n#adverts_save_multi#0;n#!!top" expanded="false" />
-            <element signature="e#33739#34176#0#PHP" expanded="false" />
-            <element signature="n#adverts_bind_single#0;n#!!top" expanded="false" />
-            <element signature="e#34661#35163#0#PHP" expanded="false" />
-            <element signature="n#adverts_bind_multi#0;n#!!top" expanded="false" />
-            <element signature="e#35830#35986#0#PHP" expanded="false" />
-            <element signature="n#adverts_admin_flash#0;n#!!top" expanded="false" />
-            <element signature="e#36442#36690#0#PHP" expanded="false" />
-            <element signature="n#adverts_admin_js_redirect#0;n#!!top" expanded="false" />
-            <element signature="e#37063#37218#0#PHP" expanded="false" />
-            <element signature="n#adverts_form_layout_config#0;n#!!top" expanded="false" />
-            <element signature="e#39798#40027#0#PHP" expanded="false" />
-            <element signature="n#adverts_walk_category_dropdown_tree#0;n#!!top" expanded="false" />
-            <element signature="e#40502#40736#0#PHP" expanded="false" />
-            <element signature="n#adverts_taxonomies#0;n#!!top" expanded="false" />
-            <element signature="e#41399#41533#0#PHP" expanded="false" />
-            <element signature="n#adverts_get_ip#0;n#!!top" expanded="false" />
-            <element signature="e#41958#42242#0#PHP" expanded="false" />
-            <element signature="n#adverts_currency_list#0;n#!!top" expanded="false" />
-            <element signature="e#45259#45495#0#PHP" expanded="false" />
-            <element signature="n#advert_term_path#0;n#!!top" expanded="false" />
-            <element signature="e#45855#46092#0#PHP" expanded="false" />
-            <element signature="n#advert_category_path#0;n#!!top" expanded="false" />
-            <element signature="e#46194#46392#0#PHP" expanded="false" />
-            <element signature="n#adverts_category_post_count#0;n#!!top" expanded="false" />
-            <element signature="e#46736#47147#0#PHP" expanded="false" />
-            <element signature="n#adverts_css_rem_fix#0;n#!!top" expanded="false" />
-            <element signature="e#47312#47575#0#PHP" expanded="false" />
-            <element signature="n#adverts_disable_default_archive#0;n#!!top" expanded="false" />
-            <element signature="e#47760#48084#0#PHP" expanded="false" />
-            <element signature="n#adverts_plugin_uploaded#0;n#!!top" expanded="false" />
-            <element signature="e#48302#48812#0#PHP" expanded="false" />
-            <element signature="n#adverts_create_user_from_post_id#0;n#!!top" expanded="false" />
-            <element signature="e#49423#49886#0#PHP" expanded="false" />
-            <element signature="n#_adverts_create_user_from_post_id#0;n#!!top" expanded="false" />
-            <element signature="e#50855#51117#0#PHP" expanded="false" />
-            <element signature="n#adverts_css_classes#0;n#!!top" expanded="false" />
-            <element signature="e#51352#52186#0#PHP" expanded="false" />
-            <element signature="n#adverts_sort_images#0;n#!!top" expanded="false" />
-            <element signature="e#52555#52810#0#PHP" expanded="false" />
-            <element signature="e#54193#54476#0#PHP" expanded="false" />
-            <element signature="n#adverts_single_contact_information#0;n#!!top" expanded="false" />
-            <element signature="e#55429#55784#0#PHP" expanded="false" />
-            <element signature="n#adverts_form_search_reveal_hidden#0;n#!!top" expanded="false" />
-            <element signature="e#56094#56431#0#PHP" expanded="false" />
-            <element signature="n#adverts_form_search_display_hidden#0;n#!!top" expanded="false" />
-            <element signature="e#56763#57051#0#PHP" expanded="false" />
-            <element signature="n#adverts_remove_account_field#0;n#!!top" expanded="false" />
-            <element signature="e#57356#57657#0#PHP" expanded="false" />
-            <element signature="n#adverts_post_class#0;n#!!top" expanded="false" />
-            <element signature="e#57875#58442#0#PHP" expanded="false" />
-            <element signature="n#adverts_delete_post#0;n#!!top" expanded="false" />
-            <element signature="e#58758#59128#0#PHP" expanded="false" />
-            <element signature="n#adverts_add_menu_classes#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/wpadverts/includes/gallery.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="178" column="66" lean-forward="false" selection-start-line="178" selection-start-column="66" selection-end-line="178" selection-end-column="66" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1430,7 +837,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="194">
           <caret line="94" column="23" lean-forward="false" selection-start-line="94" selection-start-column="16" selection-end-line="94" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1438,44 +844,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="63" column="0" lean-forward="true" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-admin/edit.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3468">
-          <caret line="26" column="41" lean-forward="true" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wpadverts/wpadverts.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6902">
-          <caret line="440" column="4" lean-forward="true" selection-start-line="440" selection-start-column="4" selection-end-line="440" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/woocommerce-wallet-system/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2023">
-          <caret line="170" column="13" lean-forward="true" selection-start-line="170" selection-start-column="13" selection-end-line="170" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wpadverts-wc/wpadverts-wc.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1394">
-          <caret line="956" column="0" lean-forward="false" selection-start-line="956" selection-start-column="0" selection-end-line="956" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wpadverts/addons/payments/payments.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6">
-          <caret line="679" column="0" lean-forward="true" selection-start-line="679" selection-start-column="0" selection-end-line="679" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1483,7 +851,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1491,46 +858,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="293">
           <caret line="443" column="1" lean-forward="true" selection-start-line="443" selection-start-column="1" selection-end-line="443" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wpadverts/assets/css/simply.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wpadverts/templates/add-preview.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="53" column="22" lean-forward="false" selection-start-line="53" selection-start-column="22" selection-end-line="53" selection-end-column="22" />
-          <folding>
-            <marker date="1504171232795" expanded="true" signature="1466:1476" ph="..." />
-            <marker date="1504171232795" expanded="true" signature="1746:1756" ph="..." />
-            <marker date="1504171232795" expanded="true" signature="2421:2714" ph="..." />
-            <marker date="1504171232795" expanded="true" signature="2783:3029" ph="..." />
-            <marker date="1504171232795" expanded="true" signature="3375:3700" ph="..." />
-            <marker date="1504171232795" expanded="true" signature="3394:3692" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wpadverts/templates/form.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="46" column="31" lean-forward="true" selection-start-line="46" selection-start-column="31" selection-end-line="46" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wpadverts/assets/css/simply.css" />
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/wpadverts/includes/class-form.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-5511">
           <caret line="25" column="20" lean-forward="false" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1538,6 +873,150 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="799">
           <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wpadverts/templates/form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="46" column="31" lean-forward="false" selection-start-line="46" selection-start-column="31" selection-end-line="46" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-admin/edit-comments.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2040">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/woocommerce-wallet-system/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1377">
+          <caret line="235" column="9" lean-forward="true" selection-start-line="235" selection-start-column="9" selection-end-line="235" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wpadverts/templates/add-preview.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="53" column="22" lean-forward="false" selection-start-line="53" selection-start-column="22" selection-end-line="53" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-admin/admin-functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-admin/edit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="214" column="204" lean-forward="false" selection-start-line="214" selection-start-column="204" selection-end-line="214" selection-end-column="204" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-admin/post.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4029">
+          <caret line="244" column="14" lean-forward="true" selection-start-line="244" selection-start-column="14" selection-end-line="244" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wpadverts/addons/payments/includes/payment-actions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wpadverts/addons/payments/includes/admin-pages.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="471" column="33" lean-forward="false" selection-start-line="471" selection-start-column="26" selection-end-line="471" selection-end-column="33" />
+          <folding>
+            <marker date="1504195225904" expanded="true" signature="14690:14780" ph="SELECT COUNT... wp_posts" />
+            <marker date="1504195225904" expanded="true" signature="14901:15034" ph="SELECT DISTI... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wpadverts/addons/payments/payments.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="478">
+          <caret line="552" column="41" lean-forward="false" selection-start-line="552" selection-start-column="41" selection-end-line="552" selection-end-column="41" />
+          <folding>
+            <marker date="1504195425147" expanded="true" signature="11382:11399" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-admin/includes/post.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="113" column="82" lean-forward="false" selection-start-line="113" selection-start-column="75" selection-end-line="113" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wp-content-filter/wp-content-filter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wpadverts/wpadverts.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4913">
+          <caret line="160" column="29" lean-forward="false" selection-start-line="160" selection-start-column="29" selection-end-line="160" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wpadverts-wc/wpadverts-wc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="687" column="17" lean-forward="false" selection-start-line="687" selection-start-column="17" selection-end-line="687" selection-end-column="17" />
+          <folding>
+            <marker date="1504195586334" expanded="true" signature="13466:13483" ph="..." />
+            <marker date="1504195586334" expanded="true" signature="17420:17610" ph="SELECT `orde... ${{$pfix}}woocommerce_order_itemmeta" />
+            <marker date="1504195586334" expanded="true" signature="28449:28466" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wpadverts/includes/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="1922" column="0" lean-forward="true" selection-start-line="1922" selection-start-column="0" selection-end-line="1922" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/sg-window/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="1640" column="12" lean-forward="false" selection-start-line="1640" selection-start-column="12" selection-end-line="1640" selection-end-column="12" />
+          <folding>
+            <marker date="1504248950740" expanded="true" signature="11061:11067" ph="→" />
+            <marker date="1504248950740" expanded="true" signature="11179:11185" ph="←" />
+            <marker date="1504248950740" expanded="true" signature="11312:11318" ph="←" />
+            <marker date="1504248950740" expanded="true" signature="15496:15755" ph="..." />
+            <marker date="1504248950740" expanded="true" signature="15609:15743" ph="..." />
+            <marker date="1504248950740" expanded="true" signature="15813:16046" ph="..." />
+            <marker date="1504248950740" expanded="true" signature="15878:16035" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wpadverts/addons/payments/includes/ajax.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="422">
+          <caret line="84" column="14" lean-forward="false" selection-start-line="84" selection-start-column="14" selection-end-line="84" selection-end-column="14" />
           <folding />
         </state>
       </provider>

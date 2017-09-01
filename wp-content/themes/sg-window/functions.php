@@ -1615,20 +1615,51 @@ $order->update_status( 'completed' );
 //     return $data;
 // }
 add_action( 'transition_post_status', 'wpse118970_post_status_new', 10, 3 );
-function wpse118970_post_status_new( $new_status, $old_status, $post ) {
-	// echo "new_status = ". $new_status ."<br/>";
-	// echo "old_status = ". $old_status ."<br/>";
-	// die;
-	//$i = 0;
-		if ($post->post_type == 'advert' && $old_status == 'draft') {
-			$post->post_status = 'publish';
-			wp_update_post( $post );
-			return;
-		}
-    if ( $post->post_type == 'advert' && $new_status == 'publish' && $old_status  != $new_status ) {
-        $post->post_status = 'draft';
-        wp_update_post( $post );
-				//$i=1;
+function wpse118970_post_status_new( $new_status, $old_status, $post )
+{
+//	 echo "new_status = ". $new_status ."<br/>";
+//	 echo "old_status = ". $old_status ."<br/>";
+//	 echo "post = ". $post ."<br/>";
+//	 die;
+    //$i = 0;
+    if ($post->post_type == 'advert' && $old_status == 'draft') {
+        $post->post_status = 'publish';
+        wp_update_post($post);
+        return;
     }
 
+    if ($post->post_type == 'advert' && $new_status == 'publish' && $old_status != $new_status) {
+        $post->post_status = 'draft';
+        wp_update_post($post);
+        //$i=1;
+    }
 }
+    add_action( 'save_post', 'simply_post_status_new', 10, 3 );
+    function simply_post_status_new( $post_id )
+    {
+//echo'<pre>'; print_r(get_post($post_id)); die;
+        if (get_post_status($post_id) == 'pending') {
+            wp_update_post(array(
+                'ID' => $post_id,
+                'post_status' => 'completed',
+//                'post_date' => date('Y-m-d H:i:s','36000'),
+//                'post_modified_gmt' => date('Y-m-d H:i:s','36000'),
+//                'post_modified' => date('Y-m-d H:i:s','36000'),
+//                'post_date_gmt' => date('Y-m-d H:i:s','36000'),
+
+            ));
+    }}
+
+//function my_func_on_save_post($post_id) {
+//    if (defined('DOING_AUTOSAVE') && DOING_AUTOSAVE) {
+//        return $post_id;
+//    }
+//    if (!current_user_can('edit_pages', $post_id) && get_post_status($post_id) == 'pending') {
+//        wp_update_post(array(
+//            'ID' => $post_id,
+//            'post_status' => 'completed'
+//        ));
+//    }
+//}
+//add_action('save_post', 'my_func_on_save_post');
+

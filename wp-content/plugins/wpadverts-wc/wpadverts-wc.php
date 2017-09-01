@@ -692,6 +692,7 @@ function adext_wc_payments_order_paid( $order_id ) {
 function adext_wc_payments_sh_manage_list_statuses( $statuses ) {
     $statuses[] = "wc_pending";
     return $statuses;
+
 }
 
 
@@ -774,6 +775,7 @@ function adext_wc_payments_admin_head() {
  * @param   int     $post_id    Post ID
  * @return  void
  */ // SimplyWorld
+
 function adext_wc_payments_action_renew( $post_id ) {
 
     $pricings = adext_wc_payments_products();
@@ -791,7 +793,7 @@ function adext_wc_payments_action_renew( $post_id ) {
     $a = new Adverts_Html("a", array(
         "href" => add_query_arg( "advert_renew", $post_id ),
         "class" => "adverts-manage-action",
-        "id" => "wpadverts-wc",
+        "id" => "wpadverts-wc", //SimplyWorld
     ), $span . " " . __("Renew Ad", "wpadverts-wc") );
 
     echo $a->render();
@@ -810,6 +812,7 @@ function adext_wc_payments_action_renew( $post_id ) {
  * @param   string  $action     Current action to execute
  * @return  string
  */
+
 function adext_wc_payments_manage_action( $action ) {
         
     // continue if there is advert_renew param

@@ -550,7 +550,7 @@ function adext_payments_action_renew( $post_id ) {
     $a = new Adverts_Html("a", array(
         "href" => add_query_arg( "advert_renew", $post_id ),
         "class" => "adverts-manage-action",
-        "id" => "adverts",
+        "id" => "adverts",  //SimplyWorld
     ), $span . " " . __("Renew Ad", "adverts") );
 
     echo $a->render();

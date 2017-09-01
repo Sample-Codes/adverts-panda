@@ -126,7 +126,7 @@ function adverts_init() {
         'has_archive'   => true,
     );
   
-    register_post_type( 'advert', apply_filters( 'adverts_post_type', $args, 'advert') ); 
+    register_post_type( 'advert', apply_filters( 'adverts_post_type', $args, 'advert') );
     
     $args = array(
         'hierarchical' => true,

@@ -50,7 +50,7 @@ function adext_payments_ajax_render() {
             $payment_data = array(
                 'post_title'    =>  $form->get_value("adverts_person"),
                 'post_content'  => '',
-                'post_status'   => 'pending',
+                'post_status'   => 'completed',
                 'post_type'     => 'adverts-payment'
             );
             
@@ -73,8 +73,17 @@ function adext_payments_ajax_render() {
             update_post_meta( $payment_id, '_adverts_payment_for', $data["payment_for"] );
             update_post_meta( $payment_id, '_adverts_payment_paid', "0" );
             update_post_meta( $payment_id, '_adverts_payment_total', $price );
-            update_post_meta( $payment_id, '_adverts_payment_meta', $meta );
-            
+
+            $time = current_time('mysql');
+
+            wp_update_post(
+                array (
+                    'ID'            => $data["object_id"], // ID of the post to update
+                    'post_date'     => $time,
+                    'post_date_gmt' => get_gmt_from_date( $time )
+                )
+            );
+
             $data["price"] = $price;
             $data["form"] = $form->get_values();
             $data["payment_id"] = $payment_id;
