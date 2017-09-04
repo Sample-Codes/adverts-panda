@@ -1650,16 +1650,4 @@ function wpse118970_post_status_new( $new_status, $old_status, $post )
             ));
     }}
 
-//function my_func_on_save_post($post_id) {
-//    if (defined('DOING_AUTOSAVE') && DOING_AUTOSAVE) {
-//        return $post_id;
-//    }
-//    if (!current_user_can('edit_pages', $post_id) && get_post_status($post_id) == 'pending') {
-//        wp_update_post(array(
-//            'ID' => $post_id,
-//            'post_status' => 'completed'
-//        ));
-//    }
-//}
-//add_action('save_post', 'my_func_on_save_post');
 

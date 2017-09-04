@@ -54,6 +54,8 @@ define('AUTH_SALT',        'B-*pi(c%7j|,R-!K.nLIh)T}O,_rtXP&oq_aTx9*a}OT3m3ud*od
 define('SECURE_AUTH_SALT', '25SXgzERe`E&x=f&_KLi<ka9NS$@3P}fR`nY n#DZbT^!BD5Qa+Sw8Swp*sD[fKK');
 define('LOGGED_IN_SALT',   'VOZWqoEDmuLz07wy_S,Qf?ePYl&1Nik<pCdgm_vujb,RJEa0AGH;u*;J-ix}!(.S');
 define('NONCE_SALT',       'sjFLL#=Pt4U.PVR_)iR VT$LRhZ,GVIDwF*{_jP^n+n)6G!UeWD?XE_KnKW3Rypz');
+// define('WP_SITEURL', 'http://develop.panda-code.com/');
+// define('WP_HOME', 'http://develop.panda-code.com/');
 define('WP_SITEURL', 'http://develop.panda-code.com/');
 define('WP_HOME', 'http://develop.panda-code.com/');
 

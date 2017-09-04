@@ -545,15 +545,16 @@ function adext_payments_action_renew( $post_id ) {
     }
 
     include_once ADVERTS_PATH . "/includes/class-html.php";
-
-    $span = '<span class="adverts-icon-arrows-cw"></span>';
-    $a = new Adverts_Html("a", array(
-        "href" => add_query_arg( "advert_renew", $post_id ),
-        "class" => "adverts-manage-action",
-        "id" => "adverts",  //SimplyWorld
-    ), $span . " " . __("Renew Ad", "adverts") );
-
-    echo $a->render();
+    //SimplyWorld
+//    $span = '<span class="adverts-icon-arrows-cw"></span>';
+//    $a = new Adverts_Html("a", array(
+//        "href" => add_query_arg( "advert_renew", $post_id ),
+//        "class" => "adverts-manage-action",
+//        "id" => "adverts",
+//    ), $span . " " . __("Renew Ad", "adverts") );
+//
+//    echo $a->render();
+    //SimplyWorld
 }
 
 /**

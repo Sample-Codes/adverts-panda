@@ -900,8 +900,8 @@ function adext_wc_payments_manage_action_renew( $content, $atts = array() ) {
         }
         
         $adverts_price = $product->get_price_html();
-        
-        
+
+
         $text = sprintf(
             __('<b>%1$s</b> - %2$s for %3$d days.%4$s', 'wpadverts-wc'), 
             $data->post_title, 
@@ -935,7 +935,7 @@ function adext_wc_payments_manage_action_renew( $content, $atts = array() ) {
             )
         )
     );
-    
+
     include_once ADVERTS_PATH . 'includes/class-html.php';
     include_once ADVERTS_PATH . 'includes/class-form.php';
     
@@ -955,19 +955,19 @@ function adext_wc_payments_manage_action_renew( $content, $atts = array() ) {
     if( isset( $_POST ) && ! empty( $_POST ) ) {
         $form->bind( stripslashes_deep( $_POST ) );
         $valid = $form->validate();
-        
+
+
         if( $valid ) {
 
             wp_enqueue_script( 'adext-payments' );
             wp_enqueue_script( 'adverts-frontend' );
-            
             $product = get_product( $form->get_value( "payments_listing_type" ) );
 
 //            if( $product->get_price() == 0 ) {
+
                 $m = __( 'Ad <strong>%s</strong> renewed. <a href="%s">Go back to Ads list</a>.', 'wpadverts-wc');
                 $adverts_flash["info"][] = sprintf( $m, $post->post_title, $baseurl );
                 $moderate = apply_filters( "adverts_manage_moderate", false );
-
                 $post_id = wp_update_post( array(
                     "ID" => $post->ID,
                     "post_status" => $moderate == "1" ? 'pending' : 'publish',
@@ -978,10 +978,13 @@ function adext_wc_payments_manage_action_renew( $content, $atts = array() ) {
                 update_post_meta( $post_id, "_expiration_date", $time );
 
                 ob_start();
+
                 // wpadverts/templates/add-payment.php
                 include ADVERTS_PATH . '/templates/add-save.php';
+
                 return ob_get_clean();
 //            }
+
         }
 
     } 
@@ -991,6 +994,7 @@ function adext_wc_payments_manage_action_renew( $content, $atts = array() ) {
     $adverts_flash["info"][] = sprintf( $m1, $post->post_title, $baseurl ) . "<br/>" . sprintf( $m2, $baseurl );
     
     ob_start();
+
     // adverts/templates/form.php
     include apply_filters( "adverts_template_load", ADVERTS_PATH . 'templates/form.php' );
     return ob_get_clean();

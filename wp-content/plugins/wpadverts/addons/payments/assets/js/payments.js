@@ -16,7 +16,7 @@ jQuery(function($) {
             page_id: $(".adverts-payment-data").data("page-id"),
             listing_id: $(".adverts-payment-data").data("listing-id"),
             object_id: $(".adverts-payment-data").data("object-id")
-        }
+        };
         
         $.ajax({
             url: adverts_frontend_lang.ajaxurl,

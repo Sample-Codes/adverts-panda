@@ -46,7 +46,7 @@ function adext_payments_ajax_render() {
             
             $pricing = get_post( $data["listing_id"] );
             $price = get_post_meta( $listing_id, "adverts_price", true );
-            
+
             $payment_data = array(
                 'post_title'    =>  $form->get_value("adverts_person"),
                 'post_content'  => '',
@@ -62,6 +62,7 @@ function adext_payments_ajax_render() {
             );
             
             $payment_id = wp_insert_post( $payment_data );
+
             update_post_meta( $payment_id, 'adverts_person', $form->get_value('adverts_person') );
             update_post_meta( $payment_id, 'adverts_email', $form->get_value('adverts_email') );
             update_post_meta( $payment_id, '_adverts_user_ip', adverts_get_ip() );
@@ -91,9 +92,17 @@ function adext_payments_ajax_render() {
             $data = apply_filters("adverts_payments_order_create", $data);
             
             $response = call_user_func( $gateway["callback"]["render"], $data );
+
+            $simply_price = $price;
+            $wallet_purse_current_user = get_user_meta(wp_get_current_user()->ID, 'wallet-amount', true);
+            $current_wallet_price = $wallet_purse_current_user - $simply_price;
+
+            if ($current_wallet_price >= 0 ){
+                update_user_meta(wp_get_current_user()->ID, 'wallet-amount', $current_wallet_price, '');  //SimplyWorld
+            } else echo 1111;
         } 
     }
-    
+//    var_dump($current_wallet_price);
     if($response === null) {
         ob_start();
         include ADVERTS_PATH . 'templates/form.php';
