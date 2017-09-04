@@ -8,21 +8,21 @@ add_action('wp_ajax_nopriv_adext_payments_render', 'adext_payments_ajax_render')
 
 /**
  * AJAX Function renders payment form in [adverts_add] third step.
- * 
+ *
  * This function renders a proper payment form based on $_REQUEST['gateway'] value
  * and echos it to the browser as a JSON code.
- * 
+ *
  * @since 0.1
- * @return void 
+ * @return void
  */
 function adext_payments_ajax_render() {
-    
+
     $gateway_name = adverts_request('gateway');
     $gateway = adext_payment_gateway_get( $gateway_name );
-    
+
     $listing_id = adverts_request( "listing_id" );
     $response = null;
-    
+
     $data = array();
     $data["page_id"] = adverts_request( "page_id" );
     $data["listing_id"] = adverts_request( "listing_id" );
@@ -30,20 +30,21 @@ function adext_payments_ajax_render() {
     $data["payment_for"] = "post";
     $data["gateway_name"] = $gateway_name;
     $data["bind"] = array();
+
     foreach(adverts_request( 'form', array() ) as $item) {
         $data["bind"][$item["name"]] = $item["value"];
     }
-    
+
     $form = new Adverts_Form();
     $form->load( $gateway["form"]["payment_form"] );
     $form->bind( $data["bind"] );
-    
+
     if( isset($data["bind"]) && !empty( $data["bind"] ) ) {
-        
+
         $isValid = $form->validate();
-        
+
         if($isValid) {
-            
+
             $pricing = get_post( $data["listing_id"] );
             $price = get_post_meta( $listing_id, "adverts_price", true );
 
@@ -53,14 +54,14 @@ function adext_payments_ajax_render() {
                 'post_status'   => 'completed',
                 'post_type'     => 'adverts-payment'
             );
-            
+
             $meta = array(
                 "pricing" => array(
                     "post_title" => $pricing->post_title,
                     "visible" => get_post_meta( $pricing->ID, "adverts_visible", true )
                 ),
             );
-            
+
             $payment_id = wp_insert_post( $payment_data );
 
             update_post_meta( $payment_id, 'adverts_person', $form->get_value('adverts_person') );
@@ -75,23 +76,13 @@ function adext_payments_ajax_render() {
             update_post_meta( $payment_id, '_adverts_payment_paid', "0" );
             update_post_meta( $payment_id, '_adverts_payment_total', $price );
 
-            $time = current_time('mysql');
 
-            wp_update_post(
-                array (
-                    'ID'            => $data["object_id"], // ID of the post to update
-                    'post_date'     => $time,
-                    'post_date_gmt' => get_gmt_from_date( $time )
-                )
-            );
 
             $data["price"] = $price;
             $data["form"] = $form->get_values();
             $data["payment_id"] = $payment_id;
-            
-            $data = apply_filters("adverts_payments_order_create", $data);
-            
-            $response = call_user_func( $gateway["callback"]["render"], $data );
+
+            $no_money = "";
 
             $simply_price = $price;
             $wallet_purse_current_user = get_user_meta(wp_get_current_user()->ID, 'wallet-amount', true);
@@ -99,11 +90,32 @@ function adext_payments_ajax_render() {
 
             if ($current_wallet_price >= 0 ){
                 update_user_meta(wp_get_current_user()->ID, 'wallet-amount', $current_wallet_price, '');  //SimplyWorld
-            } else echo 1111;
-        } 
+                $time = current_time('mysql');
+
+                wp_update_post(
+                    array (
+                        'ID'            => $data["object_id"], // ID of the post to update
+                        'post_date'     => $time,
+                        'post_date_gmt' => get_gmt_from_date( $time ),
+                        // 'post_modified' => date('Y-m-d',strtotime("+1 days")),
+                        // 'post_modified_gmt' => date('Y-m-d',strtotime("+1 days")),
+
+                    )
+                );
+                $expiry = strtotime( $time . " +1 DAYS" );
+                update_post_meta( $data["object_id"], "_expiration_date", $expiry );
+            } else $no_money = "no_money";
+
+            $data = apply_filters("adverts_payments_order_create", $data);
+
+            $response = call_user_func( $gateway["callback"]["render"], $data );
+            $response['no_money'] = $no_money;
+
+            //var_dump($response); die;
+        }
     }
-//    var_dump($current_wallet_price);
-    if($response === null) {
+
+    if($response === null && empty($no_money)) {
         ob_start();
         include ADVERTS_PATH . 'templates/form.php';
         $html_form = ob_get_clean();
@@ -114,7 +126,7 @@ function adext_payments_ajax_render() {
             "execute" => null
         );
     }
-    
+
     echo json_encode( $response );
     exit;
 }
