@@ -88,7 +88,7 @@ function adext_payments_ajax_render() {
             $wallet_purse_current_user = get_user_meta(wp_get_current_user()->ID, 'wallet-amount', true);
             $current_wallet_price = $wallet_purse_current_user - $simply_price;
 
-            if ($current_wallet_price >= 0 ){
+            if ( $current_wallet_price >= 0 ){
                 update_user_meta(wp_get_current_user()->ID, 'wallet-amount', $current_wallet_price, '');  //SimplyWorld
                 $time = current_time('mysql');
 
@@ -97,25 +97,22 @@ function adext_payments_ajax_render() {
                         'ID'            => $data["object_id"], // ID of the post to update
                         'post_date'     => $time,
                         'post_date_gmt' => get_gmt_from_date( $time ),
-                        // 'post_modified' => date('Y-m-d',strtotime("+1 days")),
-                        // 'post_modified_gmt' => date('Y-m-d',strtotime("+1 days")),
 
                     )
                 );
-                $expiry = strtotime( $time . " +1 DAYS" );
-                update_post_meta( $data["object_id"], "_expiration_date", $expiry );
+
+//                $expiry = strtotime( $time. '+ 1days' );
+//                update_post_meta( $data["object_id"], "_expiration_date", $expiry );
             } else $no_money = "no_money";
 
             $data = apply_filters("adverts_payments_order_create", $data);
 
             $response = call_user_func( $gateway["callback"]["render"], $data );
             $response['no_money'] = $no_money;
-
-            //var_dump($response); die;
         }
     }
 
-    if($response === null && empty($no_money)) {
+    if($response === null) {
         ob_start();
         include ADVERTS_PATH . 'templates/form.php';
         $html_form = ob_get_clean();

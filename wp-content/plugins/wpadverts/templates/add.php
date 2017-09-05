@@ -71,8 +71,8 @@
                     <div class="adverts-flash-single">
                         <span class="adverts-flash-message-icon adverts-icon-lock"></span>
                         <span class="adverts-flash-message-text adverts-flash-padding">Только зарегистрированные пользователи могут открыть эту страницу.
-                            <a href="http://ds2.systemethic.it/wp-login.php?redirect_to=http%3A%2F%2Fds2.systemethic.it%2Fadverts%2Fmanage%2F">Войдите в сайт</a> или
-                            <a href="http://ds2.systemethic.it/wp-login.php?action=register">Зарегистрируйтесь</a>.
+                            <a href="<?php site_url()?>/wp-login.php?redirect_to=http%3A%2F%2Fds2.systemethic.it%2Fadverts%2Fmanage%2F">Войдите на сайт</a> или
+                            <a href="<?php site_url()?>/wp-login.php?action=register">Зарегистрируйтесь</a>.
                         </span>
                     </div>
                 </div>
