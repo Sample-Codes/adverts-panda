@@ -962,7 +962,7 @@ function adext_wc_payments_manage_action_renew( $content, $atts = array() ) {
             wp_enqueue_script( 'adext-payments' );
             wp_enqueue_script( 'adverts-frontend' );
             $product = get_post( $form->get_value( "payments_listing_type" ) );
-
+//var_dump($product); die;
             $simply_price = absint( get_post_meta( $product->ID, 'adverts_price', true ) );
             $wallet_purse_current_user = get_user_meta(wp_get_current_user()->ID, 'wallet-amount', true);
             $current_wallet_price = $wallet_purse_current_user - $simply_price;

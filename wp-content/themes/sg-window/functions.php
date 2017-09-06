@@ -1591,15 +1591,21 @@ require get_template_directory() . '/inc/admin-page.php';
 //  }
 // add_filter('woocommerce_payment_complete_order_status', 'wc_mark_all_orders_as_complete', 10, 2);
 
+/** 06.09.2017 */
 add_action( 'woocommerce_thankyou', 'custom_woocommerce_auto_complete_order' );
 function custom_woocommerce_auto_complete_order( $order_id ) {
+
 if ( ! $order_id ) {
 return;
 }
 $order = wc_get_order( $order_id );
-$order->update_status( 'completed' );
+//	var_dump($order->payment_method); die;
+	if ($order->payment_method == 'wallet'){
+		$order->update_status( 'completed' );
+    }
+//$order->update_status( 'completed' );
 }
-//
+
 // add_filter( 'wp_insert_post_data', 'prevent_post_change', 20, 2 );
 //
 // function prevent_post_change( $data, $postarr ) {
@@ -1614,40 +1620,40 @@ $order->update_status( 'completed' );
 //     }
 //     return $data;
 // }
-add_action( 'transition_post_status', 'wpse118970_post_status_new', 10, 3 );
-function wpse118970_post_status_new( $new_status, $old_status, $post )
-{
-//	 echo "new_status = ". $new_status ."<br/>";
-//	 echo "old_status = ". $old_status ."<br/>";
-//	 echo "post = ". $post ."<br/>";
-//	 die;
-    //$i = 0;
-    if ($post->post_type == 'advert' && $old_status == 'draft') {
-        $post->post_status = 'publish';
-        wp_update_post($post);
-        return;
-    }
-
-    if ($post->post_type == 'advert' && $new_status == 'publish' && $old_status != $new_status) {
-        $post->post_status = 'draft';
-        wp_update_post($post);
-        //$i=1;
-    }
-}
-    add_action( 'save_post', 'simply_post_status_new', 10, 3 );
-    function simply_post_status_new( $post_id )
-    {
-//echo'<pre>'; print_r(get_post($post_id)); die;
-        if (get_post_status($post_id) == 'pending') {
-            wp_update_post(array(
-                'ID' => $post_id,
-                'post_status' => 'completed',
-//                'post_date' => date('Y-m-d H:i:s','36000'),
-//                'post_modified_gmt' => date('Y-m-d H:i:s','36000'),
-//                'post_modified' => date('Y-m-d H:i:s','36000'),
-//                'post_date_gmt' => date('Y-m-d H:i:s','36000'),
-
-            ));
-    }}
+//add_action( 'transition_post_status', 'wpse118970_post_status_new', 10, 3 );
+//function wpse118970_post_status_new( $new_status, $old_status, $post )
+//{
+////	 echo "new_status = ". $new_status ."<br/>";
+////	 echo "old_status = ". $old_status ."<br/>";
+////	 echo "post = ". $post ."<br/>";
+////	 die;
+//    //$i = 0;
+//    if ($post->post_type == 'advert' && $old_status == 'draft') {
+//        $post->post_status = 'publish';
+//        wp_update_post($post);
+//        return;
+//    }
+//
+//    if ($post->post_type == 'advert' && $new_status == 'publish' && $old_status != $new_status) {
+//        $post->post_status = 'draft';
+//        wp_update_post($post);
+//        //$i=1;
+//    }
+//}
+//    add_action( 'save_post', 'simply_post_status_new', 10, 3 );
+//    function simply_post_status_new( $post_id )
+//    {
+////echo'<pre>'; print_r(get_post($post_id)); die;
+//        if (get_post_status($post_id) == 'pending') {
+//            wp_update_post(array(
+//                'ID' => $post_id,
+//                'post_status' => 'completed',
+////                'post_date' => date('Y-m-d H:i:s','36000'),
+////                'post_modified_gmt' => date('Y-m-d H:i:s','36000'),
+////                'post_modified' => date('Y-m-d H:i:s','36000'),
+////                'post_date_gmt' => date('Y-m-d H:i:s','36000'),
+//
+//            ));
+//    }}
 
 

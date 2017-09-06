@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8967dec-7335-4daa-aa19-08b38a8d1ebf" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/deployment.xml" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/www.adverts-test.tk.iml" afterPath="$PROJECT_DIR$/.idea/www.adverts-test.tk.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpadverts-wc/wpadverts-wc.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wpadverts-wc/wpadverts-wc.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpadverts/addons/payments/includes/ajax.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wpadverts/addons/payments/includes/ajax.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpadverts/templates/add.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wpadverts/templates/add.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/sg-window/functions.php" afterPath="$PROJECT_DIR$/wp-content/themes/sg-window/functions.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,14 +18,13 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ajax.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ajax.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/plugins/wpadverts/addons/payments/includes/ajax.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="89" column="0" lean-forward="true" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
+            <state relative-caret-position="1479">
+              <caret line="103" column="58" lean-forward="true" selection-start-line="103" selection-start-column="58" selection-end-line="103" selection-end-column="58" />
               <folding />
             </state>
           </provider>
@@ -33,13 +33,32 @@
       <file leaf-file-name="wpadverts-wc.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/plugins/wpadverts-wc/wpadverts-wc.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="702">
-              <caret line="985" column="0" lean-forward="true" selection-start-line="985" selection-start-column="0" selection-end-line="985" selection-end-column="0" />
+            <state relative-caret-position="272">
+              <caret line="42" column="18" lean-forward="true" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="18" />
               <folding>
-                <marker date="1504602915159" expanded="true" signature="13254:13271" ph="..." />
-                <marker date="1504602915159" expanded="true" signature="17122:17310" ph="SELECT `orde... ${{$pfix}}woocommerce_order_itemmeta" />
-                <marker date="1504602915159" expanded="true" signature="27898:27915" ph="..." />
-                <marker date="1504602915159" expanded="true" signature="31173:31468" ph="..." />
+                <marker date="1504711737227" expanded="true" signature="13254:13271" ph="..." />
+                <marker date="1504711737227" expanded="true" signature="17122:17310" ph="SELECT `orde... ${{$pfix}}woocommerce_order_itemmeta" />
+                <marker date="1504711737227" expanded="true" signature="27898:27915" ph="..." />
+                <marker date="1504711737227" expanded="true" signature="31199:31494" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="functions.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/sg-window/functions.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="581">
+              <caret line="1604" column="5" lean-forward="true" selection-start-line="1604" selection-start-column="5" selection-end-line="1604" selection-end-column="5" />
+              <folding>
+                <marker date="1504712033982" expanded="true" signature="11061:11067" ph="→" />
+                <marker date="1504712033982" expanded="true" signature="11179:11185" ph="←" />
+                <marker date="1504712033982" expanded="true" signature="11312:11318" ph="←" />
+                <marker date="1504712033982" expanded="true" signature="15496:15755" ph="..." />
+                <marker date="1504712033982" expanded="true" signature="15609:15743" ph="..." />
+                <marker date="1504712033982" expanded="true" signature="15813:16046" ph="..." />
+                <marker date="1504712033982" expanded="true" signature="15878:16035" ph="..." />
+                <marker date="1504712033982" expanded="true" signature="48147:48664" ph="..." />
               </folding>
             </state>
           </provider>
@@ -56,7 +75,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>renew</find>
       <find>id=&quot;adverts&quot;</find>
       <find>&quot;id&quot; =&gt; &quot;adverts&quot;</find>
       <find>adverts-renewal</find>
@@ -73,7 +91,6 @@
       <find>pending</find>
       <find>completed</find>
       <find>transition_post_status</find>
-      <find>wc_pending</find>
       <find>get_product</find>
       <find>SimplyWorld</find>
       <find>$simply_price</find>
@@ -86,12 +103,15 @@
       <find>_expiration_date</find>
       <find>adverts-form</find>
       <find>$product</find>
+      <find>checkout</find>
+      <find>wc_pending</find>
     </findStrings>
     <dirStrings>
       <dir>C:\OpenServer\domains\www.secondtz.com\www.adverts-test.tk</dir>
       <dir>C:\OpenServer\domains\www.secondtz.com\www.adverts-test.tk\wp-content\plugins\wpadverts-wc</dir>
       <dir>C:\OpenServer\domains\www.secondtz.com\www.adverts-test.tk\wp-content\plugins\wpadverts\addons\payments</dir>
       <dir>C:\OpenServer\domains\www.secondtz.com\www.adverts-test.tk\wp-admin</dir>
+      <dir>C:\OpenServer\domains\www.secondtz.com\www.adverts-test.tk\wp-content</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -119,13 +139,13 @@
         <option value="$PROJECT_DIR$/wp-content/plugins/wpadverts/wpadverts.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/wpadverts/addons/payments/includes/admin-pages.php" />
         <option value="$PROJECT_DIR$/wp-admin/includes/post.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/sg-window/functions.php" />
-        <option value="$PROJECT_DIR$/wp-content/plugins/wpadverts/addons/payments/payments.php" />
         <option value="$PROJECT_DIR$/wp-admin/edit.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/wpadverts/addons/payments/assets/js/payments.js" />
         <option value="$PROJECT_DIR$/wp-content/plugins/wpadverts/templates/add.php" />
-        <option value="$PROJECT_DIR$/wp-content/plugins/wpadverts-wc/wpadverts-wc.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/wpadverts/addons/payments/includes/ajax.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/wpadverts/addons/payments/payments.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/wpadverts-wc/wpadverts-wc.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/sg-window/functions.php" />
       </list>
     </option>
   </component>
@@ -137,7 +157,7 @@
   </component>
   <component name="PhpWebServerValidation" path_to_validation_script="C:\OpenServer\domains\www.secondtz.com\www.adverts-test.tk" selected_validation_type="LOCAL" web_path_to_validation_script="http://127.0.0.1/" />
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1382" />
@@ -161,226 +181,48 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www.adverts-test.tk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www.adverts-test.tk" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www.adverts-test.tk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www.adverts-test.tk" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wp-content" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www.adverts-test.tk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www.adverts-test.tk" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wp-content" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="plugins" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www.adverts-test.tk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www.adverts-test.tk" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wp-content" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="plugins" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wpadverts-wc" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www.adverts-test.tk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www.adverts-test.tk" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wp-content" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="plugins" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wpadverts" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www.adverts-test.tk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www.adverts-test.tk" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wp-content" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="plugins" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wpadverts" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www.adverts-test.tk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www.adverts-test.tk" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wp-content" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="plugins" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wpadverts" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="addons" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="payments" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www.adverts-test.tk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www.adverts-test.tk" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wp-content" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="plugins" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wpadverts" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="addons" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="payments" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="includes" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www.adverts-test.tk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www.adverts-test.tk" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wp-content" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="plugins" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wpadverts" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="addons" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www.adverts-test.tk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www.adverts-test.tk" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wp-admin" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
+          <expand>
+            <path>
+              <item name="www.adverts-test.tk" type="b2602c69:ProjectViewProjectNode" />
+              <item name="www.adverts-test.tk" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="www.adverts-test.tk" type="b2602c69:ProjectViewProjectNode" />
+              <item name="www.adverts-test.tk" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="www.adverts-test.tk" type="b2602c69:ProjectViewProjectNode" />
+              <item name="www.adverts-test.tk" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="plugins" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="www.adverts-test.tk" type="b2602c69:ProjectViewProjectNode" />
+              <item name="www.adverts-test.tk" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="plugins" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="wpadverts-wc" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="www.adverts-test.tk" type="b2602c69:ProjectViewProjectNode" />
+              <item name="www.adverts-test.tk" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="www.adverts-test.tk" type="b2602c69:ProjectViewProjectNode" />
+              <item name="www.adverts-test.tk" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="sg-window" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
         </subPane>
       </pane>
     </panes>
@@ -396,9 +238,29 @@
     <property name="js.eslint.eslintPackage" value="" />
     <property name="add_unversioned_files" value="true" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../firsttz.com" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../localhost.bug-hunter.ua" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+    </configuration>
     <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
       <config-file value="" />
       <node-interpreter value="project" />
@@ -424,15 +286,6 @@
     </configuration>
     <configuration default="true" type="PhpSpecConfigurationType" factoryName="PHPSpec">
       <PhpTestRunnerSettings />
-      <method />
-    </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
-      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -482,7 +335,10 @@
       <workItem from="1504263875485" duration="2151000" />
       <workItem from="1504506861123" duration="1678000" />
       <workItem from="1504510857416" duration="29400000" />
-      <workItem from="1504592587737" duration="9909000" />
+      <workItem from="1504592587737" duration="10761000" />
+      <workItem from="1504679463225" duration="587000" />
+      <workItem from="1504690602640" duration="828000" />
+      <workItem from="1504707276286" duration="5274000" />
     </task>
     <task id="LOCAL-00001" summary="first action....">
       <created>1503408625035</created>
@@ -603,35 +459,41 @@
       <option name="project" value="LOCAL" />
       <updated>1504543313162</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="make 99% отправил на тестирование">
+      <created>1504603379907</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1504603379907</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="217138000" />
+    <option name="totallyTimeSpent" value="224679000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
     <layout>
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15506808" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26701966" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15506808" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22087745" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -656,7 +518,7 @@
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="processedProjectFiles" value="true" />
+    <option name="version" value="1" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -681,18 +543,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="4" />
+      <option name="time" value="6" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_4.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="37" column="9" lean-forward="false" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-includes/pluggable.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="186">
@@ -704,7 +559,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="194">
           <caret line="420" column="9" lean-forward="false" selection-start-line="420" selection-start-column="9" selection-end-line="420" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -729,13 +583,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/date.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="1049" column="9" lean-forward="false" selection-start-line="1049" selection-start-column="9" selection-end-line="1049" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/date.php" />
     <entry file="file://$PROJECT_DIR$/wp-includes/functions.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="194">
@@ -771,13 +619,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/pcre.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="94" column="23" lean-forward="false" selection-start-line="94" selection-start-column="16" selection-end-line="94" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/pcre.php" />
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/wpadverts/templates/single.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -856,13 +698,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wpadverts/wpadverts.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4913">
-          <caret line="160" column="29" lean-forward="false" selection-start-line="160" selection-start-column="29" selection-end-line="160" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/wpadverts/includes/functions.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="89">
@@ -874,7 +709,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="194">
           <caret line="182" column="9" lean-forward="false" selection-start-line="182" selection-start-column="9" selection-end-line="182" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -885,14 +719,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/_superglobals.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="82" column="0" lean-forward="false" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/_superglobals.php" />
     <entry file="file://$PROJECT_DIR$/wp-admin/users.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-952">
@@ -907,18 +734,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/sg-window/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="1635" column="1" lean-forward="true" selection-start-line="1635" selection-start-column="1" selection-end-line="1635" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.htaccess">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -926,20 +745,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="34" lean-forward="false" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="34" />
-          <folding>
-            <marker date="1504171232795" expanded="true" signature="1466:1476" ph="..." />
-            <marker date="1504171232795" expanded="true" signature="1746:1756" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wpadverts/addons/payments/payments.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="555" column="24" lean-forward="true" selection-start-line="555" selection-start-column="24" selection-end-line="555" selection-end-column="24" />
-          <folding>
-            <marker date="1504537029460" expanded="true" signature="11382:11399" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -959,7 +764,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="194">
           <caret line="2988" column="9" lean-forward="false" selection-start-line="2988" selection-start-column="9" selection-end-line="2988" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1006,12 +810,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="213">
           <caret line="65" column="34" lean-forward="false" selection-start-line="65" selection-start-column="34" selection-end-line="65" selection-end-column="34" />
-          <folding>
-            <marker date="1504540541424" expanded="true" signature="2074:2092" ph="..." />
-            <marker date="1504540541424" expanded="true" signature="2199:2284" ph="..." />
-            <marker date="1504540541424" expanded="true" signature="2199:2333" ph="..." />
-            <marker date="1504540541424" expanded="true" signature="2199:2459" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1019,7 +817,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="90" column="59" lean-forward="false" selection-start-line="90" selection-start-column="43" selection-end-line="90" selection-end-column="59" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1027,7 +824,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="73" column="146" lean-forward="false" selection-start-line="73" selection-start-column="146" selection-end-line="73" selection-end-column="146" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1035,10 +831,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="338" column="66" lean-forward="false" selection-start-line="338" selection-start-column="66" selection-end-line="338" selection-end-column="66" />
-          <folding>
-            <marker date="1504542091479" expanded="true" signature="2456:2523" ph="SELECT ID FR... wp_posts" />
-            <marker date="1504542091479" expanded="true" signature="7931:7938" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1046,11 +838,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2652">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1504160039266" expanded="true" signature="860:952" ph="SELECT comme... wp_comments" />
-            <marker date="1504160039266" expanded="true" signature="5972:5979" ph="..." />
-            <marker date="1504160039266" expanded="true" signature="6029:6036" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1058,30 +845,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="141">
           <caret line="15" column="29" lean-forward="true" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
-          <folding>
-            <marker date="1504160035015" expanded="true" signature="13719:13726" ph="—" />
-            <marker date="1504160035015" expanded="true" signature="13784:13791" ph="..." />
-            <marker date="1504160035015" expanded="true" signature="13915:13922" ph="—" />
-            <marker date="1504160035015" expanded="true" signature="15245:15252" ph="..." />
-            <marker date="1504160035015" expanded="true" signature="20040:20047" ph="—" />
-            <marker date="1504160035015" expanded="true" signature="20824:20831" ph="—" />
-            <marker date="1504160035015" expanded="true" signature="21482:21489" ph="—" />
-            <marker date="1504160035015" expanded="true" signature="22011:22018" ph="—" />
-            <marker date="1504160035015" expanded="true" signature="22078:22085" ph="..." />
-            <marker date="1504160035015" expanded="true" signature="22191:22198" ph="..." />
-            <marker date="1504160035015" expanded="true" signature="22352:22359" ph="—" />
-            <marker date="1504160035015" expanded="true" signature="22755:22762" ph="—" />
-            <marker date="1504160035015" expanded="true" signature="22837:22844" ph="..." />
-            <marker date="1504160035015" expanded="true" signature="22849:22856" ph="..." />
-            <marker date="1504160035015" expanded="true" signature="22871:22878" ph="..." />
-            <marker date="1504160035015" expanded="true" signature="22888:22895" ph="..." />
-            <marker date="1504160035015" expanded="true" signature="22900:22907" ph="..." />
-            <marker date="1504160035015" expanded="true" signature="22913:22920" ph="..." />
-            <marker date="1504160035015" expanded="true" signature="23049:23056" ph="—" />
-            <marker date="1504160035015" expanded="true" signature="23186:23193" ph="..." />
-            <marker date="1504160035015" expanded="true" signature="23278:23285" ph="—" />
-            <marker date="1504160035015" expanded="true" signature="24482:24489" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1089,7 +852,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-29">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1097,17 +859,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-29">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1504160038663" expanded="true" signature="6349:6356" ph="..." />
-            <marker date="1504160038663" expanded="true" signature="6369:6376" ph="..." />
-            <marker date="1504160038663" expanded="true" signature="6872:6879" ph="..." />
-            <marker date="1504160038663" expanded="true" signature="8145:8152" ph="—" />
-            <marker date="1504160038663" expanded="true" signature="8291:8298" ph="—" />
-            <marker date="1504160038663" expanded="true" signature="8303:8310" ph="..." />
-            <marker date="1504160038663" expanded="true" signature="8314:8321" ph="..." />
-            <marker date="1504160038663" expanded="true" signature="8538:8545" ph="—" />
-            <marker date="1504160038663" expanded="true" signature="8853:8860" ph="—" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1115,7 +866,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="134">
           <caret line="186" column="74" lean-forward="true" selection-start-line="186" selection-start-column="74" selection-end-line="186" selection-end-column="74" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1123,31 +873,68 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-29">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1504160036925" expanded="true" signature="4726:4733" ph="..." />
-            <marker date="1504160036925" expanded="true" signature="4737:4744" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wpadverts-wc/wpadverts-wc.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wpadverts/wpadverts.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="985" column="0" lean-forward="true" selection-start-line="985" selection-start-column="0" selection-end-line="985" selection-end-column="0" />
-          <folding>
-            <marker date="1504602915159" expanded="true" signature="13254:13271" ph="..." />
-            <marker date="1504602915159" expanded="true" signature="17122:17310" ph="SELECT `orde... ${{$pfix}}woocommerce_order_itemmeta" />
-            <marker date="1504602915159" expanded="true" signature="27898:27915" ph="..." />
-            <marker date="1504602915159" expanded="true" signature="31173:31468" ph="..." />
-          </folding>
+        <state relative-caret-position="-2003">
+          <caret line="178" column="75" lean-forward="true" selection-start-line="178" selection-start-column="75" selection-end-line="178" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wpadverts/addons/payments/templates/add-payment.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wpadverts/addons/payments/payments.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2179">
+          <caret line="447" column="4" lean-forward="true" selection-start-line="447" selection-start-column="4" selection-end-line="447" selection-end-column="4" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/wpadverts/addons/payments/includes/ajax.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="89" column="0" lean-forward="true" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
+        <state relative-caret-position="1479">
+          <caret line="103" column="58" lean-forward="true" selection-start-line="103" selection-start-column="58" selection-end-line="103" selection-end-column="58" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wpadverts-wc/wpadverts-wc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="42" column="18" lean-forward="true" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="18" />
+          <folding>
+            <marker date="1504711737227" expanded="true" signature="13254:13271" ph="..." />
+            <marker date="1504711737227" expanded="true" signature="17122:17310" ph="SELECT `orde... ${{$pfix}}woocommerce_order_itemmeta" />
+            <marker date="1504711737227" expanded="true" signature="27898:27915" ph="..." />
+            <marker date="1504711737227" expanded="true" signature="31199:31494" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/sg-window/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="581">
+          <caret line="1604" column="5" lean-forward="true" selection-start-line="1604" selection-start-column="5" selection-end-line="1604" selection-end-column="5" />
+          <folding>
+            <marker date="1504712033982" expanded="true" signature="11061:11067" ph="→" />
+            <marker date="1504712033982" expanded="true" signature="11179:11185" ph="←" />
+            <marker date="1504712033982" expanded="true" signature="11312:11318" ph="←" />
+            <marker date="1504712033982" expanded="true" signature="15496:15755" ph="..." />
+            <marker date="1504712033982" expanded="true" signature="15609:15743" ph="..." />
+            <marker date="1504712033982" expanded="true" signature="15813:16046" ph="..." />
+            <marker date="1504712033982" expanded="true" signature="15878:16035" ph="..." />
+            <marker date="1504712033982" expanded="true" signature="48147:48664" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
