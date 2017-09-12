@@ -61,11 +61,19 @@
 </div>
 
 <div class="adverts-content">
+<?php
+$tmp = get_option( 'pccf_options', $pccf_defaults );
+$db_search_string = $tmp['txtar_keywords'];
+$keywords = array_map( 'trim', explode( ',', $db_search_string ) ); // explode and trim whitespace
+$keywords = array_unique( $keywords ); // get rid of duplicates in the keywords textbox
 
+$bad_string = str_replace($keywords,'***', $post_content);
+
+?>
     <?php
-        if(substr_count($post_content,'***') > 0 ){
+        if(substr_count($post_content,'***') > 0 || substr_count($bad_string,'***') > 0){
             echo '<p style="color: red">Введены запрещённые слова</p>';
-            echo $post_content;
+            echo $bad_string;
         }else echo $post_content
     ?>
 

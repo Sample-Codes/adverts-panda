@@ -87,3 +87,6 @@
         display: none;
     }
 </style>
+<script>
+    $('#post-7 > div > form > fieldset > div.adverts-control-group.adverts-field-gallery.adverts-field-name-gallery > label').append('<span>: (загружаемое изображение не должно превышать 200кб)</span>');
+</script>

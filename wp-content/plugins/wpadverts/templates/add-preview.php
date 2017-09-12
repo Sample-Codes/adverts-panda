@@ -39,7 +39,16 @@ $images += $children;
 $img = $images;
 $images = adverts_sort_images($images, $post_id);
 $countimg = count($images);
-$countstar = substr_count($post_content,'***');
+
+$tmp = get_option( 'pccf_options', $pccf_defaults );
+$db_search_string = $tmp['txtar_keywords'];
+$keywords = array_map( 'trim', explode( ',', $db_search_string ) ); // explode and trim whitespace
+$keywords = array_unique( $keywords ); // get rid of duplicates in the keywords textbox
+
+$bad_string = str_replace($keywords,'***', $post_content);
+
+$countstar = substr_count($bad_string,'***');
+
 $pregurl = preg_match_all('@((https?://)?([-\\w]+\\.[-\\w\\.]+)+\\w(:\\d+)?(/([-\\w/_\\.]*(\\?\\S+)?)?)*)@', $post_content, $pregurl);
 $left_time_to_msg = ceil((3600 - $time_passed)/60);
 
@@ -98,3 +107,7 @@ $left_time_to_msg = ceil((3600 - $time_passed)/60);
         -webkit-border-radius: 4px;
     }
 </style>
+
+<script>
+
+</script>

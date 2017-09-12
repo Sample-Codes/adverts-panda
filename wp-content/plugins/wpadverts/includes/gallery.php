@@ -1,7 +1,7 @@
 <?php
 /**
  * Gallery Functions
- * 
+ *
  * @package     Adverts
  * @copyright   Copyright (c) 2015, Grzegorz Winiarski
  * @license     http://opensource.org/licenses/gpl-2.0.php GNU Public License
@@ -13,35 +13,35 @@ if ( ! defined( 'ABSPATH' ) ) exit;
 
 /**
  * Renders Gallery Input
- * 
+ *
  * Renders gallery drop file input and uploaded items.
- * 
+ *
  * @param WP_Post $post
  * @param array $conf
  * @since 0.1
  * @return void
  */
 function adverts_gallery_content( $post = null, $conf = array() ) {
-    
-    wp_nonce_field( plugin_basename( __FILE__ ), 'adverts_gallery_content_nonce' ); 
-    
+
+    wp_nonce_field( plugin_basename( __FILE__ ), 'adverts_gallery_content_nonce' );
+
     $conf = shortcode_atts( array(
         "button_class" => "button-secondary",
         "post_id_input" => "#post_ID"
     ), $conf);
-    
+
     $init = array(
         'runtimes'            => 'html5,silverlight,flash,html4',
         'browse_button'       => 'adverts-plupload-browse-button',
         'container'           => 'adverts-plupload-upload-ui',
         'drop_element'        => 'adverts-drag-drop-area',
-        'file_data_name'      => 'async-upload',            
+        'file_data_name'      => 'async-upload',
         'multiple_queues'     => true,
-        'max_file_size'       => 250000,
+        'max_file_size'       => '200kb',
         'url'                 => admin_url('admin-ajax.php'),
         'flash_swf_url'       => includes_url('js/plupload/plupload.flash.swf'),
         'silverlight_xap_url' => includes_url('js/plupload/plupload.silverlight.xap'),
-        'filters'             => array(array('title' => __('Allowed Files'), 'extensions' => '*')),
+        'filters'             => array(array('title' => __('Allowed Files'), 'extensions' => '*', 'max_file_size' => '200kb')),
         'multipart'           => true,
         'urlstream_upload'    => true,
 
@@ -53,13 +53,12 @@ function adverts_gallery_content( $post = null, $conf = array() ) {
         ),
     );
 
-
     ?>
 
     <?php if( is_admin() ): ?>
     <div id="adverts-plupload-upload-ui">
         <div id="adverts-drag-drop-area">
-        
+
         </div>
         <div class="adverts-gallery">
             <p class="adverts-gallery-invite"><?php _e( "Drop <strong>images</strong> here to add them.", "adverts" ) ?></p>
@@ -69,8 +68,8 @@ function adverts_gallery_content( $post = null, $conf = array() ) {
 
         </div>
     </div>
-    
-    
+
+
     <div id="adverts-modal-gallery" class="adverts-modal">
         <div class="media-modal wp-core-ui">
             <a class="media-modal-close adverts-upload-modal-close" href="#" title="<?php _e( "Close", "adverts" ) ?>"><span class="media-modal-icon"></span></a>
@@ -78,14 +77,14 @@ function adverts_gallery_content( $post = null, $conf = array() ) {
                 <div class="media-frame wp-core-ui2 hide-menu">
 
                     <div class="media-frame-title"><h1><?php _e( "Edit Image", "adverts" ) ?></h1></div>
-                    
+
                     <div class="media-frame-router">
                         <div class="media-router">
                             <a href="#" class="media-menu-item active"><?php _e( "Image Properties", "adverts" ) ?></a>
                         </div>
                     </div>
 
-                    <div class="media-frame-content"> 
+                    <div class="media-frame-content">
 
                         <div class="wrap" style="padding:0px 20px">
 
@@ -98,7 +97,7 @@ function adverts_gallery_content( $post = null, $conf = array() ) {
                                             <td>
                                                 <input name="adverts_caption" type="text" id="adverts_caption" value="" class="regular-text" />
                                             </td>
-                                        </tr>               
+                                        </tr>
                                         <tr>
                                             <th scope="row"><label for="adverts_featured"><?php _e( "Featured", "adverts" ) ?></label></th>
                                             <td>
@@ -107,7 +106,7 @@ function adverts_gallery_content( $post = null, $conf = array() ) {
                                                     <?php esc_attr_e( "Use this image as main image", "adverts") ?>
                                                 </label>
                                             </td>
-                                        </tr>                
+                                        </tr>
                                         <tr>
                                             <th scope="row"><label for="adverts_content"><?php _e( "Description", "adverts" ) ?></label></th>
                                             <td>
@@ -121,9 +120,9 @@ function adverts_gallery_content( $post = null, $conf = array() ) {
                             </form>
 
                         </div>
-                    
+
                     </div>
-                    
+
                     <div class="media-frame-toolbar">
                         <div class="media-toolbar">
                             <div class="media-toolbar-secondary"></div>
@@ -143,7 +142,7 @@ function adverts_gallery_content( $post = null, $conf = array() ) {
 
     <div id="adverts-plupload-upload-ui">
         <div id="adverts-drag-drop-area">
-        
+
         </div>
         <div class="adverts-gallery">
             <p><?php _e( "Drop <strong>images</strong> here to add them.", "adverts" ) ?></p>
@@ -154,24 +153,24 @@ function adverts_gallery_content( $post = null, $conf = array() ) {
         </div>
 
     </div>
-    
+
     <?php add_action("wp_footer", "adverts_gallery_modal") ?>
     <?php endif; ?>
-    
-    
-    
+
+
+
     <?php
 
         // Get data for uploaded items and format it as JSON.
         $data = array();
 
         if($post) {
-        
+
             $children = get_children( array(
                 'post_parent' => $post->ID,
-                'post_type'   => 'attachment', 
+                'post_type'   => 'attachment',
                 'posts_per_page' => -1,
-                'post_status' => 'inherit' 
+                'post_status' => 'inherit'
             ) );
 
             // adverts_sort_images() is defined in functions.php
@@ -188,8 +187,8 @@ function adverts_gallery_content( $post = null, $conf = array() ) {
 
 
     ?>
-    
-    
+
+
     <script type="text/javascript">
     var ADVERTS_PLUPLOAD_INIT = <?php echo json_encode($init) ?>;
     var ADVERTS_PLUPLOAD_DATA = <?php echo json_encode($data) ?>;
@@ -200,42 +199,42 @@ function adverts_gallery_content( $post = null, $conf = array() ) {
 
 /**
  * HTML for gallery modal window
- * 
+ *
  * This function is executed by wp_footer action, it renders HTML for modal window
  * which allows to customize uploaded image title, description and is featured flag.
- * 
+ *
  * @since 0.1
  * @return void
  */
 function adverts_gallery_modal() {
     ?>
-    
+
     <div id="adverts-modal-gallery" class="adverts-modal adverts-modal-reposition">
         <div class="adverts-modal-inner">
             <span style="font-size:1.3em; font-weight: bold; display: block; padding: 0 0 15px 0"><?php _e("Image Properties", "adverts") ?></span>
             <br/>
             <form action="" method="post" class="adverts-form adverts-form-aligned">
                 <fieldset>
-                    
+
                     <div class="adverts-control-group">
                         <label for="adverts_caption" style="float:none"><?php _e("Title", "adverts") ?></label>
                         <input type="text" id="adverts_caption" name="adverts_caption" value="" />
                     </div>
-                    
+
                     <div class="adverts-control-group">
                         <label for="adverts_featured" style="float:none"><?php _e("Featured", "adverts") ?></label>
                         <input type="checkbox" id="adverts_featured" name="adverts_featured" value="1" />
                         <?php esc_html_e( "Use this image as main image", "adverts") ?>
                     </div>
-                    
+
                     <div class="adverts-control-group">
                         <label for="adverts_content" style="float:none"><?php _e("Description", "adverts") ?></label>
                         <textarea id="adverts_content" name="adverts_content"></textarea>
                     </div>
-                    
+
                 </fieldset>
             </form>
-            
+
             <div>
                 <a href="#" class="adverts-button adverts-upload-modal-close"><?php _e( "Cancel" ) ?></a>
                 <a href="#" class="adverts-button adverts-upload-modal-update"><?php _e( "Update and Close" ) ?></a>
@@ -243,7 +242,7 @@ function adverts_gallery_modal() {
             </div>
 
         </div>
-        
+
     </div>
     <?php
 }
@@ -251,7 +250,7 @@ function adverts_gallery_modal() {
 
 /**
  * Formats information about specific attachment
- * 
+ *
  * @param int $attach_id WP_Post ID
  * @param boolean $is_new
  * @return array
@@ -264,7 +263,7 @@ function adverts_upload_item_data( $attach_id, $is_new = false ) {
     // Generate the metadata for the attachment, and update the database record.
 
     $thumb = wp_get_attachment_image_src( $attach_id, "adverts-upload-thumbnail");
-    
+
     $featured = 0;
     $caption = "";
     $content = "";
@@ -274,7 +273,7 @@ function adverts_upload_item_data( $attach_id, $is_new = false ) {
         $parent_id = wp_get_post_parent_id( $post->ID );
         $caption = $post->post_excerpt;
         $content = $post->post_content;
-        
+
         $featured = intval(get_post_meta( $parent_id, '_thumbnail_id', true ) );
         if($featured == $post->ID) {
             $featured = 1;

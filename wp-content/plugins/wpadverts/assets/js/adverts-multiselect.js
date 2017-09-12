@@ -1,14 +1,15 @@
 jQuery(function($) {
-    
+
   if($(".adverts-multiselect").length == 0) {
       return;
   }
 
   $("select.adverts-multiselect").each(function(index, item) {
+      console.log('aaaaaaaaaaaaa');
       var $this = $(item);
       var $parent = $this.parent();
       var text = adverts_multiselect_lang.hint;
-      
+
       var holder = $("<div></div>");
       holder.addClass("adverts-multiselect-holder");
 
@@ -23,10 +24,10 @@ jQuery(function($) {
       input.attr("autocomplete", "off");
       input.addClass("adverts-multiselect-input");
       input.on("focus", function(e) {
-          
+
           $(this).blur();
           e.stopPropagation();
-          
+
           if($(this).hasClass("adverts-multiselect-open")) {
             $(this).removeClass("adverts-multiselect-open");
             $(this).parent().find(".adverts-multiselect-options").hide();
@@ -43,16 +44,16 @@ jQuery(function($) {
 
       $this.find("option").each(function(i, o) {
           var o = $(o);
-          var label = $("<label></label>");              
+          var label = $("<label></label>");
           label.attr("for", input.attr("id")+"-"+i);
-          
+
           if(o.data("depth")) {
               label.addClass("adverts-option-depth-"+o.data("depth"));
               label.css("padding-left", (parseInt(o.data("depth"))*20).toString() + "px" )
           } else {
               label.addClass("adverts-option-depth-0");
           }
-          
+
           var checkbox = $('<input type="checkbox" />');
           checkbox.attr("id", input.attr("id")+"-"+i);
           checkbox.attr("value", o.attr("value"));

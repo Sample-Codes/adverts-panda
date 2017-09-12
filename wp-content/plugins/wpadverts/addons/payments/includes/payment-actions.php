@@ -95,7 +95,7 @@ function adext_payment_completed_renew( WP_Post $payment ) {
     }
     
     /* @todo add activity log */
-    
+
     wp_update_post( array(
         "ID" => $object_id,
         "post_status" => "publish",

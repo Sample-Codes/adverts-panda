@@ -426,6 +426,7 @@ function shortcode_adverts_add( $atts ) {
     } elseif( $action == "save") {
         
         // Save form in the database
+
         $post_id = wp_update_post( array(
             "ID" => $post_id,
             "post_status" => $moderate == "1" ? 'pending' : 'publish',
@@ -637,9 +638,47 @@ function _adverts_manage_edit( $atts ) {
     }
     
     $form->bind( $bind );
-    
+//SimplyWorld
+	$current_post_row = (get_post( $post->ID));  // Достаём текущий пост с бд
+
     if($action == "update") {
-        
+
+//Make array for looking change
+        $attributes =['adverts_person', 'adverts_email', 'adverts_phone', 'post_content', 'post_title', 'adverts_price', 'adverts_location'];
+        $is_changed = false;
+
+	    $children = get_children( array( 'post_parent' => $post_id ) );
+	    $thumb_id = get_post_thumbnail_id( $post_id );
+	    $images = array();
+
+
+	    if( isset( $children[$thumb_id] ) ) {
+		    $images[$thumb_id] = $children[$thumb_id];
+		    unset($children[$thumb_id]);
+	    }
+
+	    $images += $children;
+//
+	    foreach ( $images as $image ) {
+		    echo $image->guid . ' == ' . $_POST['guid'].'<br>';
+	    }
+
+        foreach ($attributes as $attribute) {
+            if ($current_post_row->$attribute !== $_POST[$attribute]){
+	            $is_changed = true;
+            }
+//	        echo $current_post_row->$attribute . ' == ' . $_POST[$attribute].'<br>';
+        }
+
+
+
+//	    echo '<pre>'; var_dump($_POST);
+//	    echo '<pre>';var_dump($images['930']->guid);
+//	    die;
+
+
+//	    die;
+
         $form->bind( (array)stripslashes_deep( $_POST ) );
         $valid = $form->validate();
 
@@ -656,6 +695,21 @@ function _adverts_manage_edit( $atts ) {
         } else {
             $error[] = __("Cannot update. There are errors in your form.", "adverts");
         }
+
+	    if ($is_changed == true) {
+//		    update_post_meta( $post->ID, "post_status", 'draft' );
+	        wp_update_post(
+		        array (
+			        'ID'            => $post->ID, // ID of the post to update
+                    'post_status' => 'draft'
+		        )
+	        );
+//		    wp_redirect(site_url().'/adverts/manage');
+            echo "<div class='adverts-flash-messages adverts-flash-info'><div class='adverts-flash-single'>
+                        <span class='adverts-flash-message-text'>Данные были сохранены. И отправлены на рассмотрение администрации.</span>
+                    </div>
+        </div>";
+	    }
     }
     
     $adverts_flash = array( "error" => $error, "info" => $info );

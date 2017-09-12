@@ -7,6 +7,7 @@ jQuery(function($) {
     $(".adverts-gallery-uploads").sortable({
         update: function() {
             var ordered_keys = $("div.adverts-gallery-uploads").sortable("toArray", {attribute: 'attachment-key'});
+            console.log('update');
 
             $(this).find(".adverts-gallery-upload-update.adverts-icon-spinner.animate-spin").fadeIn();
 
@@ -22,9 +23,11 @@ jQuery(function($) {
                     ordered_keys: JSON.stringify(ordered_keys)
                 },
                 success: function (response) {
+
                     if (response.result == 1) {
                         $(this).find(".adverts-gallery-upload-update.adverts-icon-spinner.animate-spin").fadeOut();
                     } else {
+                        console.log('33333');
                         alert(response.error);
                     }
                 }
@@ -34,7 +37,7 @@ jQuery(function($) {
 
     function adverts_upload_files_added(container, file) {
         var ag_ui = $("<div></div>").addClass("adverts-gallery-upload-item").attr("id", file.id).attr("attachment-key", file.attachment_key);
-
+console.log('adverts_upload_files_added');
         $(spinner_large).show();
         $(spinner_large).clone().prependTo(ag_ui);
 
@@ -44,7 +47,7 @@ jQuery(function($) {
     // this is your ajax response, update the DOM with it or something...
     function adverts_upload_file_uploaded(file, result, trigger_order_update) {
         $("#" + file.id).attr('attachment-key', result.attach_id);
-
+console.log('adverts_upload_file_uploaded');
         if(result.error) {
             var m = $("#"+file.id+" .adverts-gallery-upload-update");
             m.removeClass("adverts-icon-spinner animate-spin");
@@ -54,7 +57,7 @@ jQuery(function($) {
         } else {
             $("#"+file.id+" .adverts-gallery-upload-update").hide();
         }
-        
+
         var ag_ui = $("#"+file.id);
         var ag_img = $("<img />").attr("src", result.sizes.adverts_upload_thumbnail.url).attr("alt", "").addClass("adverts-gallery-upload-item-img");
         var ag_feat = $("<span></span>").addClass("adverts-gallery-item-featured").html(adverts_gallery_lang.featured);
@@ -76,20 +79,20 @@ jQuery(function($) {
             .attr("class", ADVERTS_PLUPLOAD_CONF.button_class + " adverts-button-icon adverts-icon-trash-1")
             .attr("title", adverts_gallery_lang.delete_image)
             .data("attach-id", result.attach_id);
-            
+
         ag_aedit.data("caption", result.caption);
         ag_aedit.data("featured", result.featured);
         ag_aedit.data("content", result.content);
-            
+
         if( result.featured ) {
             ag_feat.show();
-        }        
-            
+        }
+
         ag_adel.click(function(e) {
             e.preventDefault();
             var attach_id = $(this).data("attach-id");
             $(this).parent().find(".adverts-loader.animate-spin").css("display", "inline-block");
-            
+
            jQuery.ajax({
                url: adverts_gallery_lang.ajaxurl,
                context: this,
@@ -108,35 +111,36 @@ jQuery(function($) {
                            $(".adverts-gallery-uploads").sortable("option", "update")();
                        });
                    } else {
+                       console.log('44444');
                         $(this).parent().find(".adverts-loader.animate-spin").hide();
                        alert(response.error);
                    }
                }
-            });            
-            
+            });
+
         });
-            
+
         ag_aedit.click(function(e) {
             e.preventDefault();
-            
+
             var $this = $(this);
             var $modal = $("#adverts-modal-gallery");
-            
+
             $modal.show();
             $modal.find("#adverts_caption").val($this.data("caption"));
             $modal.find("#adverts_content").val($this.data("content"));
             $modal.find(".adverts-upload-modal-update").data("attach-id", $this.data("attach-id"));
-            
+
             if($this.data("featured")) {
                 $modal.find("#adverts_featured").prop("checked", true);
             } else {
                 $modal.find("#adverts_featured").prop("checked", false);
             }
-            
+
             if( !$modal.hasClass("adverts-modal-reposition") ) {
                 return;
             }
-            
+
             $modal.css("height", $(document).height());
             $modal.css("width", $(document).width());
 
@@ -144,26 +148,28 @@ jQuery(function($) {
             c.css("position","absolute");
             c.css("top", Math.max(0, (($(window).height() - c.outerHeight()) / 2) + $(window).scrollTop()) + "px");
             c.css("left", Math.max(0, (($(window).width() - c.outerWidth()) / 2) +  $(window).scrollLeft()) + "px");
-            
+
         });
-            
+
         ag_p.append(ag_spin).append(ag_aview).append(ag_aedit).append(ag_adel);
         ag_ui.append(ag_img).append(ag_feat).append(ag_p);
     }
 
-    
+
 
     $(".adverts-modal .adverts-upload-modal-close").click(function(e) {
         e.preventDefault();
+        console.log("adverts-upload-modal-close");
         $(".adverts-modal").hide();
     });
 
     $(".adverts-modal .adverts-upload-modal-update").click(function(e) {
+        console.log('asd');
         e.preventDefault();
         $(".adverts-loader.animate-spin").show();
-        
+
         var featured = $(".adverts-modal #adverts_featured").prop("checked") ? 1 : 0;
-        
+
         jQuery.ajax({
             url: adverts_gallery_lang.ajaxurl,
             context: this,
@@ -180,66 +186,91 @@ jQuery(function($) {
             },
             success: function(response) {
                 $(".adverts-loader.animate-spin").hide();
-                
+
                 if(response.result == 1) {
                     $(".adverts-modal .adverts-upload-modal-close").click();
                     var attach_id = $(this).data("attach-id");
                     var button = $("#adverts-upload-button-edit-"+attach_id);
                     var featured = $(".adverts-modal #adverts_featured").prop("checked") ? 1 : 0;
-                    
+
                     button.data("caption", $(".adverts-modal #adverts_caption").val());
                     button.data("content", $(".adverts-modal #adverts_content").val());
                     button.data("featured", featured);
-                    
+
                     $(".adverts-gallery-item-featured").hide();
-                    
+
                     if(featured) {
                         button.closest(".adverts-gallery-upload-item").find(".adverts-gallery-item-featured").show();
                     }
                 } else {
+                    console.log('55555');
                     alert(response.error);
-                }  
+                }
             } // end success
-        }); // end jQuery.ajax 
-        
+        }); // end jQuery.ajax
+
     });
-    
-    
+
+
     if (typeof ADVERTS_PLUPLOAD_INIT === 'undefined') {
         return;
     }
-    
+
       // create the uploader and pass the config from above
       var uploader = new plupload.Uploader(ADVERTS_PLUPLOAD_INIT);
-      
+// console.log("gggg");
+      if ("1" == "2") {
+      uploader.addFileFilter('max_file_size', function(maxSize, file, cb) {
+      	var undef;
+
+      	maxSize = plupload.parseSize(maxSize);
+
+      	// Invalid file size
+      	if (file.size !== undef && maxSize && file.size > maxSize) {
+      		this.trigger('Error', {
+      			code : plupload.FILE_SIZE_ERROR,
+      			message : plupload.translate('File size error.'),
+      			file : file
+      		});
+      		cb(false);
+      	} else {
+      		cb(true);
+      	}
+      });
+}
       // checks if browser supports drag and drop upload, makes some css adjustments if necessary
       uploader.bind('Init', function(up){
         var uploaddiv = $('#adverts-plupload-upload-ui');
-
+console.log("Init");
         if(up.features.dragdrop) {
             uploaddiv.addClass('drag-drop');
-            uploaddiv.find('.adverts-gallery').bind('dragover.wp-uploader', function(){ 
-                uploaddiv.addClass('drag-over'); 
+            uploaddiv.find('.adverts-gallery').bind('dragover.wp-uploader', function(){
+                uploaddiv.addClass('drag-over');
             });
             uploaddiv.find('#adverts-drag-drop-area').bind('dragleave.wp-uploader, drop.wp-uploader', function(){
-                uploaddiv.removeClass('drag-over'); 
-                
+                uploaddiv.removeClass('drag-over');
+
             });
         }else{
           uploaddiv.removeClass('drag-drop');
           $('#adverts-drag-drop-area').unbind('.wp-uploader');
         }
-        
+
       });
 
       uploader.init();
 
       uploader.bind("BeforeUpload", function(up,file) {
+          console.log('BeforeUpload');
           uploader.settings.multipart_params.post_id = $(ADVERTS_PLUPLOAD_CONF.post_id_input).val();
       });
-      
+
       // a file was added in the queue
+      //var sasad = 1;
+
+
       uploader.bind('FilesAdded', function(up, files){
+console.log('FilesAdded');
         var hundredmb = 100 * 1024 * 1024, max = parseInt(up.settings.max_file_size, 10);
 
         plupload.each(files, function(file){
@@ -250,7 +281,7 @@ jQuery(function($) {
 
             // a file was added, you may want to update your DOM here...
             adverts_upload_files_added(up.settings.container, file);
-            
+
           }
         });
 
@@ -258,12 +289,21 @@ jQuery(function($) {
         up.start();
       });
 
-      // a file was uploaded 
+      uploader.bind('Error', function(up, err){
+          console.log('Error');
+          $('#fknerr').remove();
+          $('#adverts-plupload-upload-ui').append("<p id='fknerr' style='color:red;'>Загружаемое изображение не должно превышать 200кб</p>");
+              $('console').innerHTML += "\nError #" + err.code + ": " + err.message;
+
+      });
+      // a file was uploaded
       uploader.bind('FileUploaded', function(up, file, response) {
+          $('#fknerr').remove();
         var result = $.parseJSON(response.response);
         var post_id = $( ADVERTS_PLUPLOAD_CONF.post_id_input ).val();
-        
+console.log("FileUploaded");
         if( post_id == "" ) {
+            console.log('66666');
             $( ADVERTS_PLUPLOAD_CONF.post_id_input ).val( result.post_id );
         }
 
@@ -272,11 +312,11 @@ jQuery(function($) {
         // just added a new file, so send its order to the server
         $(".adverts-gallery-uploads").sortable("option", "update")();
       });
-      
     $.each(ADVERTS_PLUPLOAD_DATA, function(index, result) {
+        console.log("ADVERTS_PLUPLOAD_DATA");
         var file = { id: "adverts-file-" + result.attach_id, attachment_key: result.attach_id };
         adverts_upload_files_added(ADVERTS_PLUPLOAD_INIT.container, file);
         adverts_upload_file_uploaded(file, result);
     });
-    
+
 });

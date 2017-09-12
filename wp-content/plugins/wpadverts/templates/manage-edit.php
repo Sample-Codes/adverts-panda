@@ -5,6 +5,7 @@
 
 <?php adverts_flash( $adverts_flash ) ?>
 
+
 <form action="" method="post" class="adverts-form adverts-form-aligned">
     <fieldset>
         
@@ -41,11 +42,12 @@
             
         </div>
         <?php endforeach; ?>
-        
+
         <div  style="border-top:2px solid silver; padding: 1em 0 1em 0">
 
             <input type="submit" name="submit" value="<?php _e("Update", "adverts") ?>" style="font-size:1.2em" />
         </div>
-        
+
+        <?php ?>
     </fieldset>
 </form>

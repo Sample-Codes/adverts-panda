@@ -97,9 +97,9 @@
 <div class="adverts-pagination">
     <?php echo paginate_links( array(
         'base' => $paginate_base,
-	'format' => $paginate_format,
-	'current' => max( 1, $paged ),
-	'total' => $loop->max_num_pages,
+	    'format' => $paginate_format,
+	    'current' => max( 1, $paged ),
+	    'total' => $loop->max_num_pages,
         'prev_next' => false
     ) ); ?>
 </div>

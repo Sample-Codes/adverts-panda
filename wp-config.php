@@ -20,13 +20,13 @@
 
 // ** Параметры MySQL: Эту информацию можно получить у вашего хостинг-провайдера ** //
 /** Имя базы данных для WordPress */
-define('DB_NAME', 'develop_panda');
+define('DB_NAME', 'sergey_html5d_db');
 
 /** Имя пользователя MySQL */
-define('DB_USER', 'develop_panda');
+define('DB_USER', 'sergey_html5_usr');
 
 /** Пароль к базе данных MySQL */
-define('DB_PASSWORD', 'T8b7H0q1');
+define('DB_PASSWORD', 'te1NEt4oiyZSvbTa');
 
 /** Имя сервера MySQL */
 define('DB_HOST', 'localhost');
@@ -56,8 +56,8 @@ define('LOGGED_IN_SALT',   'VOZWqoEDmuLz07wy_S,Qf?ePYl&1Nik<pCdgm_vujb,RJEa0AGH;
 define('NONCE_SALT',       'sjFLL#=Pt4U.PVR_)iR VT$LRhZ,GVIDwF*{_jP^n+n)6G!UeWD?XE_KnKW3Rypz');
 // define('WP_SITEURL', 'http://develop.panda-code.com/');
 // define('WP_HOME', 'http://develop.panda-code.com/');
-define('WP_SITEURL', 'http://develop.panda-code.com/');
-define('WP_HOME', 'http://develop.panda-code.com/');
+define('WP_SITEURL', 'http://sergey.html5dev.ru/');
+define('WP_HOME', 'http://sergey.html5dev.ru/');
 
 /**#@-*/
 
