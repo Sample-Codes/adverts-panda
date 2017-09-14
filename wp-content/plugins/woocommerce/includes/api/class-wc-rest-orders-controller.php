@@ -151,8 +151,8 @@ class WC_REST_Orders_Controller extends WC_REST_Legacy_Orders_Controller {
 		}
 
 		// Add SKU and PRICE to products.
-		if ( is_callable( array( $item, 'get_product' ) ) ) {
-			$data['sku']   = $item->get_product() ? $item->get_product()->get_sku(): null;
+		if ( is_callable( array( $item, 'wc_get_product' ) ) ) {
+			$data['sku']   = $item->wc_get_product() ? $item->wc_get_product()->get_sku(): null;
 			$data['price'] = $item->get_total() / max( 1, $item->get_quantity() );
 		}
 
@@ -616,7 +616,7 @@ class WC_REST_Orders_Controller extends WC_REST_Legacy_Orders_Controller {
 		$item    = new WC_Order_Item_Product( ! empty( $posted['id'] ) ? $posted['id'] : '' );
 		$product = wc_get_product( $this->get_product_id( $posted ) );
 
-		if ( $product !== $item->get_product() ) {
+		if ( $product !== $item->wc_get_product() ) {
 			$item->set_product( $product );
 
 			if ( 'create' === $action ) {

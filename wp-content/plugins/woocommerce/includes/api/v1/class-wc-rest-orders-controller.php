@@ -655,7 +655,7 @@ class WC_REST_Orders_V1_Controller extends WC_REST_Posts_Controller {
 		$item    = new WC_Order_Item_Product( ! empty( $posted['id'] ) ? $posted['id'] : '' );
 		$product = wc_get_product( $this->get_product_id( $posted ) );
 
-		if ( $product !== $item->get_product() ) {
+		if ( $product !== $item->wc_get_product() ) {
 			$item->set_product( $product );
 
 			if ( 'create' === $action ) {

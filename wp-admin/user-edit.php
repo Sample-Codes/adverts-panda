@@ -544,7 +544,7 @@ if ( is_multisite() && is_network_admin() && ! IS_PROFILE_PAGE && current_user_c
  */
 if ( $show_password_fields = apply_filters( 'show_password_fields', true, $profileuser ) ) :
 ?>
-</table>
+</table>regis
 
 <h2><?php _e( 'Account Management' ); ?></h2>
 <table class="form-table">

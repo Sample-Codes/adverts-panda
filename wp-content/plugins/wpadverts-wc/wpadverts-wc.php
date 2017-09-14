@@ -256,7 +256,7 @@ function adext_wc_payments_cart_redirect() {
         return;
     }
 
-    $product = get_product( get_post_meta( $post->ID, "payments_listing_type", true ) );
+    $product = wc_get_product( get_post_meta( $post->ID, "payments_listing_type", true ) );
 
 
     if($action != "save" || !$post ||  !$product instanceof WC_Product) {
@@ -324,7 +324,7 @@ function adext_wc_payments_cart_redirect_renew() {
         return;
     }
 
-    $product = get_product( adverts_request( "payments_listing_type" ) );
+    $product = wc_get_product( adverts_request( "payments_listing_type" ) );
 
     if( ! $product || $product->get_price() == 0 ) {
         return;
@@ -434,7 +434,7 @@ function adext_wc_payments_form_load( $form ) {
 
     foreach($pricings["advert_single"] as $data) {
 
-        $product = get_product($data->ID );
+        $product = wc_get_product($data->ID );
 
         if($data->post_content) {
             $post_content = '<br/><small style="padding-left:25px">'.$data->post_content.'</small>' ;
@@ -498,7 +498,7 @@ function adext_wc_payments_field_payment( $field ) {
 
         $post_id = $option["value"];
         $post = get_post( $post_id );
-        $product = get_product( $post_id );
+        $product = wc_get_product( $post_id );
         $adverts_price = $product->get_price_html();
         $visible = get_post_meta( $post_id, '_advert_listing_duration', true );
 
@@ -591,7 +591,7 @@ function adext_wc_payments_order_paid( $order_id ) {
     }
 
     foreach ( $order->get_items() as $item ) {
-        $product = get_product( $item['product_id'] );
+        $product = wc_get_product( $item['product_id'] );
 
         if ( $product->is_type( 'advert_single' ) ) {
             //for ( $i = 0; $i < $item['qty']; $i ++ ) {
@@ -603,8 +603,8 @@ function adext_wc_payments_order_paid( $order_id ) {
 
                 if ( in_array( $advert->post_status, array( 'wc_pending' ) ) ) {
 
-                    $duration = absint(get_post_meta( $item->get_product_id(), '_advert_listing_duration', true ));
-                    $featured = get_post_meta( $item->get_product_id(), '_advert_listing_featured', true );
+                    $duration = absint(get_post_meta( $item->wc_get_product_id(), '_advert_listing_duration', true ));
+                    $featured = get_post_meta( $item->wc_get_product_id(), '_advert_listing_featured', true );
 
                     $update                  = array();
                     $update['ID']            = $advert->ID;
@@ -634,8 +634,8 @@ function adext_wc_payments_order_paid( $order_id ) {
 
                 if ( in_array( $advert->post_status, array( 'wc_pending', 'publish', 'expired' ) ) ) {
 
-                    $duration = absint(get_post_meta( $item->get_product_id(), '_advert_listing_duration', true ));
-                    $featured = get_post_meta( $item->get_product_id(), '_advert_listing_featured', true );
+                    $duration = absint(get_post_meta( $item->wc_get_product_id(), '_advert_listing_duration', true ));
+                    $featured = get_post_meta( $item->wc_get_product_id(), '_advert_listing_featured', true );
 
                     $update                  = array();
                     $update['ID']            = $advert->ID;
@@ -891,7 +891,7 @@ function adext_wc_payments_manage_action_renew( $content, $atts = array() ) {
 
     foreach($pricings as $data) {
 
-        $product = get_product($data->ID );
+        $product = wc_get_product($data->ID );
 
         if($data->post_content) {
             $post_content = '<br/><small style="padding-left:25px">'.$data->post_content.'</small>' ;

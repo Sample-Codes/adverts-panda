@@ -647,21 +647,21 @@ function _adverts_manage_edit( $atts ) {
         $attributes =['adverts_person', 'adverts_email', 'adverts_phone', 'post_content', 'post_title', 'adverts_price', 'adverts_location'];
         $is_changed = false;
 
-	    $children = get_children( array( 'post_parent' => $post_id ) );
-	    $thumb_id = get_post_thumbnail_id( $post_id );
-	    $images = array();
+//	    $children = get_children( array( 'post_parent' => $post_id ) );
+//	    $thumb_id = get_post_thumbnail_id( $post_id );
+//	    $images = array();
 
 
-	    if( isset( $children[$thumb_id] ) ) {
-		    $images[$thumb_id] = $children[$thumb_id];
-		    unset($children[$thumb_id]);
-	    }
-
-	    $images += $children;
+//	    if( isset( $children[$thumb_id] ) ) {
+//		    $images[$thumb_id] = $children[$thumb_id];
+//		    unset($children[$thumb_id]);
+//	    }
 //
-	    foreach ( $images as $image ) {
-		    echo $image->guid . ' == ' . $_POST['guid'].'<br>';
-	    }
+//	    $images += $children;
+//
+//	    foreach ( $images as $image ) {
+////		    echo $image->guid . ' == ' . $_POST['guid'].'<br>';
+//	    }
 
         foreach ($attributes as $attribute) {
             if ($current_post_row->$attribute !== $_POST[$attribute]){

@@ -196,7 +196,7 @@ class WC_Order_Item_Product extends WC_Order_Item {
 	 * Set meta data for backordered products.
 	 */
 	public function set_backorder_meta() {
-		$product = $this->get_product();
+		$product = $this->wc_get_product();
 		if ( $product && $product->backorders_require_notification() && $product->is_on_backorder( $this->get_quantity() ) ) {
 			$this->add_meta_data( apply_filters( 'woocommerce_backordered_item_meta_name', __( 'Backordered', 'woocommerce' ) ), $this->get_quantity() - max( 0, $product->get_stock_quantity() ), true );
 		}
@@ -351,7 +351,7 @@ class WC_Order_Item_Product extends WC_Order_Item {
 	 */
 	public function get_item_downloads() {
 		$files      = array();
-		$product    = $this->get_product();
+		$product    = $this->wc_get_product();
 		$order      = $this->get_order();
 		$product_id = $this->get_variation_id() ? $this->get_variation_id() : $this->get_product_id();
 
@@ -386,7 +386,7 @@ class WC_Order_Item_Product extends WC_Order_Item {
 	 * @return string
 	 */
 	public function get_tax_status() {
-		$product = $this->get_product();
+		$product = $this->wc_get_product();
 		return $product ? $product->get_tax_status() : 'taxable';
 	}
 

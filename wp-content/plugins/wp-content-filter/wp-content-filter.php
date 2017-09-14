@@ -386,7 +386,6 @@ function pccf_filter( $text ) {
 
 	$filter_type = $tmp['rdo_case'];
 	$db_search_string = $tmp['txtar_keywords'];
-//	var_dump($db_search_string); die; //simplyworld
 	$keywords = array_map( 'trim', explode( ',', $db_search_string ) ); // explode and trim whitespace
 	$keywords = array_unique( $keywords ); // get rid of duplicates in the keywords textbox
 	$whole_word = $tmp['rdo_strict_filtering'] == 'strict_off' ? false : true;

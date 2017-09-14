@@ -299,7 +299,7 @@ class WC_Gateway_Paypal_Request {
 				$line_item        = $this->add_line_item( $item->get_name(), 1, $item_line_total );
 				$calculated_total += $item_line_total;
 			} else {
-				$product          = $item->get_product();
+				$product          = $item->wc_get_product();
 				$sku              = $product ? $product->get_sku() : '';
 				$item_line_total  = $this->number_format( $order->get_item_subtotal( $item, false ), $order );
 				$line_item        = $this->add_line_item( $this->get_order_item_name( $order, $item ), $item->get_quantity(), $item_line_total, $sku );

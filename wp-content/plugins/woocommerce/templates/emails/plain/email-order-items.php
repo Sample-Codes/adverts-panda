@@ -22,7 +22,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 foreach ( $items as $item_id => $item ) :
 	if ( apply_filters( 'woocommerce_order_item_visible', true, $item ) ) {
-		$product = $item->get_product();
+		$product = $item->wc_get_product();
 		echo apply_filters( 'woocommerce_order_item_name', $item->get_name(), $item, false );
 		if ( $show_sku && $product->get_sku() ) {
 			echo ' (#' . $product->get_sku() . ')';

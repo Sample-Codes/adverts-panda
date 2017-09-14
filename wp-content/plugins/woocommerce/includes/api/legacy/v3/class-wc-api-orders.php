@@ -218,7 +218,7 @@ class WC_API_Orders extends WC_API_Resource {
 
 		// Add line items.
 		foreach ( $order->get_items() as $item_id => $item ) {
-			$product    = $item->get_product();
+			$product    = $item->wc_get_product();
 			$hideprefix = ( isset( $filter['all_item_meta'] ) && 'true' === $filter['all_item_meta'] ) ? null : '_';
 			$item_meta  = $item->get_formatted_meta_data( $hideprefix );
 

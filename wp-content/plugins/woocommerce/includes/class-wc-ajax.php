@@ -939,7 +939,7 @@ class WC_AJAX {
 				if ( ! in_array( $item_id, $order_item_ids ) ) {
 					continue;
 				}
-				$_product = $order_item->get_product();
+				$_product = $order_item->wc_get_product();
 				if ( $_product && $_product->exists() && $_product->managing_stock() && isset( $order_item_qty[ $item_id ] ) && $order_item_qty[ $item_id ] > 0 ) {
 					$stock_change = apply_filters( 'woocommerce_reduce_order_stock_quantity', $order_item_qty[ $item_id ], $item_id );
 					$new_stock    = wc_update_product_stock( $_product, $stock_change, 'decrease' );
@@ -978,7 +978,7 @@ class WC_AJAX {
 				if ( ! in_array( $item_id, $order_item_ids ) ) {
 					continue;
 				}
-				$_product = $order_item->get_product();
+				$_product = $order_item->wc_get_product();
 				if ( $_product && $_product->exists() && $_product->managing_stock() && isset( $order_item_qty[ $item_id ] ) && $order_item_qty[ $item_id ] > 0 ) {
 					$old_stock    = $_product->get_stock_quantity();
 					$stock_change = apply_filters( 'woocommerce_restore_order_stock_quantity', $order_item_qty[ $item_id ], $item_id );

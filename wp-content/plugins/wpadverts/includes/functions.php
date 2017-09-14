@@ -1922,7 +1922,7 @@ function adverts_single_rslides( $post_id ) {
     $images = array();
 
     if( empty( $children ) ) {
-        return $img;
+//        return $img;
     }
 
     if( isset( $children[$thumb_id] ) ) {

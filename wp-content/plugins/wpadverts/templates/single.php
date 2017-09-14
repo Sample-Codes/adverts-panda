@@ -62,6 +62,7 @@
 
 <div class="adverts-content">
 <?php
+global $pccf_defaults;
 $tmp = get_option( 'pccf_options', $pccf_defaults );
 $db_search_string = $tmp['txtar_keywords'];
 $keywords = array_map( 'trim', explode( ',', $db_search_string ) ); // explode and trim whitespace
